@@ -146,7 +146,7 @@ class BasicLayout extends React.PureComponent {
     const bashRedirect = this.getBashRedirect();
     const layout = (
       <Layout>
-        <SiderMenu
+        {/* <SiderMenu
           logo={logo}
           // 不带Authorized参数的情况下如果没有权限,会强制跳到403界面
           // If you do not have the Authorized parameter
@@ -157,9 +157,9 @@ class BasicLayout extends React.PureComponent {
           location={location}
           isMobile={this.state.isMobile}
           onCollapse={this.handleMenuCollapse}
-        />
+        /> */}
         <Layout>
-          <GlobalHeader
+          {/* <GlobalHeader
             logo={logo}
             currentUser={currentUser}
             fetchingNotices={fetchingNotices}
@@ -170,7 +170,7 @@ class BasicLayout extends React.PureComponent {
             onCollapse={this.handleMenuCollapse}
             onMenuClick={this.handleMenuClick}
             onNoticeVisibleChange={this.handleNoticeVisibleChange}
-          />
+          /> */}
           <Content style={{ margin: '24px 24px 0', height: '100%' }}>
             <div style={{ minHeight: 'calc(100vh - 260px)' }}>
               <Switch>
@@ -197,7 +197,7 @@ class BasicLayout extends React.PureComponent {
                 <Route render={NotFound} />
               </Switch>
             </div>
-            <GlobalFooter
+            {/* <GlobalFooter
               links={[{
                 key: 'Pro 首页',
                 title: 'Pro 首页',
@@ -219,7 +219,7 @@ class BasicLayout extends React.PureComponent {
                   Copyright <Icon type="copyright" /> 2018 蚂蚁金服体验技术部出品
                 </div>
               }
-            />
+            /> */}
           </Content>
         </Layout>
       </Layout>
