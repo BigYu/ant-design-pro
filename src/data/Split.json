@@ -1,0 +1,36 @@
+[
+  {
+    "Date": "2017/07/31",
+    "Revenue": [
+      {
+        "Revenue": "12345.01",
+        "Dimension": "{\"DinningPeriod\": \"Dinner\"}"
+      },
+      {
+        "Revenue": "12001.01",
+        "Dimension": "{\"DinningPeriod\": \"Breakfast\"}"
+      },
+      {
+        "Revenue": "22001.01",
+        "Dimension": "{\"DinningPeriod\": \"Lunch\"}"
+      }
+    ]
+  },
+  {
+    "Date": "2017/08/07",
+    "Revenue": [
+      {
+        "Revenue": "14345.01",
+        "Dimension": "{\"DinningPeriod\": \"Dinner\"}"
+      },
+      {
+        "Revenue": "15001.01",
+        "Dimension": "{\"DinningPeriod\": \"Breakfast\"}"
+      },
+      {
+        "Revenue": "26001.01",
+        "Dimension": "{\"DinningPeriod\": \"Lunch\"}"
+      }
+    ]
+  }
+]

@@ -1,7 +1,9 @@
 import React from 'react';
+import { getTemplate } from '../../services/sedexo-api';
 
 export default class SodexoDashboard extends React.PureComponent {
   render() {
-    return <h1>Sodexo dashboard</h1>;
+    const template = getTemplate();
+    return <h1>{template}</h1>;
   }
 }
