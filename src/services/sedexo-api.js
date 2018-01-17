@@ -1,12 +1,11 @@
 import request from '../utils/request';
-import templateData from '../data/DashboardTemplate.json';
 
 export async function getTemplate() {
   return Promise.resolve(templateData);
 }
 
 export async function getTrend() {
-
+  return request('api/sodexo/trend');
 }
 
 export async function getSplit() {

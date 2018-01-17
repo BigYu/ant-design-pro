@@ -15,34 +15,19 @@ import TrendChart from '../../components/Charts/TrendChart';
 
 import styles from './Analysis.less';
 
-import d$Trend from './data/Trend';
-import d$SKU from './data/Top';
-
-@connect(({ chart, loading }) => ({
-  chart,
-  loading: loading.effects['chart/fetch'],
+@connect(({ sodexo, loading }) => ({
+    sodexo,
+    // loading: loading.effects['sodexo/fetchTrend'],
 }))
 export default class SodexoDashboard extends React.PureComponent {
-  state = {
-    salesType: 'all',
-    currentTabKey: '',
-  };
-
   componentDidMount() {
     this.props.dispatch({
-      type: 'chart/fetch',
-    });
-  }
-
-  componentWillUnmount() {
-    const { dispatch } = this.props;
-    dispatch({
-      type: 'chart/clear',
+      type: 'sodexo/fetchTrend',
     });
   }
 
   render() {
-    const { chart, loading } = this.props;
+    const { sodexo, loading } = this.props;
 
     return (
       <div>
@@ -56,7 +41,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0 24px' }}>
             <TrendChart
-              data={d$Trend}
+              data={sodexo.trend}
             />
           </div>
         </Card>

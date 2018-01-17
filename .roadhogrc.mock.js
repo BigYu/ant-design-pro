@@ -7,6 +7,7 @@ import { getProfileBasicData } from './mock/profile';
 import { getProfileAdvancedData } from './mock/profile';
 import { getNotices } from './mock/notices';
 import { format, delay } from 'roadhog-api-doc';
+import d$Trend from './mock/sodexo/Trend';
 
 // 是否禁用代理
 const noProxy = process.env.NO_PROXY === 'true';
@@ -30,6 +31,9 @@ const proxy = {
     },
   },
   // GET POST 可省略
+  'GET /api/sodexo/trend': (req, res) => {
+    res.send(d$Trend);
+  },
   'GET /api/users': [{
     key: '1',
     name: 'John Brown',
