@@ -64,14 +64,13 @@ export default class TrendChart extends React.Component {
         <Chart
           height={400}
           data={chartDv}
-          scale={{ Date: { type: 'time' } }}
+          scale={{ Date: { type: 'time' }, UserCount: { alias: 'User Count' } }}
           padding={[60, 80, 40, 60]}
           forceFit>
           <Axis name="Date" />
-          <Axis name="Revenue" title="Revenue" />
-          <Axis name="UserCount" title="User Count" />
+          <Axis name="Revenue" title={{}}/>
+          <Axis name="UserCount" title={{}}/>
           <Tooltip />
-          <Legend />
           <Geom type="line" position="Date*Revenue" size={2} color="lightblue" />
           <Geom type="line" position="Date*UserCount" size={2} color="lightgreen" />
         </Chart>
