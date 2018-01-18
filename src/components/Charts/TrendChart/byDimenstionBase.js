@@ -87,7 +87,7 @@ export default class TrendChartByWeather extends React.Component {
             <Axis name="value" />
             <Tooltip />
             <Legend />
-            <Geom type="intervalStack" position="Date*value" size={2} color="key" />
+            <Geom type="areaStack" position="Date*value" size={2} color="key" />
           </Chart>
           <div>
             <Slider
