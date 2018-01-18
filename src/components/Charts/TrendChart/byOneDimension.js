@@ -21,9 +21,10 @@ export default class TrendChartByWeather extends React.Component {
     const {
       data = [],
       valueField,
-      fields,
-      dimension,
+      dimensions,
     } = this.props;
+    const firstDimension = dimensions[0];
+    const { dimension, fields } = firstDimension;
 
     if (data.length === 0) return null;
 
