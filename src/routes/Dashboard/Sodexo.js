@@ -49,20 +49,6 @@ export default class SodexoDashboard extends React.PureComponent {
         <Card
           loading={loading}
           className={styles.offlineCard}
-          title="Weather, Revenue, UserCount: day by day"
-          bordered={false}
-          bodyStyle={{ padding: '0', marginTop: 16 }}
-          style={{ marginBottom: 24 }}
-        >
-          <div style={{ padding: '0' }}>
-            <TrendChartByWeather
-              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
-            />
-          </div>
-        </Card>
-        <Card
-          loading={loading}
-          className={styles.offlineCard}
           title="Revenue, UserCount: Daily, by DinningPeriod"
           bordered={false}
           bodyStyle={{ padding: '0', marginTop: 16 }}
@@ -320,6 +306,20 @@ export default class SodexoDashboard extends React.PureComponent {
           <div style={{ padding: '0' }}>
             <TrendHoliday
               data={sodexo.data.NearNationalHolidayAnalyse.slice()}
+            />
+          </div>
+        </Card>
+        <Card
+          loading={loading}
+          className={styles.offlineCard}
+          title="Weather, Revenue, UserCount: day by day"
+          bordered={false}
+          bodyStyle={{ padding: '0', marginTop: 16 }}
+          style={{ marginBottom: 24 }}
+        >
+          <div style={{ padding: '0' }}>
+            <TrendChartByWeather
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
