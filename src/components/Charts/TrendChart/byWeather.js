@@ -80,10 +80,10 @@ export default class TrendChartByWeather extends React.Component {
           <Axis name="WeatherAvgTemperature" title={{}} label={{ offset: 30, autoRotate: false }} title={{ offset: 20 }}/>
           <Tooltip />
           <Legend />
-          <Geom type="line" position="Date*Revenue" size={2} color="lightblue" />
-          <Geom type="line" position="Date*UserCount" size={2} color="red" />
-          <Geom type="line" position="Date*WeatherPM25" size={2} color="lightgreen" />
-          <Geom type="line" position="Date*WeatherAvgTemperature" size={2} color="yellow" />
+          <Geom type="line" position="Date*Revenue" size={2} color="Revenue" />
+          <Geom type="line" position="Date*UserCount" size={2} color="UserCount" />
+          <Geom type="line" position="Date*WeatherPM25" size={2} color="WeatherPM25" />
+          <Geom type="line" position="Date*WeatherAvgTemperature" size={2} color="WeatherAvgTemperature" />
         </Chart>
         <div>
           <Slider
