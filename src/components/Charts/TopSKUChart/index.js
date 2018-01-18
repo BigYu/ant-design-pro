@@ -49,7 +49,7 @@ export default class TopSKUChart extends React.Component {
         forceFit>
         <Coord type='theta' radius={0.75} />
         <Axis name="percent" />
-        <Legend position='right' offsetY={20} offsetX={-100} />
+        <Legend position='bottom' offsetY={-20} />
         <Tooltip
           showTitle={false}
           itemTpl='<li><span style="background-color:{color};" class="g2-tooltip-marker"></span>{name}: {value}</li>'

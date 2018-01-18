@@ -25,7 +25,7 @@ export default class TrendChartByWeather extends React.Component {
 
   onChange({ startValue, endValue }) {
     this.ds.setState('start', new Date(startValue).getTime());
-    this.ds.setState('end',  new Date(endValue).getTime());
+    this.ds.setState('end', new Date(endValue).getTime());
   }
 
   render() {

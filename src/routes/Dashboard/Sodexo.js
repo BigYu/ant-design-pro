@@ -291,12 +291,12 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <Row>
-              <Col>
+              <Col {...topColResponsiveProps} xl={12}>
                 <TopSKUChart
                   data={sodexo.data.LastMonthTopSKU}
                 />
               </Col>
-              <Col>
+              <Col {...topColResponsiveProps} xl={12}>
                 <TopSKUChart
                   data={sodexo.data.LastYearTopSKU}
                 />
