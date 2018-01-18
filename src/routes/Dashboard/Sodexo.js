@@ -14,7 +14,7 @@ import {
 import TrendChartByWeather from '../../components/Charts/TrendChart/byWeather';
 import TopSKUChart from '../../components/Charts/TopSKUChart';
 import OnDimensionChart from '../../components/Charts/RevenueOnDimension';
-import TrendByDinningPeriod from '../../components/Charts/TrendChart/byDinningPeriod';
+import TrendByOneDimension from '../../components/Charts/TrendChart/byOneDimension';
 
 import styles from './Analysis.less';
 
@@ -69,13 +69,13 @@ export default class SodexoDashboard extends React.PureComponent {
           style={{ marginBottom: 24 }}
         >
           <div style={{ padding: '0' }}>
-            <TrendByDinningPeriod
+            <TrendByOneDimension
               data={sodexo.data.RevenueUserCountTrendOnDinningPeriod.slice()}
               valueField="Revenue"
               fields={['早餐', '晚餐', '午餐']}
               dimension="DinningPeriod"
             />
-            <TrendByDinningPeriod
+            <TrendByOneDimension
               data={sodexo.data.RevenueUserCountTrendOnDinningPeriod.slice()}
               valueField="UserCount"
               fields={['早餐', '晚餐', '午餐']}
@@ -92,13 +92,13 @@ export default class SodexoDashboard extends React.PureComponent {
           style={{ marginBottom: 24 }}
         >
           <div style={{ padding: '0' }}>
-            <TrendByDinningPeriod
+            <TrendByOneDimension
               data={sodexo.data.RevenueUserCountTrendOnBranch.slice()}
               valueField="Revenue"
               fields={['中餐厅', '自助餐厅', '粤菜餐厅', '微餐厅晚餐1', '员工餐厅']}
               dimension="Branch"
             />
-            <TrendByDinningPeriod
+            <TrendByOneDimension
               data={sodexo.data.RevenueUserCountTrendOnBranch.slice()}
               valueField="UserCount"
               fields={['中餐厅', '自助餐厅', '粤菜餐厅', '微餐厅晚餐1', '员工餐厅']}
@@ -115,13 +115,13 @@ export default class SodexoDashboard extends React.PureComponent {
           style={{ marginBottom: 24 }}
         >
           <div style={{ padding: '0' }}>
-            <TrendByDinningPeriod
+            <TrendByOneDimension
               data={sodexo.data.RevenueUserCountTrendOnCardType.slice()}
               valueField="Revenue"
               fields={['员工卡', '访客卡']}
               dimension="CardType"
             />
-            <TrendByDinningPeriod
+            <TrendByOneDimension
               data={sodexo.data.RevenueUserCountTrendOnCardType.slice()}
               valueField="UserCount"
               fields={['员工卡', '访客卡']}
