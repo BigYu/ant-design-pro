@@ -14,6 +14,7 @@ import {
 import TrendChartByWeather from '../../components/Charts/TrendChart/byWeather';
 import TopSKUChart from '../../components/Charts/TopSKUChart';
 import OnDimensionChart from '../../components/Charts/RevenueOnDimension';
+import TrendByDinningPeriod from '../../components/Charts/TrendChart/byDinningPeriod';
 
 import styles from './Analysis.less';
 
@@ -56,6 +57,25 @@ export default class SodexoDashboard extends React.PureComponent {
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
               data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
+            />
+          </div>
+        </Card>
+        <Card
+          loading={loading}
+          className={styles.offlineCard}
+          title="Revenue, UserCount: Daily, by DinningPeriod"
+          bordered={false}
+          bodyStyle={{ padding: '0', marginTop: 16 }}
+          style={{ marginBottom: 24 }}
+        >
+          <div style={{ padding: '0' }}>
+            <TrendByDinningPeriod
+              data={sodexo.data.RevenueUserCountTrendOnDinningPeriod.slice()}
+              valueField="Revenue"
+            />
+            <TrendByDinningPeriod
+              data={sodexo.data.RevenueUserCountTrendOnDinningPeriod.slice()}
+              valueField="UserCount"
             />
           </div>
         </Card>
