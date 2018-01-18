@@ -11,6 +11,8 @@ export default class TopSKUChart extends React.Component {
       data = {},
     } = this.props;
 
+    if (!data.Revenue) return null;
+
     const dv = new DataSet.DataView();
     dv.source(data.Revenue)
       .transform({

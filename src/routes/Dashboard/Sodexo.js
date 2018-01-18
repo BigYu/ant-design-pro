@@ -284,6 +284,29 @@ export default class SodexoDashboard extends React.PureComponent {
         <Card
           loading={loading}
           className={styles.offlineCard}
+          title="SKU: Top popular SKU (pie chart) last month"
+          bordered={false}
+          bodyStyle={{ padding: '0', marginTop: 16 }}
+          style={{ marginBottom: 24 }}
+        >
+          <div style={{ padding: '0' }}>
+            <Row>
+              <Col>
+                <TopSKUChart
+                  data={sodexo.data.LastMonthTopSKU}
+                />
+              </Col>
+              <Col>
+                <TopSKUChart
+                  data={sodexo.data.LastYearTopSKU}
+                />
+              </Col>
+            </Row>
+          </div>
+        </Card>
+        <Card
+          loading={loading}
+          className={styles.offlineCard}
           title="Chinese new year"
           bordered={false}
           bodyStyle={{ padding: '0', marginTop: 16 }}
