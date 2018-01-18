@@ -4,7 +4,7 @@ export default {
   namespace: 'sodexo',
 
   state: {
-    trend: undefined,
+    trendByWeather: undefined,
   },
 
   effects: {
@@ -22,7 +22,7 @@ export default {
     updateDailyRevenueUserCountWeatherTrend(state, action) {
       return {
         ...state,
-        trend: action.payload,
+        trendByWeather: action.payload,
       };
     },
   },

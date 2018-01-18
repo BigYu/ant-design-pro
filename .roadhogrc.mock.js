@@ -32,7 +32,7 @@ const proxy = {
   },
   // GET POST 可省略
   'GET /api/sodexo/dailyRevenueUserCountWeatherTrend': (req, res) => {
-    res.send(d$DailyRevenueUserCountWeatherTrend.filter(i => i.Revenue > 0));
+    res.send(d$DailyRevenueUserCountWeatherTrend);
   },
   'GET /api/users': [{
     key: '1',

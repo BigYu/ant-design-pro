@@ -11,7 +11,7 @@ import {
   Menu,
   Dropdown,
 } from 'antd';
-import TrendChart from '../../components/Charts/TrendChart';
+import TrendChartByWeather from '../../components/Charts/TrendChart/byWeather';
 
 import styles from './Analysis.less';
 
@@ -40,8 +40,8 @@ export default class SodexoDashboard extends React.PureComponent {
           style={{ marginBottom: 24 }}
         >
           <div style={{ padding: '0' }}>
-            <TrendChart
-              data={sodexo.trend}
+            <TrendChartByWeather
+              data={sodexo.trendByWeather}
             />
           </div>
         </Card>
