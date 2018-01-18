@@ -34,20 +34,20 @@ export default class TrendChart extends React.Component {
     originDv.source(data)
       .transform({
         type: 'fold',
-        fields: [ 'Revenue', 'UserCount' ],
+        fields: [ 'Revenue', 'UserCount', 'WeatherPM25', 'WeatherAvgTemperature' ],
         key: 'type',
         value: 'value',
-        retains: [ 'Revenue', 'UserCount', 'Weather-PM25', 'Date' ]
+        retains: [ 'Revenue', 'UserCount', 'WeatherPM25', 'WeatherAvgTemperature', 'Date' ]
       });
 
     const chartDv = ds.createView();
     chartDv.source(data)
       .transform({
         type: 'fold',
-        fields: [ 'Revenue', 'UserCount' ],
+        fields: [ 'Revenue', 'UserCount', 'WeatherPM25', 'WeatherAvgTemperature' ],
         key: 'type',
         value: 'value',
-        retains: [ 'Revenue', 'UserCount', 'Weather-PM25', 'Date' ]
+        retains: [ 'Revenue', 'UserCount', 'WeatherPM25', 'WeatherAvgTemperature', 'Date' ]
       })
       .transform({
         type: 'filter',
@@ -64,15 +64,26 @@ export default class TrendChart extends React.Component {
         <Chart
           height={400}
           data={chartDv}
-          scale={{ Date: { type: 'time' }, UserCount: { type: 'linear', alias: 'User Count' }, Revenue: { type: 'linear'} }}
-          padding={[60, 80, 40, 60]}
+          scale={{
+            Date: { type: 'time' },
+            UserCount: { type: 'linear', alias: 'User Count' },
+            Revenue: { type: 'linear'},
+            WeatherPM25: { type: 'linear', alias: 'PM2.5' },
+            WeatherAvgTemperature: { type: 'linear', alias: 'Temperature'},
+          }}
+          padding={[60, 140]}
           forceFit>
           <Axis name="Date" />
-          <Axis name="Revenue" title={{}}/>
-          <Axis name="UserCount" title={{}}/>
+          <Axis name="Revenue" title={{}} label={{ offset: 60, autoRotate: false }} title={{ offset: 100 }}/>
+          <Axis name="UserCount" title={{}} position='left' label={{ offset: 30, autoRotate: false }} title={{ offset: 20 }}/>
+          <Axis name="WeatherPM25" title={{}} label={{ offset: 60, autoRotate: false }} title={{ offset: 90 }}/>
+          <Axis name="WeatherAvgTemperature" title={{}} label={{ offset: 30, autoRotate: false }} title={{ offset: 20 }}/>
           <Tooltip />
+          <Legend />
           <Geom type="line" position="Date*Revenue" size={2} color="lightblue" />
-          <Geom type="line" position="Date*UserCount" size={2} color="lightgreen" />
+          <Geom type="line" position="Date*UserCount" size={2} color="red" />
+          <Geom type="line" position="Date*WeatherPM25" size={2} color="lightgreen" />
+          <Geom type="line" position="Date*WeatherAvgTemperature" size={2} color="yellow" />
         </Chart>
         <div>
           <Slider
@@ -86,7 +97,7 @@ export default class TrendChart extends React.Component {
             data={originDv}
             backgroundChart={{type: 'line'}}
             onChange={this.onChange}
-            padding={[60, 80, 40, 60]}
+            padding={[60, 140]}
           />
         </div>
       </div>

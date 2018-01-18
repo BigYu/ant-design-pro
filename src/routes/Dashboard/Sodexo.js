@@ -34,12 +34,12 @@ export default class SodexoDashboard extends React.PureComponent {
         <Card
           loading={loading}
           className={styles.offlineCard}
-          title="Trend"
+          title="Weather, Revenue, UserCount: day by day"
           bordered={false}
-          bodyStyle={{ padding: '0 0 32px 0', marginTop: 16 }}
+          bodyStyle={{ padding: '0', marginTop: 16 }}
           style={{ marginBottom: 24 }}
         >
-          <div style={{ padding: '24px' }}>
+          <div style={{ padding: '0' }}>
             <TrendChart
               data={sodexo.trend}
             />
