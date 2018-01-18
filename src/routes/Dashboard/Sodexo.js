@@ -15,7 +15,8 @@ import TrendChartByWeather from '../../components/Charts/TrendChart/byWeather';
 
 import styles from './Analysis.less';
 
-import d$Top from '../../../mock/sodexo/Top';
+import d$LastMonthTopSKU from '../../../data/LastMonthTopSKU';
+import d$LastYearTopSKU from '../../../data/LastYearTopSKU';
 
 @connect(({ sodexo, loading }) => ({
     sodexo,
@@ -154,8 +155,8 @@ export default class SodexoDashboard extends React.PureComponent {
           style={{ marginBottom: 24 }}
         >
           <div style={{ padding: '0' }}>
-            <TrendChartByWeather
-              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
+            <TopSKUChart
+              data={d$LastMonthTopSKU}
             />
           </div>
         </Card>
@@ -168,8 +169,8 @@ export default class SodexoDashboard extends React.PureComponent {
           style={{ marginBottom: 24 }}
         >
           <div style={{ padding: '0' }}>
-            <TrendChartByWeather
-              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
+            <TopSKUChart
+              data={d$LastYearTopSKU}
             />
           </div>
         </Card>
