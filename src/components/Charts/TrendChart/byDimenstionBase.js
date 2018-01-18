@@ -2,6 +2,7 @@ import React from 'react';
 import { Chart, Tooltip, Geom, Legend, Axis } from 'bizcharts';
 import DataSet from '@antv/data-set';
 import Slider from 'bizcharts-plugin-slider';
+import numeral from 'numeral';
 import autoHeight from '../autoHeight';
 
 @autoHeight()
@@ -85,7 +86,7 @@ export default class TrendChartByWeather extends React.Component {
           }}
           forceFit>
           <Axis name="Date" />
-          <Axis name="value" title={{}} />
+          <Axis name="value" title={{}} label={{formatter: val => numeral(val).format('0,0')}} />
           <Tooltip />
           <Legend position="right" />
           <Geom type="areaStack" position="Date*value" size={2} color="key" />
