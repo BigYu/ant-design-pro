@@ -1,0 +1,294 @@
+{
+  "Dashboards": [
+    {
+      "Id": 12,
+      "Name": "SodexoCateringDashboard",
+      "Business": 
+      {
+          "Id": 1,
+          "Name": "Catering"
+      },
+      "Customer":
+      {
+          "Id": 23,
+          "Name": "Sodexo"
+      },
+      "DataFeeds": [
+        {
+          "Id": 2937,
+          "Name": "SodexoAllUp"
+        },
+        {
+          "Id": 2938,
+          "Name": "SodexoSplit"
+        }
+      ],
+      "Sections": [
+        {
+          "Id": 1234,
+          "Name": "Daily Revenue, UserCount and Weather trend",
+          "Description": "Shows Revenue, UserCount and Weather condition trend in daily basis",
+          "Type": "Trend",
+          "Granulity": "Daily",
+          "Start": "2017/12/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoAllUp",
+          "Metrics": "Revenue, UserCount, WeatherPM25, WeatherAvgTemperature",
+          "Dimension": ""
+        },
+        {
+          "Id": 1235,
+          "Name": "Daily Revenue, UserCount trend on DinningPeriod",
+          "Description": "Shows Revenue and UserCount trend in daily basis over different DinningPeriod",
+          "Type": "Trend",
+          "Granulity": "Daily",
+          "Start": "2017/12/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoSplit",
+          "Metrics": "Revenue, UserCount",
+          "Dimension": "{\"DinningPeriod\": \"\"}"
+        },
+		{
+          "Id": 1236,
+          "Name": "Daily Revenue, UserCount trend on CardType",
+          "Description": "Shows Revenue and UserCount trend in daily basis over different CardType",
+          "Type": "Trend",
+          "Granulity": "Daily",
+          "Start": "2017/12/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoSplit",
+          "Metrics": "Revenue, UserCount",
+          "Dimension": "{\"CardType\": \"\"}"
+        },
+		{
+          "Id": 1237,
+          "Name": "Daily Revenue, UserCount trend on Branch",
+          "Description": "Shows Revenue and UserCount trend in daily basis over different Branch",
+          "Type": "Trend",
+          "Granulity": "Daily",
+          "Start": "2017/12/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoSplit",
+          "Metrics": "Revenue, UserCount",
+          "Dimension": "{\"Branch\": \"\"}"
+        },
+        {
+          "Id": 1238,
+          "Name": "Daily Revenue, UserCount trend on DinningPeriod and CardType",
+          "Description": "Shows Revenue and UserCount trend in daily basis over different DinningPeriod and CardType",
+          "Type": "Trend",
+          "Granulity": "Daily",
+          "Start": "2017/12/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoSplit",
+          "Metrics": "Revenue, UserCount",
+          "Dimension": "{\"DinningPeriod\": \"\", \"CardType\": \"\"}"
+        },
+		{
+          "Id": 1239,
+          "Name": "Daily Revenue, UserCount trend on DinningPeriod and Branch",
+          "Description": "Shows Revenue and UserCount trend in daily basis over different DinningPeriod and Branch",
+          "Type": "Trend",
+          "Granulity": "Daily",
+          "Start": "2017/12/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoSplit",
+          "Metrics": "Revenue, UserCount",
+          "Dimension": "{\"DinningPeriod\": \"\", \"Branch\": \"\"}"
+        },
+		{
+          "Id": 1240,
+          "Name": "Daily Revenue, UserCount trend on Branch and CardType",
+          "Description": "Shows Revenue and UserCount trend in daily basis over different Branch and CardType",
+          "Type": "Trend",
+          "Granulity": "Daily",
+          "Start": "2017/12/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoSplit",
+          "Metrics": "Revenue, UserCount",
+          "Dimension": "{\"Branch\": \"\", \"CardType\": \"\"}"
+        },
+        {
+          "Id": 1241,
+          "Name": "Daily Revenue, UserCount trend on DinningPeriod, CardType and Branch",
+          "Description": "Shows Revenue and UserCount trend in daily basis over different Branch, CardType and DinningPeriod",
+          "Type": "Trend",
+          "Granulity": "Daily",
+          "Start": "2017/12/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoSplit",
+          "Metrics": "Revenue, UserCount",
+          "Dimension": "{\"DinningPeriod\": \"\", \"CardType\": \"\", \"Branch\": \"\"}"
+        },
+        {
+          "Id": 1242,
+          "Name": "Last month Revenue split on Branch",
+          "Description": "Shows Revenue split on different Branch for last month",
+          "Type": "Split",
+          "Granulity": "Monthly",
+          "Start": "2017/12/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoSplit",
+          "Metrics": "Revenue",
+          "Dimension": "{\"Branch\": \"\"}"
+        },
+		{
+          "Id": 1243,
+          "Name": "Last month Revenue split on CardType",
+          "Description": "Shows Revenue split on different CardType for last month",
+          "Type": "Split",
+          "Granulity": "Monthly",
+          "Start": "2017/12/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoSplit",
+          "Metrics": "Revenue",
+          "Dimension": "{\"CardType\": \"\"}"
+        },
+		{
+          "Id": 1244,
+          "Name": "Last month Revenue split on DinningPeriod",
+          "Description": "Shows Revenue split on different DinningPeriod for last month",
+          "Type": "Split",
+          "Granulity": "Monthly",
+          "Start": "2017/12/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoSplit",
+          "Metrics": "Revenue",
+          "Dimension": "{\"DinningPeriod\": \"\"}"
+        },
+		{
+          "Id": 1245,
+          "Name": "Last year Revenue split on Branch",
+          "Description": "Shows Revenue split on different Branch for last year",
+          "Type": "Split",
+          "Granulity": "Yearly",
+          "Start": "2017/01/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoSplit",
+          "Metrics": "Revenue",
+          "Dimension": "{\"Branch\": \"\"}"
+        },
+		{
+          "Id": 1246,
+          "Name": "Last year Revenue split on CardType",
+          "Description": "Shows Revenue split on different CardType for last year",
+          "Type": "Split",
+          "Granulity": "Yearly",
+          "Start": "2017/01/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoSplit",
+          "Metrics": "Revenue",
+          "Dimension": "{\"CardType\": \"\"}"
+        },
+		{
+          "Id": 1247,
+          "Name": "Last year Revenue split on DinningPeriod",
+          "Description": "Shows Revenue split on different DinningPeriod for last year",
+          "Type": "Split",
+          "Granulity": "Yearly",
+          "Start": "2017/01/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoSplit",
+          "Metrics": "Revenue",
+          "Dimension": "{\"DinningPeriod\": \"\"}"
+        },
+        {
+          "Id": 1248,
+          "Name": "Last month Top SKU",
+          "Description": "Shows top SKU for last month",
+          "Type": "Top",
+          "Granulity": "Monthly",
+          "Start": "2017/12/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoSKU",
+          "Metrics": "Revenue",
+          "Dimension": "{\"SKU\": \"\"}"
+        },
+		{
+          "Id": 1249,
+          "Name": "Last year Top SKU",
+          "Description": "Shows top SKU for last year",
+          "Type": "Top",
+          "Granulity": "Yearly",
+          "Start": "2017/01/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoSKU",
+          "Metrics": "Revenue",
+          "Dimension": "{\"SKU\": \"\"}"
+        },
+		{
+          "Id": 1250,
+          "Name": "Top SKU Daily trend",
+          "Description": "Top SKU sell trend in daily basis",
+          "Type": "Trend",
+          "Granulity": "Daily",
+          "Start": "2017/12/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoSKUDaily",
+          "Metrics": "Revenue",
+          "Dimension": "{\"SKU\": \"\"}"
+        },
+		{
+          "Id": 1251,
+          "Name": "Top SKU Weekly trend",
+          "Description": "Top SKU sell trend in weekly basis",
+          "Type": "Trend",
+          "Granulity": "Weekly",
+          "Start": "2017/12/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoSKUWeekly",
+          "Metrics": "Revenue",
+          "Dimension": "{\"SKU\": \"\"}"
+        },
+		{
+          "Id": 1252,
+          "Name": "Top SKU Monthly trend",
+          "Description": "Top SKU sell trend in monthly basis",
+          "Type": "Trend",
+          "Granulity": "Monthly",
+          "Start": "2017/12/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoSKUMonthly",
+          "Metrics": "Revenue",
+          "Dimension": "{\"SKU\": \"\"}"
+        },
+		{
+          "Id": 1253,
+          "Name": "Top SKU Daily trend on CardType",
+          "Description": "Top SKU sell trend in daily basis on different CardType",
+          "Type": "Trend",
+          "Granulity": "Daily",
+          "Start": "2017/12/01",
+          "End": "2017/12/31",
+          "DataFeed": "SodexoSKUDaily",
+          "Metrics": "Revenue",
+          "Dimension": "{\"SKU\": \"\", \"CardType\": \"\"}"
+        },
+        {
+          "Id": 1254,
+          "Name": "Near National Holiday analyse",
+          "Description": "Revenue and UserCount analyse 1 week before/after National Holiday",
+          "Type": "Holiday",
+          "Granulity": "Daily",
+          "Start": "2017/09/24",
+          "End": "2017/10/14",
+          "DataFeed": "SodexoTrend",
+          "Metrics": "Revenue,UserCount",
+          "Dimension": "{}"
+        },
+        {
+          "Id": 1255,
+          "Name": "Near Chinese New Year analyse",
+          "Description": "Revenue and UserCount analyse 1 week before/after National Holiday",
+          "Type": "Holiday",
+          "Granulity": "Daily",
+          "Start": "2017/01/20",
+          "End": "2017/02/10",
+          "DataFeed": "SodexoTrend",
+          "Metrics": "Revenue,UserCount",
+          "Dimension": "{}"
+        }
+      ]
+    }
+  ]
+}

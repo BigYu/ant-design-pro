@@ -1,4 +1,4 @@
-import { getTrend } from '../services/sedexo-api';
+import { getDailyRevenueUserCountWeatherTrend } from '../services/sodexo-api';
 
 export default {
   namespace: 'sodexo',
@@ -8,18 +8,18 @@ export default {
   },
 
   effects: {
-    *fetchTrend({ payload }, { call, put }) {
-      const response = yield call(getTrend, payload);
+    *fetchDailyRevenueUserCountWeatherTrend({ payload }, { call, put }) {
+      const response = yield call(getDailyRevenueUserCountWeatherTrend, payload);
 
       yield put({
-        type: 'updateTrend',
+        type: 'updateDailyRevenueUserCountWeatherTrend',
         payload: Array.isArray(response) ? response : [],
       });
     },
   },
 
   reducers: {
-    updateTrend(state, action) {
+    updateDailyRevenueUserCountWeatherTrend(state, action) {
       return {
         ...state,
         trend: action.payload,

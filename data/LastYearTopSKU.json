@@ -1,0 +1,45 @@
+{
+  "Date": "1/1/2017 12:00:00 AM",
+  "Revenue": [
+    {
+      "Revenue": "4208890.07",
+      "Dimension": "{\"SKU\":\"米饭\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "1864874.52",
+      "Dimension": "{\"SKU\":\"银丝白饭\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "1883563.96",
+      "Dimension": "{\"SKU\":\"小荤3\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "1973278.88",
+      "Dimension": "{\"SKU\":\"大荤1\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+	{
+      "Revenue": "1159268.02",
+      "Dimension": "{\"SKU\":\"素菜1\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "530680.60",
+      "Dimension": "{\"SKU\":\"自助34元\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+	{
+      "Revenue": "1416503.61",
+      "Dimension": "{\"SKU\":\"Open Food\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "491808.00",
+      "Dimension": "{\"SKU\":\"大荤2\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+	{
+      "Revenue": "483795.04",
+      "Dimension": "{\"SKU\":\"新品\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "503235.90",
+      "Dimension": "{\"SKU\":\"红薯\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "Date": "1/1/2017 12:00:00 AM",
+  "Revenue": [
+    {
+      "Revenue": "2100589.63",
+      "Dimension": "{\"Branch\":\"中餐厅\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "861447.82",
+      "Dimension": "{\"Branch\":\"自助餐厅\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "1789229.83",
+      "Dimension": "{\"Branch\":\"粤菜餐厅\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "998216.82",
+      "Dimension": "{\"Branch\":\"微餐厅晚餐1\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "9738194.21",
+      "Dimension": "{\"Branch\":\"员工餐厅\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+  {
+      "Revenue": "620255.90",
+      "Dimension": "{\"Branch\":\"微餐厅\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "233379.38",
+      "Dimension": "{\"Branch\":\"微餐厅晚餐2\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "861447.82",
+      "Dimension": "{\"Branch\":\"自助晚餐\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    }
+  ]
+}

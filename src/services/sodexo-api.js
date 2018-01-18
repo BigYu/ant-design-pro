@@ -4,8 +4,8 @@ export async function getTemplate() {
   return Promise.resolve(templateData);
 }
 
-export async function getTrend() {
-  return request('api/sodexo/trend');
+export async function getDailyRevenueUserCountWeatherTrend() {
+  return request('api/sodexo/dailyRevenueUserCountWeatherTrend');
 }
 
 export async function getSplit() {

@@ -1,0 +1,302 @@
+[
+  {
+    "Date": "1/1/2017 12:00:00 AM",
+    "Revenue": [
+      {
+        "Revenue": "127220.86",
+        "Dimension": "{\"SKU\":\"大荤1\"}"
+      },
+      {
+        "Revenue": "155682",
+        "Dimension": "{\"SKU\":\"银丝白饭\"}"
+      },
+      {
+        "Revenue": "80812.72",
+        "Dimension": "{\"SKU\":\"素菜1\"}"
+      },
+      {
+        "Revenue": "327865.9",
+        "Dimension": "{\"SKU\":\"米饭\"}"
+      },
+      {
+        "Revenue": "132045.08",
+        "Dimension": "{\"SKU\":\"小荤3\"}"
+      }
+    ]
+  },
+  {
+    "Date": "2/1/2017 12:00:00 AM",
+    "Revenue": [
+      {
+        "Revenue": "140166.22",
+        "Dimension": "{\"SKU\":\"大荤1\"}"
+      },
+      {
+        "Revenue": "143254",
+        "Dimension": "{\"SKU\":\"银丝白饭\"}"
+      },
+      {
+        "Revenue": "95292.88",
+        "Dimension": "{\"SKU\":\"素菜1\"}"
+      },
+      {
+        "Revenue": "316793.62",
+        "Dimension": "{\"SKU\":\"米饭\"}"
+      },
+      {
+        "Revenue": "145532.02",
+        "Dimension": "{\"SKU\":\"小荤3\"}"
+      }
+    ]
+  },
+  {
+    "Date": "3/1/2017 12:00:00 AM",
+    "Revenue": [
+      {
+        "Revenue": "193651",
+        "Dimension": "{\"SKU\":\"大荤1\"}"
+      },
+      {
+        "Revenue": "186496",
+        "Dimension": "{\"SKU\":\"银丝白饭\"}"
+      },
+      {
+        "Revenue": "111935.34",
+        "Dimension": "{\"SKU\":\"素菜1\"}"
+      },
+      {
+        "Revenue": "398208.14",
+        "Dimension": "{\"SKU\":\"米饭\"}"
+      },
+      {
+        "Revenue": "184350.76",
+        "Dimension": "{\"SKU\":\"小荤3\"}"
+      }
+    ]
+  },
+  {
+    "Date": "4/1/2017 12:00:00 AM",
+    "Revenue": [
+      {
+        "Revenue": "174305.78",
+        "Dimension": "{\"SKU\":\"大荤1\"}"
+      },
+      {
+        "Revenue": "145464",
+        "Dimension": "{\"SKU\":\"银丝白饭\"}"
+      },
+      {
+        "Revenue": "90785.16",
+        "Dimension": "{\"SKU\":\"素菜1\"}"
+      },
+      {
+        "Revenue": "290431.06",
+        "Dimension": "{\"SKU\":\"米饭\"}"
+      },
+      {
+        "Revenue": "150001.9",
+        "Dimension": "{\"SKU\":\"小荤3\"}"
+      }
+    ]
+  },
+  {
+    "Date": "5/1/2017 12:00:00 AM",
+    "Revenue": [
+      {
+        "Revenue": "172356.72",
+        "Dimension": "{\"SKU\":\"大荤1\"}"
+      },
+      {
+        "Revenue": "162248.84",
+        "Dimension": "{\"SKU\":\"银丝白饭\"}"
+      },
+      {
+        "Revenue": "100061.52",
+        "Dimension": "{\"SKU\":\"素菜1\"}"
+      },
+      {
+        "Revenue": "331872.06",
+        "Dimension": "{\"SKU\":\"米饭\"}"
+      },
+      {
+        "Revenue": "167682.9",
+        "Dimension": "{\"SKU\":\"小荤3\"}"
+      }
+    ]
+  },
+  {
+    "Date": "6/1/2017 12:00:00 AM",
+    "Revenue": [
+      {
+        "Revenue": "205599.1",
+        "Dimension": "{\"SKU\":\"大荤1\"}"
+      },
+      {
+        "Revenue": "157372.6",
+        "Dimension": "{\"SKU\":\"银丝白饭\"}"
+      },
+      {
+        "Revenue": "106970.1",
+        "Dimension": "{\"SKU\":\"素菜1\"}"
+      },
+      {
+        "Revenue": "366662.8",
+        "Dimension": "{\"SKU\":\"米饭\"}"
+      },
+      {
+        "Revenue": "175650.2",
+        "Dimension": "{\"SKU\":\"小荤3\"}"
+      }
+    ]
+  },
+  {
+    "Date": "7/1/2017 12:00:00 AM",
+    "Revenue": [
+      {
+        "Revenue": "188646.7",
+        "Dimension": "{\"SKU\":\"大荤1\"}"
+      },
+      {
+        "Revenue": "155488.38",
+        "Dimension": "{\"SKU\":\"银丝白饭\"}"
+      },
+      {
+        "Revenue": "111390.1",
+        "Dimension": "{\"SKU\":\"素菜1\"}"
+      },
+      {
+        "Revenue": "365909.25",
+        "Dimension": "{\"SKU\":\"米饭\"}"
+      },
+      {
+        "Revenue": "171693.1",
+        "Dimension": "{\"SKU\":\"小荤3\"}"
+      }
+    ]
+  },
+  {
+    "Date": "8/1/2017 12:00:00 AM",
+    "Revenue": [
+      {
+        "Revenue": "189472.1",
+        "Dimension": "{\"SKU\":\"大荤1\"}"
+      },
+      {
+        "Revenue": "163140.6",
+        "Dimension": "{\"SKU\":\"银丝白饭\"}"
+      },
+      {
+        "Revenue": "116462.1",
+        "Dimension": "{\"SKU\":\"素菜1\"}"
+      },
+      {
+        "Revenue": "430423.4",
+        "Dimension": "{\"SKU\":\"米饭\"}"
+      },
+      {
+        "Revenue": "179821.3",
+        "Dimension": "{\"SKU\":\"小荤3\"}"
+      }
+    ]
+  },
+  {
+    "Date": "9/1/2017 12:00:00 AM",
+    "Revenue": [
+      {
+        "Revenue": "180833.5",
+        "Dimension": "{\"SKU\":\"大荤1\"}"
+      },
+      {
+        "Revenue": "155289.8",
+        "Dimension": "{\"SKU\":\"银丝白饭\"}"
+      },
+      {
+        "Revenue": "99977.1",
+        "Dimension": "{\"SKU\":\"素菜1\"}"
+      },
+      {
+        "Revenue": "377622.04",
+        "Dimension": "{\"SKU\":\"米饭\"}"
+      },
+      {
+        "Revenue": "163850.9",
+        "Dimension": "{\"SKU\":\"小荤3\"}"
+      }
+    ]
+  },
+  {
+    "Date": "10/1/2017 12:00:00 AM",
+    "Revenue": [
+      {
+        "Revenue": "102790.7",
+        "Dimension": "{\"SKU\":\"大荤1\"}"
+      },
+      {
+        "Revenue": "128195.5",
+        "Dimension": "{\"SKU\":\"银丝白饭\"}"
+      },
+      {
+        "Revenue": "44905.4",
+        "Dimension": "{\"SKU\":\"素菜1\"}"
+      },
+      {
+        "Revenue": "274308.5",
+        "Dimension": "{\"SKU\":\"米饭\"}"
+      },
+      {
+        "Revenue": "108351.9",
+        "Dimension": "{\"SKU\":\"小荤3\"}"
+      }
+    ]
+  },
+  {
+    "Date": "11/1/2017 12:00:00 AM",
+    "Revenue": [
+      {
+        "Revenue": "161934.3",
+        "Dimension": "{\"SKU\":\"大荤1\"}"
+      },
+      {
+        "Revenue": "160270.3",
+        "Dimension": "{\"SKU\":\"银丝白饭\"}"
+      },
+      {
+        "Revenue": "99551.2",
+        "Dimension": "{\"SKU\":\"素菜1\"}"
+      },
+      {
+        "Revenue": "391098.9",
+        "Dimension": "{\"SKU\":\"米饭\"}"
+      },
+      {
+        "Revenue": "162984.6",
+        "Dimension": "{\"SKU\":\"小荤3\"}"
+      }
+    ]
+  },
+  {
+    "Date": "12/1/2017 12:00:00 AM",
+    "Revenue": [
+      {
+        "Revenue": "136301.9",
+        "Dimension": "{\"SKU\":\"大荤1\"}"
+      },
+      {
+        "Revenue": "151972.5",
+        "Dimension": "{\"SKU\":\"银丝白饭\"}"
+      },
+      {
+        "Revenue": "101124.4",
+        "Dimension": "{\"SKU\":\"素菜1\"}"
+      },
+      {
+        "Revenue": "337694.4",
+        "Dimension": "{\"SKU\":\"米饭\"}"
+      },
+      {
+        "Revenue": "141599.3",
+        "Dimension": "{\"SKU\":\"小荤3\"}"
+      }
+    ]
+  }
+]

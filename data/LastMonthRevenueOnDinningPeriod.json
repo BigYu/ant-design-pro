@@ -1,0 +1,17 @@
+{
+    "Date": "12/1/2017 12:00:00 AM",
+    "Revenue": [
+      {
+        "Revenue": "1046312.23",
+        "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"午餐\"}"
+      },
+      {
+        "Revenue": "355538.19",
+        "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"晚餐\"}"
+      },
+      {
+        "Revenue": "72973.90",
+        "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"早餐\"}"
+      }
+    ]
+}

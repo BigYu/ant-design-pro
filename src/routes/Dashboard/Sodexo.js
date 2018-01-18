@@ -22,7 +22,7 @@ import styles from './Analysis.less';
 export default class SodexoDashboard extends React.PureComponent {
   componentDidMount() {
     this.props.dispatch({
-      type: 'sodexo/fetchTrend',
+      type: 'sodexo/fetchDailyRevenueUserCountWeatherTrend',
     });
   }
 
@@ -39,7 +39,7 @@ export default class SodexoDashboard extends React.PureComponent {
           bodyStyle={{ padding: '0 0 32px 0', marginTop: 16 }}
           style={{ marginBottom: 24 }}
         >
-          <div style={{ padding: '0 24px' }}>
+          <div style={{ padding: '24px' }}>
             <TrendChart
               data={sodexo.trend}
             />

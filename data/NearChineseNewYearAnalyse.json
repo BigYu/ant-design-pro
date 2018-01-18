@@ -1,0 +1,107 @@
+[
+  {
+    "Date": "1/20/2017 12:00:00 AM",
+    "Revenue": "60276.32",
+    "UserCount": "3735",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "1/21/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "1/22/2017 12:00:00 AM",
+    "Revenue": "45880.12",
+    "UserCount": "3214",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "1/23/2017 12:00:00 AM",
+    "Revenue": "53940.67",
+    "UserCount": "3547",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "1/24/2017 12:00:00 AM",
+    "Revenue": "46725.06",
+    "UserCount": "2830",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "1/25/2017 12:00:00 AM",
+    "Revenue": "28501.48",
+    "UserCount": "1908",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "1/26/2017 12:00:00 AM",
+    "Revenue": "12156.08",
+    "UserCount": "718",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "2/3/2017 12:00:00 AM",
+    "Revenue": "25073.08",
+    "UserCount": "1949",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "2/4/2017 12:00:00 AM",
+    "Revenue": "28322.28",
+    "UserCount": "2229",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "2/5/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "2/6/2017 12:00:00 AM",
+    "Revenue": "59409.5",
+    "UserCount": "4215",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "2/7/2017 12:00:00 AM",
+    "Revenue": "62870.24",
+    "UserCount": "4569",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "2/8/2017 12:00:00 AM",
+    "Revenue": "63714.44",
+    "UserCount": "4470",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "2/9/2017 12:00:00 AM",
+    "Revenue": "65281.25",
+    "UserCount": "4608",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "2/10/2017 12:00:00 AM",
+    "Revenue": "61177.62",
+    "UserCount": "4247",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  }
+]

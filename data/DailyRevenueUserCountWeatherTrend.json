@@ -1,0 +1,3278 @@
+[
+  {
+    "Date": "1/1/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "454",
+    "WeatherAvgTemperature": "1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/2/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "198",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/3/2017 12:00:00 AM",
+    "Revenue": "67569.33",
+    "UserCount": "2485",
+    "WeatherPM25": "298",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/4/2017 12:00:00 AM",
+    "Revenue": "74023.58",
+    "UserCount": "2612",
+    "WeatherPM25": "339",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/5/2017 12:00:00 AM",
+    "Revenue": "71230.32",
+    "UserCount": "2657",
+    "WeatherPM25": "220",
+    "WeatherAvgTemperature": "-1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/6/2017 12:00:00 AM",
+    "Revenue": "66929.12",
+    "UserCount": "2517",
+    "WeatherPM25": "198",
+    "WeatherAvgTemperature": "1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/7/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "166",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/8/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "34",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/9/2017 12:00:00 AM",
+    "Revenue": "69439.12",
+    "UserCount": "2575",
+    "WeatherPM25": "36",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/10/2017 12:00:00 AM",
+    "Revenue": "69644.04",
+    "UserCount": "2555",
+    "WeatherPM25": "25",
+    "WeatherAvgTemperature": "-1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/11/2017 12:00:00 AM",
+    "Revenue": "67872.07",
+    "UserCount": "2538",
+    "WeatherPM25": "57",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/12/2017 12:00:00 AM",
+    "Revenue": "73407.82",
+    "UserCount": "2486",
+    "WeatherPM25": "41",
+    "WeatherAvgTemperature": "1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/13/2017 12:00:00 AM",
+    "Revenue": "68177.51",
+    "UserCount": "2443",
+    "WeatherPM25": "8",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/14/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "20",
+    "WeatherAvgTemperature": "-2",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/15/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "53",
+    "WeatherAvgTemperature": "-3",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/16/2017 12:00:00 AM",
+    "Revenue": "76079.89",
+    "UserCount": "2553",
+    "WeatherPM25": "93",
+    "WeatherAvgTemperature": "-2",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/17/2017 12:00:00 AM",
+    "Revenue": "70031.89",
+    "UserCount": "2522",
+    "WeatherPM25": "134",
+    "WeatherAvgTemperature": "-1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/18/2017 12:00:00 AM",
+    "Revenue": "65918.72",
+    "UserCount": "2426",
+    "WeatherPM25": "38",
+    "WeatherAvgTemperature": "-1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/19/2017 12:00:00 AM",
+    "Revenue": "64587.06",
+    "UserCount": "2371",
+    "WeatherPM25": "44",
+    "WeatherAvgTemperature": "-3",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/20/2017 12:00:00 AM",
+    "Revenue": "60276.32",
+    "UserCount": "2117",
+    "WeatherPM25": "25",
+    "WeatherAvgTemperature": "-3",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/21/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "24",
+    "WeatherAvgTemperature": "-4",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/22/2017 12:00:00 AM",
+    "Revenue": "45880.12",
+    "UserCount": "1736",
+    "WeatherPM25": "25",
+    "WeatherAvgTemperature": "-5",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/23/2017 12:00:00 AM",
+    "Revenue": "53940.67",
+    "UserCount": "1962",
+    "WeatherPM25": "36",
+    "WeatherAvgTemperature": "-3",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/24/2017 12:00:00 AM",
+    "Revenue": "46725.06",
+    "UserCount": "1639",
+    "WeatherPM25": "89",
+    "WeatherAvgTemperature": "-2",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/25/2017 12:00:00 AM",
+    "Revenue": "28501.48",
+    "UserCount": "1077",
+    "WeatherPM25": "178",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/26/2017 12:00:00 AM",
+    "Revenue": "12156.08",
+    "UserCount": "505",
+    "WeatherPM25": "152",
+    "WeatherAvgTemperature": "1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/27/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "78",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/28/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "345",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/29/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "30",
+    "WeatherAvgTemperature": "-4",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/30/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "29",
+    "WeatherAvgTemperature": "-2",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "1/31/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "76",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/1/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "38",
+    "WeatherAvgTemperature": "-1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/2/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "81",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/3/2017 12:00:00 AM",
+    "Revenue": "25073.08",
+    "UserCount": "1063",
+    "WeatherPM25": "166",
+    "WeatherAvgTemperature": "2",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/4/2017 12:00:00 AM",
+    "Revenue": "28322.28",
+    "UserCount": "1190",
+    "WeatherPM25": "245",
+    "WeatherAvgTemperature": "3",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/5/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "12",
+    "WeatherAvgTemperature": "2",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/6/2017 12:00:00 AM",
+    "Revenue": "59409.5",
+    "UserCount": "2229",
+    "WeatherPM25": "15",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/7/2017 12:00:00 AM",
+    "Revenue": "62870.24",
+    "UserCount": "2415",
+    "WeatherPM25": "80",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/8/2017 12:00:00 AM",
+    "Revenue": "63714.44",
+    "UserCount": "2371",
+    "WeatherPM25": "29",
+    "WeatherAvgTemperature": "-1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/9/2017 12:00:00 AM",
+    "Revenue": "65281.25",
+    "UserCount": "2437",
+    "WeatherPM25": "7",
+    "WeatherAvgTemperature": "-1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/10/2017 12:00:00 AM",
+    "Revenue": "61177.62",
+    "UserCount": "2292",
+    "WeatherPM25": "7",
+    "WeatherAvgTemperature": "-1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/11/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "53",
+    "WeatherAvgTemperature": "1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/12/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "107",
+    "WeatherAvgTemperature": "3",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/13/2017 12:00:00 AM",
+    "Revenue": "67660.2",
+    "UserCount": "2527",
+    "WeatherPM25": "85",
+    "WeatherAvgTemperature": "3",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/14/2017 12:00:00 AM",
+    "Revenue": "63941.63",
+    "UserCount": "2439",
+    "WeatherPM25": "183",
+    "WeatherAvgTemperature": "2",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/15/2017 12:00:00 AM",
+    "Revenue": "67814.58",
+    "UserCount": "2559",
+    "WeatherPM25": "232",
+    "WeatherAvgTemperature": "4",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/16/2017 12:00:00 AM",
+    "Revenue": "64468.72",
+    "UserCount": "2385",
+    "WeatherPM25": "98",
+    "WeatherAvgTemperature": "3",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/17/2017 12:00:00 AM",
+    "Revenue": "59066.65",
+    "UserCount": "2249",
+    "WeatherPM25": "24",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/18/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "88",
+    "WeatherAvgTemperature": "3",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/19/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "94",
+    "WeatherAvgTemperature": "6",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/20/2017 12:00:00 AM",
+    "Revenue": "69329.16",
+    "UserCount": "2555",
+    "WeatherPM25": "12",
+    "WeatherAvgTemperature": "2",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/21/2017 12:00:00 AM",
+    "Revenue": "69391.01",
+    "UserCount": "2503",
+    "WeatherPM25": "61",
+    "WeatherAvgTemperature": "-1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/22/2017 12:00:00 AM",
+    "Revenue": "67825.04",
+    "UserCount": "2475",
+    "WeatherPM25": "75",
+    "WeatherAvgTemperature": "1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/23/2017 12:00:00 AM",
+    "Revenue": "63884.9",
+    "UserCount": "2463",
+    "WeatherPM25": "19",
+    "WeatherAvgTemperature": "2",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/24/2017 12:00:00 AM",
+    "Revenue": "64288.32",
+    "UserCount": "2373",
+    "WeatherPM25": "25",
+    "WeatherAvgTemperature": "4",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/25/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "11",
+    "WeatherAvgTemperature": "6",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/26/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "29",
+    "WeatherAvgTemperature": "5",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/27/2017 12:00:00 AM",
+    "Revenue": "65852",
+    "UserCount": "2510",
+    "WeatherPM25": "66",
+    "WeatherAvgTemperature": "8",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "2/28/2017 12:00:00 AM",
+    "Revenue": "65215.46",
+    "UserCount": "2489",
+    "WeatherPM25": "14",
+    "WeatherAvgTemperature": "8",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/1/2017 12:00:00 AM",
+    "Revenue": "67260.16",
+    "UserCount": "2561",
+    "WeatherPM25": "8",
+    "WeatherAvgTemperature": "2",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/2/2017 12:00:00 AM",
+    "Revenue": "69234.11",
+    "UserCount": "2497",
+    "WeatherPM25": "40",
+    "WeatherAvgTemperature": "5",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/3/2017 12:00:00 AM",
+    "Revenue": "63493.17",
+    "UserCount": "2332",
+    "WeatherPM25": "82",
+    "WeatherAvgTemperature": "6",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/4/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "87",
+    "WeatherAvgTemperature": "6",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/5/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "12",
+    "WeatherAvgTemperature": "5",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/6/2017 12:00:00 AM",
+    "Revenue": "67954.57",
+    "UserCount": "2530",
+    "WeatherPM25": "16",
+    "WeatherAvgTemperature": "3",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/7/2017 12:00:00 AM",
+    "Revenue": "67238.82",
+    "UserCount": "2483",
+    "WeatherPM25": "7",
+    "WeatherAvgTemperature": "3",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/8/2017 12:00:00 AM",
+    "Revenue": "59848.5",
+    "UserCount": "2279",
+    "WeatherPM25": "10",
+    "WeatherAvgTemperature": "7",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/9/2017 12:00:00 AM",
+    "Revenue": "67835.58",
+    "UserCount": "2480",
+    "WeatherPM25": "13",
+    "WeatherAvgTemperature": "8",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/10/2017 12:00:00 AM",
+    "Revenue": "63478.57",
+    "UserCount": "2328",
+    "WeatherPM25": "34",
+    "WeatherAvgTemperature": "10",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/11/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "44",
+    "WeatherAvgTemperature": "12",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/12/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "7",
+    "WeatherAvgTemperature": "7",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/13/2017 12:00:00 AM",
+    "Revenue": "66604.49",
+    "UserCount": "2504",
+    "WeatherPM25": "11",
+    "WeatherAvgTemperature": "8",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/14/2017 12:00:00 AM",
+    "Revenue": "63976.2",
+    "UserCount": "2494",
+    "WeatherPM25": "21",
+    "WeatherAvgTemperature": "9",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/15/2017 12:00:00 AM",
+    "Revenue": "69283.68",
+    "UserCount": "2494",
+    "WeatherPM25": "65",
+    "WeatherAvgTemperature": "9",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/16/2017 12:00:00 AM",
+    "Revenue": "64224.23",
+    "UserCount": "2482",
+    "WeatherPM25": "113",
+    "WeatherAvgTemperature": "11",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/17/2017 12:00:00 AM",
+    "Revenue": "69619.11",
+    "UserCount": "2321",
+    "WeatherPM25": "124",
+    "WeatherAvgTemperature": "11",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/18/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "146",
+    "WeatherAvgTemperature": "12",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/19/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "222",
+    "WeatherAvgTemperature": "12",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/20/2017 12:00:00 AM",
+    "Revenue": "72051.8",
+    "UserCount": "2621",
+    "WeatherPM25": "136",
+    "WeatherAvgTemperature": "9",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/21/2017 12:00:00 AM",
+    "Revenue": "70774.74",
+    "UserCount": "2545",
+    "WeatherPM25": "87",
+    "WeatherAvgTemperature": "9",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/22/2017 12:00:00 AM",
+    "Revenue": "69293.99",
+    "UserCount": "2514",
+    "WeatherPM25": "135",
+    "WeatherAvgTemperature": "10",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/23/2017 12:00:00 AM",
+    "Revenue": "69010.9",
+    "UserCount": "2509",
+    "WeatherPM25": "121",
+    "WeatherAvgTemperature": "6",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/24/2017 12:00:00 AM",
+    "Revenue": "85528.83",
+    "UserCount": "2378",
+    "WeatherPM25": "60",
+    "WeatherAvgTemperature": "2",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/25/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "34",
+    "WeatherAvgTemperature": "8",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/26/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "12",
+    "WeatherAvgTemperature": "9",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/27/2017 12:00:00 AM",
+    "Revenue": "64587.34",
+    "UserCount": "2442",
+    "WeatherPM25": "17",
+    "WeatherAvgTemperature": "10",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/28/2017 12:00:00 AM",
+    "Revenue": "67540.64",
+    "UserCount": "2474",
+    "WeatherPM25": "60",
+    "WeatherAvgTemperature": "10",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/29/2017 12:00:00 AM",
+    "Revenue": "70157.77",
+    "UserCount": "2485",
+    "WeatherPM25": "113",
+    "WeatherAvgTemperature": "13",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/30/2017 12:00:00 AM",
+    "Revenue": "63066.18",
+    "UserCount": "2400",
+    "WeatherPM25": "86",
+    "WeatherAvgTemperature": "10",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "3/31/2017 12:00:00 AM",
+    "Revenue": "61097.96",
+    "UserCount": "2297",
+    "WeatherPM25": "20",
+    "WeatherAvgTemperature": "11",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/1/2017 12:00:00 AM",
+    "Revenue": "47483.45",
+    "UserCount": "1785",
+    "WeatherPM25": "31",
+    "WeatherAvgTemperature": "13",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/2/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "68",
+    "WeatherAvgTemperature": "14",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/3/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "125",
+    "WeatherAvgTemperature": "18",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/4/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "124",
+    "WeatherAvgTemperature": "16",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/5/2017 12:00:00 AM",
+    "Revenue": "62800.61",
+    "UserCount": "2385",
+    "WeatherPM25": "61",
+    "WeatherAvgTemperature": "14",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/6/2017 12:00:00 AM",
+    "Revenue": "67838.25",
+    "UserCount": "2464",
+    "WeatherPM25": "98",
+    "WeatherAvgTemperature": "17",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/7/2017 12:00:00 AM",
+    "Revenue": "60187.8",
+    "UserCount": "2340",
+    "WeatherPM25": "76",
+    "WeatherAvgTemperature": "17",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/8/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "78",
+    "WeatherAvgTemperature": "13",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/9/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "64",
+    "WeatherAvgTemperature": "13",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/10/2017 12:00:00 AM",
+    "Revenue": "68614.25",
+    "UserCount": "2552",
+    "WeatherPM25": "66",
+    "WeatherAvgTemperature": "15",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/11/2017 12:00:00 AM",
+    "Revenue": "68639.48",
+    "UserCount": "2583",
+    "WeatherPM25": "27",
+    "WeatherAvgTemperature": "14",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/12/2017 12:00:00 AM",
+    "Revenue": "70881.22",
+    "UserCount": "2490",
+    "WeatherPM25": "29",
+    "WeatherAvgTemperature": "17",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/13/2017 12:00:00 AM",
+    "Revenue": "65907.54",
+    "UserCount": "2441",
+    "WeatherPM25": "54",
+    "WeatherAvgTemperature": "14",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/14/2017 12:00:00 AM",
+    "Revenue": "67726.24",
+    "UserCount": "2386",
+    "WeatherPM25": "59",
+    "WeatherAvgTemperature": "18",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/15/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "36",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/16/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "97",
+    "WeatherAvgTemperature": "20",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/17/2017 12:00:00 AM",
+    "Revenue": "69354.3",
+    "UserCount": "2540",
+    "WeatherPM25": "123",
+    "WeatherAvgTemperature": "19",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/18/2017 12:00:00 AM",
+    "Revenue": "69746.69",
+    "UserCount": "2533",
+    "WeatherPM25": "24",
+    "WeatherAvgTemperature": "16",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/19/2017 12:00:00 AM",
+    "Revenue": "75630.5",
+    "UserCount": "2577",
+    "WeatherPM25": "44",
+    "WeatherAvgTemperature": "14",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/20/2017 12:00:00 AM",
+    "Revenue": "64739.05",
+    "UserCount": "2467",
+    "WeatherPM25": "37",
+    "WeatherAvgTemperature": "16",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/21/2017 12:00:00 AM",
+    "Revenue": "58355.6",
+    "UserCount": "2256",
+    "WeatherPM25": "19",
+    "WeatherAvgTemperature": "15",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/22/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "45",
+    "WeatherAvgTemperature": "20",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/23/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "24",
+    "WeatherAvgTemperature": "17",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/24/2017 12:00:00 AM",
+    "Revenue": "70627.36",
+    "UserCount": "2597",
+    "WeatherPM25": "34",
+    "WeatherAvgTemperature": "17",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/25/2017 12:00:00 AM",
+    "Revenue": "70927.35",
+    "UserCount": "2515",
+    "WeatherPM25": "13",
+    "WeatherAvgTemperature": "13",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/26/2017 12:00:00 AM",
+    "Revenue": "62826.33",
+    "UserCount": "2406",
+    "WeatherPM25": "14",
+    "WeatherAvgTemperature": "17",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/27/2017 12:00:00 AM",
+    "Revenue": "62618.66",
+    "UserCount": "2343",
+    "WeatherPM25": "15",
+    "WeatherAvgTemperature": "20",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/28/2017 12:00:00 AM",
+    "Revenue": "54889.8",
+    "UserCount": "2061",
+    "WeatherPM25": "23",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/29/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "40",
+    "WeatherAvgTemperature": "25",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "4/30/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "50",
+    "WeatherAvgTemperature": "21",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/1/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "39",
+    "WeatherAvgTemperature": "21",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/2/2017 12:00:00 AM",
+    "Revenue": "65258.2",
+    "UserCount": "2350",
+    "WeatherPM25": "61",
+    "WeatherAvgTemperature": "23",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/3/2017 12:00:00 AM",
+    "Revenue": "65673.84",
+    "UserCount": "2433",
+    "WeatherPM25": "69",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/4/2017 12:00:00 AM",
+    "Revenue": "71849.58",
+    "UserCount": "2546",
+    "WeatherPM25": "359",
+    "WeatherAvgTemperature": "20",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/5/2017 12:00:00 AM",
+    "Revenue": "70671.76",
+    "UserCount": "2410",
+    "WeatherPM25": "172",
+    "WeatherAvgTemperature": "16",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/6/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "33",
+    "WeatherAvgTemperature": "20",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/7/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "28",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/8/2017 12:00:00 AM",
+    "Revenue": "66328.7",
+    "UserCount": "2526",
+    "WeatherPM25": "56",
+    "WeatherAvgTemperature": "23",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/9/2017 12:00:00 AM",
+    "Revenue": "67042.2",
+    "UserCount": "2549",
+    "WeatherPM25": "44",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/10/2017 12:00:00 AM",
+    "Revenue": "67837.2",
+    "UserCount": "2507",
+    "WeatherPM25": "39",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/11/2017 12:00:00 AM",
+    "Revenue": "66974.8",
+    "UserCount": "2497",
+    "WeatherPM25": "30",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/12/2017 12:00:00 AM",
+    "Revenue": "64995.35",
+    "UserCount": "2360",
+    "WeatherPM25": "45",
+    "WeatherAvgTemperature": "23",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/13/2017 12:00:00 AM",
+    "Revenue": "45.38",
+    "UserCount": "1",
+    "WeatherPM25": "19",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/14/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "12",
+    "WeatherAvgTemperature": "21",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/15/2017 12:00:00 AM",
+    "Revenue": "73505.17",
+    "UserCount": "2578",
+    "WeatherPM25": "22",
+    "WeatherAvgTemperature": "21",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/16/2017 12:00:00 AM",
+    "Revenue": "69942.52",
+    "UserCount": "2538",
+    "WeatherPM25": "43",
+    "WeatherAvgTemperature": "24",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/17/2017 12:00:00 AM",
+    "Revenue": "73014.1",
+    "UserCount": "2502",
+    "WeatherPM25": "63",
+    "WeatherAvgTemperature": "26",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/18/2017 12:00:00 AM",
+    "Revenue": "66750",
+    "UserCount": "2374",
+    "WeatherPM25": "81",
+    "WeatherAvgTemperature": "28",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/19/2017 12:00:00 AM",
+    "Revenue": "62040.2",
+    "UserCount": "2327",
+    "WeatherPM25": "82",
+    "WeatherAvgTemperature": "29",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/20/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "57",
+    "WeatherAvgTemperature": "27",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/21/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "56",
+    "WeatherAvgTemperature": "24",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/22/2017 12:00:00 AM",
+    "Revenue": "70128.3",
+    "UserCount": "2502",
+    "WeatherPM25": "37",
+    "WeatherAvgTemperature": "15",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/23/2017 12:00:00 AM",
+    "Revenue": "61665.35",
+    "UserCount": "2390",
+    "WeatherPM25": "19",
+    "WeatherAvgTemperature": "16",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/24/2017 12:00:00 AM",
+    "Revenue": "64160.65",
+    "UserCount": "2501",
+    "WeatherPM25": "17",
+    "WeatherAvgTemperature": "25",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/25/2017 12:00:00 AM",
+    "Revenue": "63513.74",
+    "UserCount": "2468",
+    "WeatherPM25": "21",
+    "WeatherAvgTemperature": "23",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/26/2017 12:00:00 AM",
+    "Revenue": "64377.8",
+    "UserCount": "2325",
+    "WeatherPM25": "46",
+    "WeatherAvgTemperature": "24",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/27/2017 12:00:00 AM",
+    "Revenue": "53098.3",
+    "UserCount": "1926",
+    "WeatherPM25": "69",
+    "WeatherAvgTemperature": "27",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/28/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "88",
+    "WeatherAvgTemperature": "29",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/29/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "28",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/30/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "42",
+    "WeatherAvgTemperature": "20",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "5/31/2017 12:00:00 AM",
+    "Revenue": "59731.4",
+    "UserCount": "2333",
+    "WeatherPM25": "65",
+    "WeatherAvgTemperature": "25",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/1/2017 12:00:00 AM",
+    "Revenue": "61794.65",
+    "UserCount": "2261",
+    "WeatherPM25": "23",
+    "WeatherAvgTemperature": "24",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/2/2017 12:00:00 AM",
+    "Revenue": "59451.51",
+    "UserCount": "2184",
+    "WeatherPM25": "22",
+    "WeatherAvgTemperature": "18",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/3/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "29",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/4/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "48",
+    "WeatherAvgTemperature": "25",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/5/2017 12:00:00 AM",
+    "Revenue": "74850.42",
+    "UserCount": "2626",
+    "WeatherPM25": "65",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/6/2017 12:00:00 AM",
+    "Revenue": "72957.72",
+    "UserCount": "2644",
+    "WeatherPM25": "37",
+    "WeatherAvgTemperature": "17",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/7/2017 12:00:00 AM",
+    "Revenue": "66435.06",
+    "UserCount": "2559",
+    "WeatherPM25": "47",
+    "WeatherAvgTemperature": "24",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/8/2017 12:00:00 AM",
+    "Revenue": "63874.29",
+    "UserCount": "2409",
+    "WeatherPM25": "25",
+    "WeatherAvgTemperature": "27",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/9/2017 12:00:00 AM",
+    "Revenue": "62047.73",
+    "UserCount": "2324",
+    "WeatherPM25": "29",
+    "WeatherAvgTemperature": "29",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/10/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "21",
+    "WeatherAvgTemperature": "23",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/11/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "33",
+    "WeatherAvgTemperature": "24",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/12/2017 12:00:00 AM",
+    "Revenue": "72779.85",
+    "UserCount": "2622",
+    "WeatherPM25": "35",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/13/2017 12:00:00 AM",
+    "Revenue": "67335.41",
+    "UserCount": "2540",
+    "WeatherPM25": "41",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/14/2017 12:00:00 AM",
+    "Revenue": "70301.76",
+    "UserCount": "2561",
+    "WeatherPM25": "37",
+    "WeatherAvgTemperature": "28",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/15/2017 12:00:00 AM",
+    "Revenue": "71767.87",
+    "UserCount": "2605",
+    "WeatherPM25": "38",
+    "WeatherAvgTemperature": "30",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/16/2017 12:00:00 AM",
+    "Revenue": "75783.56",
+    "UserCount": "2434",
+    "WeatherPM25": "59",
+    "WeatherAvgTemperature": "30",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/17/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "82",
+    "WeatherAvgTemperature": "30",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/18/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "70",
+    "WeatherAvgTemperature": "28",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/19/2017 12:00:00 AM",
+    "Revenue": "71704.42",
+    "UserCount": "2632",
+    "WeatherPM25": "37",
+    "WeatherAvgTemperature": "25",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/20/2017 12:00:00 AM",
+    "Revenue": "72268.98",
+    "UserCount": "2646",
+    "WeatherPM25": "31",
+    "WeatherAvgTemperature": "27",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/21/2017 12:00:00 AM",
+    "Revenue": "69959.11",
+    "UserCount": "2591",
+    "WeatherPM25": "48",
+    "WeatherAvgTemperature": "25",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/22/2017 12:00:00 AM",
+    "Revenue": "68460.22",
+    "UserCount": "2474",
+    "WeatherPM25": "33",
+    "WeatherAvgTemperature": "21",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/23/2017 12:00:00 AM",
+    "Revenue": "67502.43",
+    "UserCount": "2349",
+    "WeatherPM25": "19",
+    "WeatherAvgTemperature": "21",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/24/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "21",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/25/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "26",
+    "WeatherAvgTemperature": "24",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/26/2017 12:00:00 AM",
+    "Revenue": "76026.28",
+    "UserCount": "2605",
+    "WeatherPM25": "24",
+    "WeatherAvgTemperature": "27",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/27/2017 12:00:00 AM",
+    "Revenue": "69895.65",
+    "UserCount": "2594",
+    "WeatherPM25": "70",
+    "WeatherAvgTemperature": "28",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/28/2017 12:00:00 AM",
+    "Revenue": "76671.3",
+    "UserCount": "2689",
+    "WeatherPM25": "97",
+    "WeatherAvgTemperature": "29",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/29/2017 12:00:00 AM",
+    "Revenue": "71709.01",
+    "UserCount": "2567",
+    "WeatherPM25": "56",
+    "WeatherAvgTemperature": "29",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "6/30/2017 12:00:00 AM",
+    "Revenue": "69653.5",
+    "UserCount": "2466",
+    "WeatherPM25": "71",
+    "WeatherAvgTemperature": "30",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/1/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "90",
+    "WeatherAvgTemperature": "30",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/2/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "88",
+    "WeatherAvgTemperature": "30",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/3/2017 12:00:00 AM",
+    "Revenue": "75249",
+    "UserCount": "2673",
+    "WeatherPM25": "60",
+    "WeatherAvgTemperature": "29",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/4/2017 12:00:00 AM",
+    "Revenue": "75348.12",
+    "UserCount": "2692",
+    "WeatherPM25": "47",
+    "WeatherAvgTemperature": "25",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/5/2017 12:00:00 AM",
+    "Revenue": "68404.6",
+    "UserCount": "2512",
+    "WeatherPM25": "80",
+    "WeatherAvgTemperature": "27",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/6/2017 12:00:00 AM",
+    "Revenue": "70436.28",
+    "UserCount": "2485",
+    "WeatherPM25": "70",
+    "WeatherAvgTemperature": "24",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/7/2017 12:00:00 AM",
+    "Revenue": "66012.99",
+    "UserCount": "2333",
+    "WeatherPM25": "32",
+    "WeatherAvgTemperature": "27",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/8/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "42",
+    "WeatherAvgTemperature": "29",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/9/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "73",
+    "WeatherAvgTemperature": "29",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/10/2017 12:00:00 AM",
+    "Revenue": "75032.31",
+    "UserCount": "2696",
+    "WeatherPM25": "25",
+    "WeatherAvgTemperature": "29",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/11/2017 12:00:00 AM",
+    "Revenue": "77784.88",
+    "UserCount": "2707",
+    "WeatherPM25": "48",
+    "WeatherAvgTemperature": "31",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/12/2017 12:00:00 AM",
+    "Revenue": "72647.18",
+    "UserCount": "2635",
+    "WeatherPM25": "73",
+    "WeatherAvgTemperature": "31",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/13/2017 12:00:00 AM",
+    "Revenue": "74594.09",
+    "UserCount": "2611",
+    "WeatherPM25": "61",
+    "WeatherAvgTemperature": "30",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/14/2017 12:00:00 AM",
+    "Revenue": "75390.16",
+    "UserCount": "2358",
+    "WeatherPM25": "34",
+    "WeatherAvgTemperature": "29",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/15/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "36",
+    "WeatherAvgTemperature": "28",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/16/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "67",
+    "WeatherAvgTemperature": "29",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/17/2017 12:00:00 AM",
+    "Revenue": "67005.46",
+    "UserCount": "2504",
+    "WeatherPM25": "54",
+    "WeatherAvgTemperature": "29",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/18/2017 12:00:00 AM",
+    "Revenue": "65866.12",
+    "UserCount": "2449",
+    "WeatherPM25": "60",
+    "WeatherAvgTemperature": "28",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/19/2017 12:00:00 AM",
+    "Revenue": "67600.36",
+    "UserCount": "2484",
+    "WeatherPM25": "74",
+    "WeatherAvgTemperature": "28",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/20/2017 12:00:00 AM",
+    "Revenue": "67465.78",
+    "UserCount": "2454",
+    "WeatherPM25": "97",
+    "WeatherAvgTemperature": "28",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/21/2017 12:00:00 AM",
+    "Revenue": "60105.9",
+    "UserCount": "2266",
+    "WeatherPM25": "22",
+    "WeatherAvgTemperature": "25",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/22/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "23",
+    "WeatherAvgTemperature": "26",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/23/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "44",
+    "WeatherAvgTemperature": "25",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/24/2017 12:00:00 AM",
+    "Revenue": "67486.21",
+    "UserCount": "2574",
+    "WeatherPM25": "40",
+    "WeatherAvgTemperature": "26",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/25/2017 12:00:00 AM",
+    "Revenue": "75113.36",
+    "UserCount": "2624",
+    "WeatherPM25": "32",
+    "WeatherAvgTemperature": "26",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/26/2017 12:00:00 AM",
+    "Revenue": "71081.99",
+    "UserCount": "2530",
+    "WeatherPM25": "23",
+    "WeatherAvgTemperature": "21",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/27/2017 12:00:00 AM",
+    "Revenue": "69694.08",
+    "UserCount": "2513",
+    "WeatherPM25": "41",
+    "WeatherAvgTemperature": "26",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/28/2017 12:00:00 AM",
+    "Revenue": "65091.06",
+    "UserCount": "2399",
+    "WeatherPM25": "28",
+    "WeatherAvgTemperature": "26",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/29/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "32",
+    "WeatherAvgTemperature": "26",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/30/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "38",
+    "WeatherAvgTemperature": "25",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "7/31/2017 12:00:00 AM",
+    "Revenue": "70753.3",
+    "UserCount": "2596",
+    "WeatherPM25": "80",
+    "WeatherAvgTemperature": "27",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/1/2017 12:00:00 AM",
+    "Revenue": "77123.06",
+    "UserCount": "2719",
+    "WeatherPM25": "66",
+    "WeatherAvgTemperature": "27",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/2/2017 12:00:00 AM",
+    "Revenue": "72866.08",
+    "UserCount": "2613",
+    "WeatherPM25": "33",
+    "WeatherAvgTemperature": "26",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/3/2017 12:00:00 AM",
+    "Revenue": "77323.7",
+    "UserCount": "2676",
+    "WeatherPM25": "22",
+    "WeatherAvgTemperature": "29",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/4/2017 12:00:00 AM",
+    "Revenue": "70382.68",
+    "UserCount": "2518",
+    "WeatherPM25": "21",
+    "WeatherAvgTemperature": "30",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/5/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "27",
+    "WeatherAvgTemperature": "27",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/6/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "17",
+    "WeatherAvgTemperature": "29",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/7/2017 12:00:00 AM",
+    "Revenue": "75882.16",
+    "UserCount": "2737",
+    "WeatherPM25": "11",
+    "WeatherAvgTemperature": "30",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/8/2017 12:00:00 AM",
+    "Revenue": "75936.3",
+    "UserCount": "2659",
+    "WeatherPM25": "29",
+    "WeatherAvgTemperature": "28",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/9/2017 12:00:00 AM",
+    "Revenue": "81944.61",
+    "UserCount": "2592",
+    "WeatherPM25": "24",
+    "WeatherAvgTemperature": "26",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/10/2017 12:00:00 AM",
+    "Revenue": "80621.97",
+    "UserCount": "2705",
+    "WeatherPM25": "64",
+    "WeatherAvgTemperature": "28",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/11/2017 12:00:00 AM",
+    "Revenue": "76306.56",
+    "UserCount": "2599",
+    "WeatherPM25": "88",
+    "WeatherAvgTemperature": "27",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/12/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "32",
+    "WeatherAvgTemperature": "26",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/13/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "40",
+    "WeatherAvgTemperature": "25",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/14/2017 12:00:00 AM",
+    "Revenue": "78505.93",
+    "UserCount": "2739",
+    "WeatherPM25": "28",
+    "WeatherAvgTemperature": "26",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/15/2017 12:00:00 AM",
+    "Revenue": "78454.54",
+    "UserCount": "2723",
+    "WeatherPM25": "55",
+    "WeatherAvgTemperature": "26",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/16/2017 12:00:00 AM",
+    "Revenue": "78577.16",
+    "UserCount": "2717",
+    "WeatherPM25": "55",
+    "WeatherAvgTemperature": "25",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/17/2017 12:00:00 AM",
+    "Revenue": "76243.84",
+    "UserCount": "2647",
+    "WeatherPM25": "22",
+    "WeatherAvgTemperature": "25",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/18/2017 12:00:00 AM",
+    "Revenue": "74592.21",
+    "UserCount": "2464",
+    "WeatherPM25": "53",
+    "WeatherAvgTemperature": "25",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/19/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "42",
+    "WeatherAvgTemperature": "25",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/20/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "60",
+    "WeatherAvgTemperature": "26",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/21/2017 12:00:00 AM",
+    "Revenue": "77457.53",
+    "UserCount": "2683",
+    "WeatherPM25": "72",
+    "WeatherAvgTemperature": "28",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/22/2017 12:00:00 AM",
+    "Revenue": "77343.11",
+    "UserCount": "2698",
+    "WeatherPM25": "72",
+    "WeatherAvgTemperature": "26",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/23/2017 12:00:00 AM",
+    "Revenue": "72763.23",
+    "UserCount": "2633",
+    "WeatherPM25": "20",
+    "WeatherAvgTemperature": "27",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/24/2017 12:00:00 AM",
+    "Revenue": "73668.54",
+    "UserCount": "2603",
+    "WeatherPM25": "14",
+    "WeatherAvgTemperature": "26",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/25/2017 12:00:00 AM",
+    "Revenue": "68466.14",
+    "UserCount": "2448",
+    "WeatherPM25": "10",
+    "WeatherAvgTemperature": "25",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/26/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "15",
+    "WeatherAvgTemperature": "24",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/27/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "17",
+    "WeatherAvgTemperature": "17",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/28/2017 12:00:00 AM",
+    "Revenue": "71599.18",
+    "UserCount": "2692",
+    "WeatherPM25": "19",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/29/2017 12:00:00 AM",
+    "Revenue": "68849.73",
+    "UserCount": "2633",
+    "WeatherPM25": "17",
+    "WeatherAvgTemperature": "21",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/30/2017 12:00:00 AM",
+    "Revenue": "72920.72",
+    "UserCount": "2655",
+    "WeatherPM25": "52",
+    "WeatherAvgTemperature": "23",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "8/31/2017 12:00:00 AM",
+    "Revenue": "75414.96",
+    "UserCount": "2562",
+    "WeatherPM25": "83",
+    "WeatherAvgTemperature": "23",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/1/2017 12:00:00 AM",
+    "Revenue": "69087.8",
+    "UserCount": "2507",
+    "WeatherPM25": "139",
+    "WeatherAvgTemperature": "23",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/2/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "103",
+    "WeatherAvgTemperature": "23",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/3/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "58",
+    "WeatherAvgTemperature": "24",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/4/2017 12:00:00 AM",
+    "Revenue": "76764.4",
+    "UserCount": "2740",
+    "WeatherPM25": "87",
+    "WeatherAvgTemperature": "24",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/5/2017 12:00:00 AM",
+    "Revenue": "74107.82",
+    "UserCount": "2540",
+    "WeatherPM25": "39",
+    "WeatherAvgTemperature": "24",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/6/2017 12:00:00 AM",
+    "Revenue": "74360.4",
+    "UserCount": "2554",
+    "WeatherPM25": "16",
+    "WeatherAvgTemperature": "24",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/7/2017 12:00:00 AM",
+    "Revenue": "72862.44",
+    "UserCount": "2531",
+    "WeatherPM25": "48",
+    "WeatherAvgTemperature": "25",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/8/2017 12:00:00 AM",
+    "Revenue": "71129.22",
+    "UserCount": "2457",
+    "WeatherPM25": "117",
+    "WeatherAvgTemperature": "26",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/9/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "101",
+    "WeatherAvgTemperature": "25",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/10/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "92",
+    "WeatherAvgTemperature": "23",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/11/2017 12:00:00 AM",
+    "Revenue": "77806.9",
+    "UserCount": "2662",
+    "WeatherPM25": "18",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/12/2017 12:00:00 AM",
+    "Revenue": "73766.5",
+    "UserCount": "2569",
+    "WeatherPM25": "22",
+    "WeatherAvgTemperature": "24",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/13/2017 12:00:00 AM",
+    "Revenue": "69382.2",
+    "UserCount": "2433",
+    "WeatherPM25": "73",
+    "WeatherAvgTemperature": "24",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/14/2017 12:00:00 AM",
+    "Revenue": "61326.08",
+    "UserCount": "2195",
+    "WeatherPM25": "84",
+    "WeatherAvgTemperature": "24",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/15/2017 12:00:00 AM",
+    "Revenue": "58066.01",
+    "UserCount": "2093",
+    "WeatherPM25": "59",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/16/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "91",
+    "WeatherAvgTemperature": "23",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/17/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "11",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/18/2017 12:00:00 AM",
+    "Revenue": "71235.8",
+    "UserCount": "2553",
+    "WeatherPM25": "23",
+    "WeatherAvgTemperature": "24",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/19/2017 12:00:00 AM",
+    "Revenue": "72221.6",
+    "UserCount": "2498",
+    "WeatherPM25": "12",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/20/2017 12:00:00 AM",
+    "Revenue": "70489.6",
+    "UserCount": "2446",
+    "WeatherPM25": "14",
+    "WeatherAvgTemperature": "20",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/21/2017 12:00:00 AM",
+    "Revenue": "71342",
+    "UserCount": "2489",
+    "WeatherPM25": "58",
+    "WeatherAvgTemperature": "23",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/22/2017 12:00:00 AM",
+    "Revenue": "67780.65",
+    "UserCount": "2345",
+    "WeatherPM25": "24",
+    "WeatherAvgTemperature": "21",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/23/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "50",
+    "WeatherAvgTemperature": "22",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/24/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "64",
+    "WeatherAvgTemperature": "23",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/25/2017 12:00:00 AM",
+    "Revenue": "70247.8",
+    "UserCount": "2484",
+    "WeatherPM25": "77",
+    "WeatherAvgTemperature": "23",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/26/2017 12:00:00 AM",
+    "Revenue": "70313.1",
+    "UserCount": "2443",
+    "WeatherPM25": "47",
+    "WeatherAvgTemperature": "18",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/27/2017 12:00:00 AM",
+    "Revenue": "64244",
+    "UserCount": "2290",
+    "WeatherPM25": "28",
+    "WeatherAvgTemperature": "16",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/28/2017 12:00:00 AM",
+    "Revenue": "61348.8",
+    "UserCount": "2181",
+    "WeatherPM25": "10",
+    "WeatherAvgTemperature": "16",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/29/2017 12:00:00 AM",
+    "Revenue": "52986.78",
+    "UserCount": "1968",
+    "WeatherPM25": "45",
+    "WeatherAvgTemperature": "18",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "9/30/2017 12:00:00 AM",
+    "Revenue": "38851.45",
+    "UserCount": "1369",
+    "WeatherPM25": "112",
+    "WeatherAvgTemperature": "21",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/1/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "68",
+    "WeatherAvgTemperature": "19",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/2/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "13",
+    "WeatherAvgTemperature": "13",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/3/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "16",
+    "WeatherAvgTemperature": "15",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/4/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "30",
+    "WeatherAvgTemperature": "16",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/5/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "55",
+    "WeatherAvgTemperature": "16",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/6/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "67",
+    "WeatherAvgTemperature": "17",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/7/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "114",
+    "WeatherAvgTemperature": "16",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/8/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "124",
+    "WeatherAvgTemperature": "15",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/9/2017 12:00:00 AM",
+    "Revenue": "64292.05",
+    "UserCount": "2163",
+    "WeatherPM25": "28",
+    "WeatherAvgTemperature": "12",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/10/2017 12:00:00 AM",
+    "Revenue": "70966.3",
+    "UserCount": "2387",
+    "WeatherPM25": "6",
+    "WeatherAvgTemperature": "8",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/11/2017 12:00:00 AM",
+    "Revenue": "69523.7",
+    "UserCount": "2429",
+    "WeatherPM25": "11",
+    "WeatherAvgTemperature": "11",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/12/2017 12:00:00 AM",
+    "Revenue": "69997.1",
+    "UserCount": "2458",
+    "WeatherPM25": "21",
+    "WeatherAvgTemperature": "10",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/13/2017 12:00:00 AM",
+    "Revenue": "67735.3",
+    "UserCount": "2390",
+    "WeatherPM25": "38",
+    "WeatherAvgTemperature": "13",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/14/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "15",
+    "WeatherAvgTemperature": "11",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/15/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "50",
+    "WeatherAvgTemperature": "12",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/16/2017 12:00:00 AM",
+    "Revenue": "74874.8",
+    "UserCount": "2563",
+    "WeatherPM25": "40",
+    "WeatherAvgTemperature": "12",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/17/2017 12:00:00 AM",
+    "Revenue": "101191.5",
+    "UserCount": "2621",
+    "WeatherPM25": "69",
+    "WeatherAvgTemperature": "13",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/18/2017 12:00:00 AM",
+    "Revenue": "82126.93",
+    "UserCount": "2615",
+    "WeatherPM25": "67",
+    "WeatherAvgTemperature": "12",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/19/2017 12:00:00 AM",
+    "Revenue": "69809.7",
+    "UserCount": "2489",
+    "WeatherPM25": "56",
+    "WeatherAvgTemperature": "13",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/20/2017 12:00:00 AM",
+    "Revenue": "71384",
+    "UserCount": "2372",
+    "WeatherPM25": "98",
+    "WeatherAvgTemperature": "15",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/21/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "72",
+    "WeatherAvgTemperature": "14",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/22/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "39",
+    "WeatherAvgTemperature": "10",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/23/2017 12:00:00 AM",
+    "Revenue": "74172.5",
+    "UserCount": "2478",
+    "WeatherPM25": "36",
+    "WeatherAvgTemperature": "10",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/24/2017 12:00:00 AM",
+    "Revenue": "73291.1",
+    "UserCount": "2472",
+    "WeatherPM25": "70",
+    "WeatherAvgTemperature": "13",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/25/2017 12:00:00 AM",
+    "Revenue": "67947",
+    "UserCount": "2312",
+    "WeatherPM25": "110",
+    "WeatherAvgTemperature": "12",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/26/2017 12:00:00 AM",
+    "Revenue": "64393.3",
+    "UserCount": "2265",
+    "WeatherPM25": "152",
+    "WeatherAvgTemperature": "12",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/27/2017 12:00:00 AM",
+    "Revenue": "66997.58",
+    "UserCount": "2224",
+    "WeatherPM25": "170",
+    "WeatherAvgTemperature": "14",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/28/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "42",
+    "WeatherAvgTemperature": "10",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/29/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "8",
+    "WeatherAvgTemperature": "6",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/30/2017 12:00:00 AM",
+    "Revenue": "52070.9",
+    "UserCount": "1780",
+    "WeatherPM25": "18",
+    "WeatherAvgTemperature": "8",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "10/31/2017 12:00:00 AM",
+    "Revenue": "45800",
+    "UserCount": "1664",
+    "WeatherPM25": "62",
+    "WeatherAvgTemperature": "10",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/1/2017 12:00:00 AM",
+    "Revenue": "45298.57",
+    "UserCount": "1634",
+    "WeatherPM25": "64",
+    "WeatherAvgTemperature": "11",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/2/2017 12:00:00 AM",
+    "Revenue": "70798.14",
+    "UserCount": "2371",
+    "WeatherPM25": "51",
+    "WeatherAvgTemperature": "10",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/3/2017 12:00:00 AM",
+    "Revenue": "73247.28",
+    "UserCount": "2312",
+    "WeatherPM25": "8",
+    "WeatherAvgTemperature": "6",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/4/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "37",
+    "WeatherAvgTemperature": "8",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/5/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "101",
+    "WeatherAvgTemperature": "9",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/6/2017 12:00:00 AM",
+    "Revenue": "73950.18",
+    "UserCount": "2580",
+    "WeatherPM25": "152",
+    "WeatherAvgTemperature": "9",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/7/2017 12:00:00 AM",
+    "Revenue": "68676.75",
+    "UserCount": "2468",
+    "WeatherPM25": "80",
+    "WeatherAvgTemperature": "11",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/8/2017 12:00:00 AM",
+    "Revenue": "68304.6",
+    "UserCount": "2392",
+    "WeatherPM25": "20",
+    "WeatherAvgTemperature": "9",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/9/2017 12:00:00 AM",
+    "Revenue": "71186",
+    "UserCount": "2464",
+    "WeatherPM25": "52",
+    "WeatherAvgTemperature": "9",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/10/2017 12:00:00 AM",
+    "Revenue": "70067.6",
+    "UserCount": "2298",
+    "WeatherPM25": "7",
+    "WeatherAvgTemperature": "5",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/11/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "18",
+    "WeatherAvgTemperature": "5",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/12/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "56",
+    "WeatherAvgTemperature": "5",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/13/2017 12:00:00 AM",
+    "Revenue": "73728.1",
+    "UserCount": "2505",
+    "WeatherPM25": "26",
+    "WeatherAvgTemperature": "6",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/14/2017 12:00:00 AM",
+    "Revenue": "70413.9",
+    "UserCount": "2446",
+    "WeatherPM25": "10",
+    "WeatherAvgTemperature": "2",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/15/2017 12:00:00 AM",
+    "Revenue": "73029.8",
+    "UserCount": "2479",
+    "WeatherPM25": "16",
+    "WeatherAvgTemperature": "3",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/16/2017 12:00:00 AM",
+    "Revenue": "63096.7",
+    "UserCount": "2185",
+    "WeatherPM25": "58",
+    "WeatherAvgTemperature": "3",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/17/2017 12:00:00 AM",
+    "Revenue": "67595.9",
+    "UserCount": "2249",
+    "WeatherPM25": "22",
+    "WeatherAvgTemperature": "1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/18/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "40",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/19/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "91",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/20/2017 12:00:00 AM",
+    "Revenue": "72892.4",
+    "UserCount": "2518",
+    "WeatherPM25": "105",
+    "WeatherAvgTemperature": "3",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/21/2017 12:00:00 AM",
+    "Revenue": "75294.3",
+    "UserCount": "2544",
+    "WeatherPM25": "116",
+    "WeatherAvgTemperature": "3",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/22/2017 12:00:00 AM",
+    "Revenue": "70101.8",
+    "UserCount": "2444",
+    "WeatherPM25": "7",
+    "WeatherAvgTemperature": "1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/23/2017 12:00:00 AM",
+    "Revenue": "69748.57",
+    "UserCount": "2325",
+    "WeatherPM25": "7",
+    "WeatherAvgTemperature": "1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/24/2017 12:00:00 AM",
+    "Revenue": "63305.45",
+    "UserCount": "2325",
+    "WeatherPM25": "21",
+    "WeatherAvgTemperature": "1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/25/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "39",
+    "WeatherAvgTemperature": "1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/26/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "12",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/27/2017 12:00:00 AM",
+    "Revenue": "69957",
+    "UserCount": "2408",
+    "WeatherPM25": "70",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/28/2017 12:00:00 AM",
+    "Revenue": "70496.8",
+    "UserCount": "2449",
+    "WeatherPM25": "37",
+    "WeatherAvgTemperature": "1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/29/2017 12:00:00 AM",
+    "Revenue": "70440.7",
+    "UserCount": "2392",
+    "WeatherPM25": "14",
+    "WeatherAvgTemperature": "-2",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "11/30/2017 12:00:00 AM",
+    "Revenue": "71984.65",
+    "UserCount": "2415",
+    "WeatherPM25": "26",
+    "WeatherAvgTemperature": "-1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/1/2017 12:00:00 AM",
+    "Revenue": "71925.2",
+    "UserCount": "2263",
+    "WeatherPM25": "73",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/2/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "152",
+    "WeatherAvgTemperature": "1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/3/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "48",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/4/2017 12:00:00 AM",
+    "Revenue": "71439.5",
+    "UserCount": "2548",
+    "WeatherPM25": "6",
+    "WeatherAvgTemperature": "-1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/5/2017 12:00:00 AM",
+    "Revenue": "76122",
+    "UserCount": "2505",
+    "WeatherPM25": "26",
+    "WeatherAvgTemperature": "1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/6/2017 12:00:00 AM",
+    "Revenue": "72565.7",
+    "UserCount": "2438",
+    "WeatherPM25": "24",
+    "WeatherAvgTemperature": "2",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/7/2017 12:00:00 AM",
+    "Revenue": "74421.8",
+    "UserCount": "2460",
+    "WeatherPM25": "9",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/8/2017 12:00:00 AM",
+    "Revenue": "65529.2",
+    "UserCount": "2255",
+    "WeatherPM25": "23",
+    "WeatherAvgTemperature": "1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/9/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "34",
+    "WeatherAvgTemperature": "1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/10/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "7",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/11/2017 12:00:00 AM",
+    "Revenue": "74235.6",
+    "UserCount": "2573",
+    "WeatherPM25": "6",
+    "WeatherAvgTemperature": "-3",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/12/2017 12:00:00 AM",
+    "Revenue": "72360.54",
+    "UserCount": "2459",
+    "WeatherPM25": "14",
+    "WeatherAvgTemperature": "-4",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/13/2017 12:00:00 AM",
+    "Revenue": "72507.2",
+    "UserCount": "2481",
+    "WeatherPM25": "32",
+    "WeatherAvgTemperature": "-2",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/14/2017 12:00:00 AM",
+    "Revenue": "72732.1",
+    "UserCount": "2407",
+    "WeatherPM25": "72",
+    "WeatherAvgTemperature": "-2",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/15/2017 12:00:00 AM",
+    "Revenue": "65206.6",
+    "UserCount": "2276",
+    "WeatherPM25": "33",
+    "WeatherAvgTemperature": "-1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/16/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "8",
+    "WeatherAvgTemperature": "-4",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/17/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "28",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/18/2017 12:00:00 AM",
+    "Revenue": "93553.8",
+    "UserCount": "2500",
+    "WeatherPM25": "12",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/19/2017 12:00:00 AM",
+    "Revenue": "80753.8",
+    "UserCount": "2450",
+    "WeatherPM25": "38",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": true,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/20/2017 12:00:00 AM",
+    "Revenue": "88377.5",
+    "UserCount": "2410",
+    "WeatherPM25": "20",
+    "WeatherAvgTemperature": "1",
+    "RevenueHasAnomaly": true,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/21/2017 12:00:00 AM",
+    "Revenue": "68261.2",
+    "UserCount": "2335",
+    "WeatherPM25": "51",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": true,
+    "UserCountHasAnomaly": true
+  },
+  {
+    "Date": "12/22/2017 12:00:00 AM",
+    "Revenue": "59812.8",
+    "UserCount": "2131",
+    "WeatherPM25": "36",
+    "WeatherAvgTemperature": "2",
+    "RevenueHasAnomaly": true,
+    "UserCountHasAnomaly": true
+  },
+  {
+    "Date": "12/23/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "32",
+    "WeatherAvgTemperature": "1",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/24/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "13",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  },
+  {
+    "Date": "12/25/2017 12:00:00 AM",
+    "Revenue": "64504.2",
+    "UserCount": "2203",
+    "WeatherPM25": "31",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": true,
+    "UserCountHasAnomaly": true
+  },
+  {
+    "Date": "12/26/2017 12:00:00 AM",
+    "Revenue": "59656.8",
+    "UserCount": "2191",
+    "WeatherPM25": "23",
+    "WeatherAvgTemperature": "-1",
+    "RevenueHasAnomaly": true,
+    "UserCountHasAnomaly": true
+  },
+  {
+    "Date": "12/27/2017 12:00:00 AM",
+    "Revenue": "59690.5",
+    "UserCount": "2098",
+    "WeatherPM25": "74",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": true,
+    "UserCountHasAnomaly": true
+  },
+  {
+    "Date": "12/28/2017 12:00:00 AM",
+    "Revenue": "59128.7",
+    "UserCount": "2065",
+    "WeatherPM25": "109",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": true,
+    "UserCountHasAnomaly": true
+  },
+  {
+    "Date": "12/29/2017 12:00:00 AM",
+    "Revenue": "52039.58",
+    "UserCount": "1664",
+    "WeatherPM25": "175",
+    "WeatherAvgTemperature": "-1",
+    "RevenueHasAnomaly": true,
+    "UserCountHasAnomaly": true
+  },
+  {
+    "Date": "12/30/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "WeatherPM25": "111",
+    "WeatherAvgTemperature": "0",
+    "RevenueHasAnomaly": false,
+    "UserCountHasAnomaly": false
+  }
+]

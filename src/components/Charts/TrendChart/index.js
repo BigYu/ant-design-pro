@@ -18,6 +18,7 @@ export default class TrendChart extends React.Component {
       fields: ['Revenue', 'UserCount'],
       key: 'key',
       value: 'value',
+      retains: ['Date', 'Revenue', 'UserCount'],
     });
 
     // https://alibaba.github.io/BizCharts/demo-detail.html?code=demo/other/rain-and-flow
@@ -25,15 +26,15 @@ export default class TrendChart extends React.Component {
     return (
       <Chart
         height={400}
-        data={data}
-        scale={{ Date: { type: 'time' } }}
-        padding={[60, 40, 40, 60]}
+        data={dv}
+        scale={{ Date: { type: 'time' }, Revenue: { type: 'linear' }, UserCount: { type: 'linear' }}}
+        padding={[100, 100, 100, 100]}
         forceFit>
-        <Axis name="Date" />
-        <Axis name="Revenue" />
-        <Axis name="UserCount" />
+        <Axis name="Date" title="Date" />
+        <Axis name="Revenue" title="Revenue" />
+        <Axis name="UserCount" title="UserCount" />
         <Tooltip />
-        <Legend name="key" position="top" />
+        <Legend />
         <Geom type="line" position="Date*Revenue" size={2} color="lightblue" />
         <Geom type="line" position="Date*UserCount" size={2} color="lightgreen" />
       </Chart>
