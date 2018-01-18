@@ -13,7 +13,7 @@ import {
 } from 'antd';
 import TrendChartByWeather from '../../components/Charts/TrendChart/byWeather';
 import TopSKUChart from '../../components/Charts/TopSKUChart';
-import OnDimensionChart from '../../components/Charts/TrendChart/onDimension';
+import OnDimensionChart from '../../components/Charts/RevenueOnDimension';
 
 import styles from './Analysis.less';
 
