@@ -23,7 +23,7 @@ export default class OnDimensionChart extends React.Component {
       <Chart height={400} data={dv}>
         <Coord type='theta' radius={0.75} />
         <Axis name={dimension} />
-        <Legend position='right' offsetY={320} offsetX={-100} />
+        <Legend />
         <Tooltip
           showTitle={false}
           itemTpl='<li><span style="background-color:{color};" class="g2-tooltip-marker"></span>{name}: {value}</li>'
