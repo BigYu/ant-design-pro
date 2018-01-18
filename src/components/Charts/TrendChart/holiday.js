@@ -1,9 +1,19 @@
 import React from 'react';
+import { Row, Col } from 'antd';
 import { Chart, Tooltip, Geom, Legend, Axis } from 'bizcharts';
 import DataSet from '@antv/data-set';
 import Slider from 'bizcharts-plugin-slider';
 import numeral from 'numeral';
 import autoHeight from '../autoHeight';
+
+const topColResponsiveProps = {
+  xs: 24,
+  sm: 12,
+  md: 12,
+  lg: 12,
+  xl: 12,
+  style: { marginBottom: 24 },
+};
 
 @autoHeight()
 export default class TrendChartByWeather extends React.Component {
@@ -26,7 +36,7 @@ export default class TrendChartByWeather extends React.Component {
     if (data.length === 0) return null;
 
     const endDate = new Date(data[data.length - 1].Date);
-    const defaultStartDate = new Date(endDate.getFullYear(), endDate.getMonth(), 1);
+    const defaultStartDate = new Date(data[0].Date);
     const ds = this.ds = new DataSet({
       state: {
         start: defaultStartDate.getTime(),
@@ -72,36 +82,42 @@ export default class TrendChartByWeather extends React.Component {
     // comparing with Wheather? PM25 & Temprature
     return (
       <div>
-        <Chart
-          height={400}
-          data={revenueDv}
-          scale={{
-            Date: { type: 'time' },
-            revenue: { type: 'linear' },
-          }}
-          padding={[60, 140]}
-          forceFit>
-          <Axis name="Date" />
-          <Axis name="revenue" title={{}} label={{formatter: val => numeral(val).format('0,0')}} />
-          <Tooltip />
-          <Legend position="right" />
-          <Geom type="line" position="Date*revenue" size={2} color="key" />
-        </Chart>
-        <Chart
-          height={400}
-          data={userCountDv}
-          scale={{
-            Date: { type: 'time' },
-            userCount: { type: 'linear' },
-          }}
-          padding={[60, 140]}
-          forceFit>
-          <Axis name="Date" />
-          <Axis name="userCount" title={{}} />
-          <Tooltip />
-          <Legend position="right" />
-          <Geom type="line" position="Date*userCount" size={2} color="key" />
-        </Chart>
+        <Row>
+          <Col {...topColResponsiveProps}>
+            <Chart
+              height={400}
+              data={revenueDv}
+              scale={{
+                Date: { type: 'time' },
+                revenue: { type: 'linear' },
+              }}
+              padding={[60, 140]}
+              forceFit>
+              <Axis name="Date" />
+              <Axis name="revenue" title={{}} label={{formatter: val => numeral(val).format('0,0')}} />
+              <Tooltip />
+              <Legend position="right" />
+              <Geom type="line" position="Date*revenue" size={2} color="key" />
+            </Chart>
+          </Col>
+          <Col {...topColResponsiveProps}>
+            <Chart
+              height={400}
+              data={userCountDv}
+              scale={{
+                Date: { type: 'time' },
+                userCount: { type: 'linear' },
+              }}
+              padding={[60, 140]}
+              forceFit>
+              <Axis name="Date" />
+              <Axis name="userCount" title={{}} />
+              <Tooltip />
+              <Legend position="right" />
+              <Geom type="line" position="Date*userCount" size={2} color="key" />
+            </Chart>
+          </Col>
+        </Row>
         <div>
           <Slider
             width='auto'
