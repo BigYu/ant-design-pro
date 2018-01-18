@@ -26,13 +26,15 @@ export default class TrendChartByWeather extends React.Component {
 
     if (data.length === 0) return null;
 
-    const ds = this.ds = new DataSet({
-      state: {
-        start: new Date(data[0].Date).getTime(),
-        end: new Date(data[data.length - 1].Date).getTime()
-      }
-    });
-    const originDv = ds.createView('origin');
+      const endDate = new Date(data[data.length - 1].Date);
+      const defaultStartDate = new Date(endDate.getFullYear(), endDate.getMonth(), 1);
+      const ds = this.ds = new DataSet({
+        state: {
+          start: defaultStartDate.getTime(),
+          end: endDate.getTime()
+        }
+      });
+      const originDv = ds.createView('origin');
 
 
     originDv.source(data.slice())
@@ -84,7 +86,7 @@ export default class TrendChartByWeather extends React.Component {
           <Axis name="value" />
           <Tooltip />
           <Legend />
-          <Geom type="intervalStack" position="Date*value" size={2} color="key" />
+          <Geom type="areaStack" position="Date*value" size={2} color="key" />
         </Chart>
         <div>
           <Slider

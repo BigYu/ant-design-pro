@@ -24,10 +24,12 @@ export default class TrendChartByWeather extends React.Component {
 
     if (data.length === 0) return null;
 
+    const endDate = new Date(data[data.length - 1].Date);
+    const defaultStartDate = new Date(endDate.getFullYear(), endDate.getMonth(), 1);
     const ds = this.ds = new DataSet({
       state: {
-        start: new Date(data[0].Date).getTime(),
-        end: new Date(data[data.length - 1].Date).getTime()
+        start: defaultStartDate.getTime(),
+        end: endDate.getTime()
       }
     });
     const originDv = ds.createView('origin');

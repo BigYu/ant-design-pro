@@ -44,7 +44,7 @@ export default class SodexoDashboard extends React.PureComponent {
 
     return (
       <div>
-        {/* <Card
+        <Card
           loading={loading}
           className={styles.offlineCard}
           title="Weather, Revenue, UserCount: day by day"
@@ -120,11 +120,11 @@ export default class SodexoDashboard extends React.PureComponent {
               dimensions={[{ dimension: "CardType", fields: ['员工卡', '访客卡'] }]}
             />
           </div>
-        </Card> */}
+        </Card>
         <Card
           loading={loading}
           className={styles.offlineCard}
-          title="Revenue, UserCount: Daily, by DinningPeriod-Branch-CardType"
+          title="Revenue, UserCount: Daily, by DinningPeriod-Branch-DinningPeriod"
           bordered={false}
           bodyStyle={{ padding: '0', marginTop: 16 }}
           style={{ marginBottom: 24 }}
@@ -148,7 +148,88 @@ export default class SodexoDashboard extends React.PureComponent {
             />
           </div>
         </Card>
-        {/* <Card
+        <Card
+          loading={loading}
+          className={styles.offlineCard}
+          title="Revenue, UserCount: Daily, by DinningPeriod-Branch-CardType"
+          bordered={false}
+          bodyStyle={{ padding: '0', marginTop: 16 }}
+          style={{ marginBottom: 24 }}
+        >
+          <div style={{ padding: '0' }}>
+            <TrendByTwoDimension
+              data={sodexo.data.RevenueUserCountTrendOnBranchCardType.slice()}
+              valueField="Revenue"
+              dimensions={[
+                { dimension: "Branch", fields: ['中餐厅', '自助餐厅', '粤菜餐厅', '微餐厅晚餐1', '员工餐厅'] },
+                { dimension: "CardType", fields: ['员工卡', '访客卡'] },
+              ]}
+            />
+            <TrendByTwoDimension
+              data={sodexo.data.RevenueUserCountTrendOnBranchCardType.slice()}
+              valueField="UserCount"
+              dimensions={[
+                { dimension: "Branch", fields: ['中餐厅', '自助餐厅', '粤菜餐厅', '微餐厅晚餐1', '员工餐厅'] },
+                { dimension: "CardType", fields: ['员工卡', '访客卡'] },
+              ]}
+            />
+          </div>
+        </Card>
+        <Card
+          loading={loading}
+          className={styles.offlineCard}
+          title="Revenue, UserCount: Daily, by DinningPeriod-Branch-DinningPeriod"
+          bordered={false}
+          bodyStyle={{ padding: '0', marginTop: 16 }}
+          style={{ marginBottom: 24 }}
+        >
+          <div style={{ padding: '0' }}>
+            <TrendByTwoDimension
+              data={sodexo.data.RevenueUserCountTrendOnBranchDinningPeriod.slice()}
+              valueField="Revenue"
+              dimensions={[
+                { dimension: "Branch", fields: ['中餐厅', '自助餐厅', '粤菜餐厅', '微餐厅晚餐1', '员工餐厅'] },
+                { dimension: "DinningPeriod", fields: ['早餐', '晚餐', '午餐'] },
+              ]}
+            />
+            <TrendByTwoDimension
+              data={sodexo.data.RevenueUserCountTrendOnBranchDinningPeriod.slice()}
+              valueField="UserCount"
+              dimensions={[
+                { dimension: "Branch", fields: ['中餐厅', '自助餐厅', '粤菜餐厅', '微餐厅晚餐1', '员工餐厅'] },
+                { dimension: "DinningPeriod", fields: ['早餐', '晚餐', '午餐'] },
+              ]}
+            />
+          </div>
+        </Card>
+        <Card
+          loading={loading}
+          className={styles.offlineCard}
+          title="Revenue, UserCount: Daily, by DinningPeriod-CardType-DinningPeriod"
+          bordered={false}
+          bodyStyle={{ padding: '0', marginTop: 16 }}
+          style={{ marginBottom: 24 }}
+        >
+          <div style={{ padding: '0' }}>
+            <TrendByTwoDimension
+              data={sodexo.data.RevenueUserCountTrendOnCardTypeDinningPeriod.slice()}
+              valueField="Revenue"
+              dimensions={[
+                { dimension: "CardType", fields: ['员工卡', '访客卡'] },
+                { dimension: "DinningPeriod", fields: ['早餐', '晚餐', '午餐'] },
+              ]}
+            />
+            <TrendByTwoDimension
+              data={sodexo.data.RevenueUserCountTrendOnCardTypeDinningPeriod.slice()}
+              valueField="UserCount"
+              dimensions={[
+                { dimension: "CardType", fields: ['员工卡', '访客卡'] },
+                { dimension: "DinningPeriod", fields: ['早餐', '晚餐', '午餐'] },
+              ]}
+            />
+          </div>
+        </Card>
+        <Card
           loading={loading}
           className={styles.offlineCard}
           title="Last Month Revenue, UserCount: Daily, by DinningPeriod, by CardType, by Branch"
@@ -209,7 +290,7 @@ export default class SodexoDashboard extends React.PureComponent {
               </Col>
             </Row>
           </div>
-        </Card> */}
+        </Card>
         {/* <Card
           loading={loading}
           className={styles.offlineCard}
