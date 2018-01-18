@@ -22,6 +22,7 @@ export default class TrendChartByWeather extends React.Component {
       data = [],
       valueField,
       fields,
+      dimension,
     } = this.props;
 
     if (data.length === 0) return null;
@@ -36,8 +37,16 @@ export default class TrendChartByWeather extends React.Component {
 
     originDv.source(data.slice())
       .transform({
+        type: 'map',
+        callback(record) {
+          return fields.reduce((memo, field) => {
+            return Object.assign({}, memo, { [field]: Number((record[valueField].find(i => JSON.parse(i.Dimension)[dimension] === field) || { [valueField]: 0 })[valueField]) })
+          }, { Date: record.Date });
+        }
+      })
+      .transform({
         type: 'fold',
-        fields: ['dinner', 'lunch', 'breakfast'],
+        fields,
         key: 'key',
         value: 'value',
       });
@@ -45,6 +54,14 @@ export default class TrendChartByWeather extends React.Component {
     const chartDv = ds.createView();
 
     chartDv.source(data)
+      .transform({
+        type: 'map',
+        callback(record) {
+          return fields.reduce((memo, field) => {
+            return Object.assign({}, memo, { [field]: Number((record[valueField].find(i => JSON.parse(i.Dimension)[dimension] === field) || { [valueField]: 0 })[valueField]) })
+          }, { Date: record.Date });
+        }
+      })
       .transform({
         type: 'fold',
         fields,
