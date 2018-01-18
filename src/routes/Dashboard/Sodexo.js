@@ -13,6 +13,7 @@ import {
 } from 'antd';
 import TrendChartByWeather from '../../components/Charts/TrendChart/byWeather';
 import TopSKUChart from '../../components/Charts/TopSKUChart';
+import OnDimensionChart from '../../components/Charts/TrendChart/onDimension';
 
 import styles from './Analysis.less';
 
@@ -33,6 +34,15 @@ export default class SodexoDashboard extends React.PureComponent {
   render() {
     const { sodexo, loading } = this.props;
 
+    const topColResponsiveProps = {
+      xs: 24,
+      sm: 12,
+      md: 12,
+      lg: 12,
+      xl: 6,
+      style: { marginBottom: 24 },
+    };
+
     return (
       <div>
         <Card
@@ -52,18 +62,66 @@ export default class SodexoDashboard extends React.PureComponent {
         <Card
           loading={loading}
           className={styles.offlineCard}
-          title="Revenue, UserCount: Daily, by DinningPeriod"
+          title="Last MonthRevenue, UserCount: Daily, by DinningPeriod, by CardType, by Branch"
           bordered={false}
           bodyStyle={{ padding: '0', marginTop: 16 }}
           style={{ marginBottom: 24 }}
         >
           <div style={{ padding: '0' }}>
-            <TrendChartByWeather
-              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
-            />
+            <Row gutter={24}>
+              <Col {...topColResponsiveProps}>
+                <OnDimensionChart
+                  data={sodexo.data.LastMonthRevenueOnDinningPeriod}
+                  dimension="DinningPeriod"
+                />
+              </Col>
+              <Col {...topColResponsiveProps}>
+                <OnDimensionChart
+                  data={sodexo.data.LastMonthRevenueOnCardType}
+                  dimension="CardType"
+                />
+              </Col>
+              <Col {...topColResponsiveProps}>
+                <OnDimensionChart
+                  data={sodexo.data.LastMonthRevenueOnBranch}
+                  dimension="Branch"
+                />
+              </Col>
+            </Row>
           </div>
         </Card>
         <Card
+          loading={loading}
+          className={styles.offlineCard}
+          title="Last Year Revenue, UserCount: Daily, by DinningPeriod, by CardType, by Branch"
+          bordered={false}
+          bodyStyle={{ padding: '0', marginTop: 16 }}
+          style={{ marginBottom: 24 }}
+        >
+          <div style={{ padding: '0' }}>
+            <Row gutter={24}>
+              <Col {...topColResponsiveProps}>
+                <OnDimensionChart
+                  data={sodexo.data.LastYearRevenueOnDinningPeriod}
+                  dimension="DinningPeriod"
+                />
+              </Col>
+              <Col {...topColResponsiveProps}>
+                <OnDimensionChart
+                  data={sodexo.data.LastYearRevenueOnCardType}
+                  dimension="CardType"
+                />
+              </Col>
+              <Col {...topColResponsiveProps}>
+                <OnDimensionChart
+                  data={sodexo.data.LastYearRevenueOnBranch}
+                  dimension="Branch"
+                />
+              </Col>
+            </Row>
+          </div>
+        </Card>
+        {/* <Card
           loading={loading}
           className={styles.offlineCard}
           title="Revenue, UserCount: Daily, by CardType"
@@ -314,7 +372,7 @@ export default class SodexoDashboard extends React.PureComponent {
               data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
-        </Card>
+        </Card> */}
       </div>
     );
   }

@@ -5,7 +5,7 @@ import Slider from 'bizcharts-plugin-slider';
 import autoHeight from '../autoHeight';
 
 @autoHeight()
-export default class TrendChart extends React.Component {
+export default class TrendChartByWeather extends React.Component {
   constructor(props) {
     super(props);
 

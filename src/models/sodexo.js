@@ -8,7 +8,7 @@ export default {
       DailyRevenueUserCountWeatherTrend: [],
       LastMonthRevenueOnBranch: [],
       LastMonthRevenueOnCardType: [],
-      LastMonthRevenueOnBraLastMonthRevenueOnDinningPeriodnch: [],
+      LastMonthRevenueOnDinningPeriod: [],
       LastMonthTopSKU: [],
       LastYearRevenueOnBranch: [],
       LastYearRevenueOnCardType: [],
