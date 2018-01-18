@@ -8,6 +8,27 @@ import { getProfileAdvancedData } from './mock/profile';
 import { getNotices } from './mock/notices';
 import { format, delay } from 'roadhog-api-doc';
 import d$DailyRevenueUserCountWeatherTrend from './data/DailyRevenueUserCountWeatherTrend';
+import d$LastMonthRevenueOnBranch from './data/LastMonthRevenueOnBranch';
+import d$LastMonthRevenueOnCardType from './data/LastMonthRevenueOnCardType';
+import d$LastMonthRevenueOnDinningPeriod from './data/LastMonthRevenueOnDinningPeriod';
+import d$LastMonthTopSKU from './data/LastMonthTopSKU';
+import d$LastYearRevenueOnBranch from './data/LastYearRevenueOnBranch';
+import d$LastYearRevenueOnCardType from './data/LastYearRevenueOnCardType';
+import d$LastYearRevenueOnDinningPeriod from './data/LastYearRevenueOnDinningPeriod';
+import d$LastYearTopSKU from './data/LastYearTopSKU';
+import d$NearChineseNewYearAnalyse from './data/NearChineseNewYearAnalyse';
+import d$NearNationalHolidayAnalyse from './data/NearNationalHolidayAnalyse';
+import d$RevenueUserCountTrendOnBranch from './data/RevenueUserCountTrendOnBranch';
+import d$RevenueUserCountTrendOnBranchCardType from './data/RevenueUserCountTrendOnBranchCardType';
+import d$RevenueUserCountTrendOnBranchCardTypeDinningPeriod from './data/RevenueUserCountTrendOnBranchCardTypeDinningPeriod';
+import d$RevenueUserCountTrendOnBranchDinningPeriod from './data/RevenueUserCountTrendOnBranchDinningPeriod';
+import d$RevenueUserCountTrendOnCardType from './data/RevenueUserCountTrendOnCardType';
+import d$RevenueUserCountTrendOnCardTypeDinningPeriod from './data/RevenueUserCountTrendOnCardTypeDinningPeriod';
+import d$RevenueUserCountTrendOnDinningPeriod from './data/RevenueUserCountTrendOnDinningPeriod';
+import d$TopSKUDailyTrend from './data/TopSKUDailyTrend';
+import d$TopSKUDailyTrendOnCardType from './data/TopSKUDailyTrendOnCardType';
+import d$TopSKUMonthlyTrend from './data/TopSKUMonthlyTrend';
+import d$TopSKUWeeklyTrend from './data/TopSKUWeeklyTrend';
 
 // 是否禁用代理
 const noProxy = process.env.NO_PROXY === 'true';
@@ -31,8 +52,31 @@ const proxy = {
     },
   },
   // GET POST 可省略
-  'GET /api/sodexo/dailyRevenueUserCountWeatherTrend': (req, res) => {
-    res.send(d$DailyRevenueUserCountWeatherTrend);
+  'GET /api/sodexo/all': (req, res) => {
+    res.send({
+      DailyRevenueUserCountWeatherTrend: d$DailyRevenueUserCountWeatherTrend,
+      LastMonthRevenueOnBranch: d$LastMonthRevenueOnBranch,
+      LastMonthRevenueOnCardType: d$LastMonthRevenueOnCardType,
+      LastMonthRevenueOnDinningPeriod: d$LastMonthRevenueOnDinningPeriod,
+      LastMonthTopSKU: d$LastMonthTopSKU,
+      LastYearRevenueOnBranch: d$LastYearRevenueOnBranch,
+      LastYearRevenueOnCardType: d$LastYearRevenueOnCardType,
+      LastYearRevenueOnDinningPeriod: d$LastYearRevenueOnDinningPeriod,
+      LastYearTopSKU: d$LastYearTopSKU,
+      NearChineseNewYearAnalyse: d$NearChineseNewYearAnalyse,
+      NearNationalHolidayAnalyse: d$NearNationalHolidayAnalyse,
+      RevenueUserCountTrendOnBranch: d$RevenueUserCountTrendOnBranch,
+      RevenueUserCountTrendOnBranchCardType: d$RevenueUserCountTrendOnBranchCardType,
+      RevenueUserCountTrendOnBranchCardTypeDinningPeriod: d$RevenueUserCountTrendOnBranchCardTypeDinningPeriod,
+      RevenueUserCountTrendOnBranchDinningPeriod: d$RevenueUserCountTrendOnBranchDinningPeriod,
+      RevenueUserCountTrendOnCardType: d$RevenueUserCountTrendOnCardType,
+      RevenueUserCountTrendOnCardTypeDinningPeriod: d$RevenueUserCountTrendOnCardTypeDinningPeriod,
+      RevenueUserCountTrendOnDinningPeriod: d$RevenueUserCountTrendOnDinningPeriod,
+      TopSKUDailyTrend: d$TopSKUDailyTrend,
+      TopSKUDailyTrendOnCardType: d$TopSKUDailyTrendOnCardType,
+      TopSKUMonthlyTrend: d$TopSKUMonthlyTrend,
+      TopSKUWeeklyTrend: d$TopSKUWeeklyTrend,
+    });
   },
   'GET /api/users': [{
     key: '1',

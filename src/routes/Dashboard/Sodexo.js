@@ -12,7 +12,6 @@ import {
   Dropdown,
 } from 'antd';
 import TrendChartByWeather from '../../components/Charts/TrendChart/byWeather';
-import TopSKUChart from '../../components/Charts/TopSKUChart';
 
 import styles from './Analysis.less';
 
@@ -25,7 +24,7 @@ import d$Top from '../../../mock/sodexo/Top';
 export default class SodexoDashboard extends React.PureComponent {
   componentDidMount() {
     this.props.dispatch({
-      type: 'sodexo/fetchDailyRevenueUserCountWeatherTrend',
+      type: 'sodexo/fetchData',
     });
   }
 
@@ -44,7 +43,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
@@ -58,7 +57,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
@@ -72,7 +71,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
@@ -86,7 +85,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
@@ -100,7 +99,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
@@ -114,7 +113,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
@@ -128,7 +127,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
@@ -142,7 +141,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
@@ -156,7 +155,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
@@ -170,7 +169,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
@@ -184,7 +183,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
@@ -198,7 +197,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
@@ -212,7 +211,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
@@ -226,7 +225,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
@@ -240,7 +239,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
@@ -254,7 +253,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
@@ -268,7 +267,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
@@ -282,7 +281,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
@@ -296,7 +295,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>
@@ -310,7 +309,7 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendChartByWeather
-              data={sodexo.trendByWeather}
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
           </div>
         </Card>

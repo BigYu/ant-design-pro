@@ -1,28 +1,51 @@
-import { getDailyRevenueUserCountWeatherTrend } from '../services/sodexo-api';
+import { getData } from '../services/sodexo-api';
 
 export default {
   namespace: 'sodexo',
 
   state: {
-    trendByWeather: undefined,
+    data: {
+      DailyRevenueUserCountWeatherTrend: [],
+      LastMonthRevenueOnBranch: [],
+      LastMonthRevenueOnCardType: [],
+      LastMonthRevenueOnBraLastMonthRevenueOnDinningPeriodnch: [],
+      LastMonthTopSKU: [],
+      LastYearRevenueOnBranch: [],
+      LastYearRevenueOnCardType: [],
+      LastYearRevenueOnDinningPeriod: [],
+      LastYearTopSKU: [],
+      NearChineseNewYearAnalyse: [],
+      NearNationalHolidayAnalyse: [],
+      RevenueUserCountTrendOnBranch: [],
+      RevenueUserCountTrendOnBranchCardType: [],
+      RevenueUserCountTrendOnBranchCardTypeDinningPeriod: [],
+      RevenueUserCountTrendOnBranchDinningPeriod: [],
+      RevenueUserCountTrendOnCardType: [],
+      RevenueUserCountTrendOnCardTypeDinningPeriod: [],
+      RevenueUserCountTrendOnDinningPeriod: [],
+      TopSKUDailyTrend: [],
+      TopSKUDailyTrendOnCardType: [],
+      TopSKUMonthlyTrend: [],
+      TopSKUWeeklyTrend: [],
+    },
   },
 
   effects: {
-    *fetchDailyRevenueUserCountWeatherTrend({ payload }, { call, put }) {
-      const response = yield call(getDailyRevenueUserCountWeatherTrend, payload);
+    *fetchData({ payload }, { call, put }) {
+      const response = yield call(getData, payload);
 
       yield put({
-        type: 'updateDailyRevenueUserCountWeatherTrend',
-        payload: Array.isArray(response) ? response : [],
+        type: 'onDataReady',
+        payload: response,
       });
     },
   },
 
   reducers: {
-    updateDailyRevenueUserCountWeatherTrend(state, action) {
+    onDataReady(state, action) {
       return {
         ...state,
-        trendByWeather: action.payload,
+        data: action.payload,
       };
     },
   },
