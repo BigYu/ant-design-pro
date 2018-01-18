@@ -1,5 +1,33 @@
 [
   {
+    "Date": "1/16/2017 12:00:00 AM",
+    "Revenue": "76079.89",
+    "UserCount": "2553",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "1/17/2017 12:00:00 AM",
+    "Revenue": "70031.89",
+    "UserCount": "2522",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "1/18/2017 12:00:00 AM",
+    "Revenue": "65918.72",
+    "UserCount": "2426",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "1/19/2017 12:00:00 AM",
+    "Revenue": "64587.06",
+    "UserCount": "2371",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
     "Date": "1/20/2017 12:00:00 AM",
     "Revenue": "60276.32",
     "UserCount": "2117",
@@ -45,6 +73,55 @@
     "Date": "1/26/2017 12:00:00 AM",
     "Revenue": "12156.08",
     "UserCount": "505",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "1/27/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "1/28/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "1/29/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "1/30/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "1/31/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "2/1/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "2/2/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
     "AvgRevenue": "68177.05",
     "AvgUserCount": "2421.57"
   },
@@ -101,6 +178,55 @@
     "Date": "2/10/2017 12:00:00 AM",
     "Revenue": "61177.62",
     "UserCount": "2292",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "2/11/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "2/12/2017 12:00:00 AM",
+    "Revenue": "0",
+    "UserCount": "0",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "2/13/2017 12:00:00 AM",
+    "Revenue": "67660.2",
+    "UserCount": "2527",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "2/14/2017 12:00:00 AM",
+    "Revenue": "63941.63",
+    "UserCount": "2439",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "2/15/2017 12:00:00 AM",
+    "Revenue": "67814.58",
+    "UserCount": "2559",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "2/16/2017 12:00:00 AM",
+    "Revenue": "64468.72",
+    "UserCount": "2385",
+    "AvgRevenue": "68177.05",
+    "AvgUserCount": "2421.57"
+  },
+  {
+    "Date": "2/17/2017 12:00:00 AM",
+    "Revenue": "59066.65",
+    "UserCount": "2249",
     "AvgRevenue": "68177.05",
     "AvgUserCount": "2421.57"
   }
