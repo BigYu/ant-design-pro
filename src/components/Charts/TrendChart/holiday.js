@@ -81,9 +81,9 @@ export default class TrendChartByWeather extends React.Component {
           padding={[60, 140]}
           forceFit>
           <Axis name="Date" />
-          <Axis name="revenue" />
+          <Axis name="revenue" title={{}} />
           <Tooltip />
-          <Legend />
+          <Legend position="right" />
           <Geom type="line" position="Date*revenue" size={2} color="key" />
         </Chart>
         <Chart
@@ -96,9 +96,9 @@ export default class TrendChartByWeather extends React.Component {
           padding={[60, 140]}
           forceFit>
           <Axis name="Date" />
-          <Axis name="userCount" />
+          <Axis name="userCount" title={{}} />
           <Tooltip />
-          <Legend />
+          <Legend position="right" />
           <Geom type="line" position="Date*userCount" size={2} color="key" />
         </Chart>
         <div>
