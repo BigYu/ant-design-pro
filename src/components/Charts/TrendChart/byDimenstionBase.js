@@ -22,6 +22,7 @@ export default class TrendChartByWeather extends React.Component {
       data = [],
       reducer,
       fields,
+      valueField,
     } = this.props;
 
     if (data.length === 0) return null;
@@ -80,12 +81,13 @@ export default class TrendChartByWeather extends React.Component {
           padding={[60, 140]}
           scale={{
             Date: { type: 'time' },
+            value: { alias: valueField },
           }}
           forceFit>
           <Axis name="Date" />
-          <Axis name="value" />
+          <Axis name="value" title={{}} />
           <Tooltip />
-          <Legend />
+          <Legend position="right" />
           <Geom type="areaStack" position="Date*value" size={2} color="key" />
         </Chart>
         <div>
