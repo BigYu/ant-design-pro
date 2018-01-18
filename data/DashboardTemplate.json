@@ -27,7 +27,7 @@
         {
           "Id": 1234,
           "Name": "Daily Revenue, UserCount and Weather trend",
-          "Description": "Shows Revenue, UserCount and Weather condition trend in daily basis",
+          "Description": "日营业额，客户数量和天气情况的趋势图",
           "Type": "Trend",
           "Granulity": "Daily",
           "Start": "2017/12/01",
@@ -39,7 +39,7 @@
         {
           "Id": 1235,
           "Name": "Daily Revenue, UserCount trend on DinningPeriod",
-          "Description": "Shows Revenue and UserCount trend in daily basis over different DinningPeriod",
+          "Description": "日营业额，客户数量在不同时段的趋势图",
           "Type": "Trend",
           "Granulity": "Daily",
           "Start": "2017/12/01",
@@ -51,7 +51,7 @@
 		{
           "Id": 1236,
           "Name": "Daily Revenue, UserCount trend on CardType",
-          "Description": "Shows Revenue and UserCount trend in daily basis over different CardType",
+          "Description": "员工卡和访客卡的日营业额，客户数量趋势图",
           "Type": "Trend",
           "Granulity": "Daily",
           "Start": "2017/12/01",
@@ -63,7 +63,7 @@
 		{
           "Id": 1237,
           "Name": "Daily Revenue, UserCount trend on Branch",
-          "Description": "Shows Revenue and UserCount trend in daily basis over different Branch",
+          "Description": "日营业额，客户数量在不同餐厅的趋势图",
           "Type": "Trend",
           "Granulity": "Daily",
           "Start": "2017/12/01",
@@ -75,7 +75,7 @@
         {
           "Id": 1238,
           "Name": "Daily Revenue, UserCount trend on DinningPeriod and CardType",
-          "Description": "Shows Revenue and UserCount trend in daily basis over different DinningPeriod and CardType",
+          "Description": "员工卡和访客卡分别在不同时段的日营业额，客户数量趋势图",
           "Type": "Trend",
           "Granulity": "Daily",
           "Start": "2017/12/01",
@@ -87,7 +87,7 @@
 		{
           "Id": 1239,
           "Name": "Daily Revenue, UserCount trend on DinningPeriod and Branch",
-          "Description": "Shows Revenue and UserCount trend in daily basis over different DinningPeriod and Branch",
+          "Description": "日营业额，客户数量在不同餐厅不同时段的趋势图",
           "Type": "Trend",
           "Granulity": "Daily",
           "Start": "2017/12/01",
@@ -99,7 +99,7 @@
 		{
           "Id": 1240,
           "Name": "Daily Revenue, UserCount trend on Branch and CardType",
-          "Description": "Shows Revenue and UserCount trend in daily basis over different Branch and CardType",
+          "Description": "员工卡和访客卡分别在不同餐厅的日营业额，客户数量趋势图",
           "Type": "Trend",
           "Granulity": "Daily",
           "Start": "2017/12/01",
@@ -111,7 +111,7 @@
         {
           "Id": 1241,
           "Name": "Daily Revenue, UserCount trend on DinningPeriod, CardType and Branch",
-          "Description": "Shows Revenue and UserCount trend in daily basis over different Branch, CardType and DinningPeriod",
+          "Description": "员工卡和访客卡分别在不同餐厅不同时段的日营业额，客户数量趋势图",
           "Type": "Trend",
           "Granulity": "Daily",
           "Start": "2017/12/01",
@@ -123,7 +123,7 @@
         {
           "Id": 1242,
           "Name": "Last month Revenue split on Branch",
-          "Description": "Shows Revenue split on different Branch for last month",
+          "Description": "上个月不同餐厅营业额的对比图",
           "Type": "Split",
           "Granulity": "Monthly",
           "Start": "2017/12/01",
@@ -135,7 +135,7 @@
 		{
           "Id": 1243,
           "Name": "Last month Revenue split on CardType",
-          "Description": "Shows Revenue split on different CardType for last month",
+          "Description": "上个月员工卡和访客卡营业额的对比图",
           "Type": "Split",
           "Granulity": "Monthly",
           "Start": "2017/12/01",
@@ -147,7 +147,7 @@
 		{
           "Id": 1244,
           "Name": "Last month Revenue split on DinningPeriod",
-          "Description": "Shows Revenue split on different DinningPeriod for last month",
+          "Description": "上个月不同时段营业额的对比图",
           "Type": "Split",
           "Granulity": "Monthly",
           "Start": "2017/12/01",
@@ -159,7 +159,7 @@
 		{
           "Id": 1245,
           "Name": "Last year Revenue split on Branch",
-          "Description": "Shows Revenue split on different Branch for last year",
+          "Description": "2017年不同餐厅营业额的对比图",
           "Type": "Split",
           "Granulity": "Yearly",
           "Start": "2017/01/01",
@@ -171,7 +171,7 @@
 		{
           "Id": 1246,
           "Name": "Last year Revenue split on CardType",
-          "Description": "Shows Revenue split on different CardType for last year",
+          "Description": "2017年员工卡和访客卡营业额的对比图",
           "Type": "Split",
           "Granulity": "Yearly",
           "Start": "2017/01/01",
@@ -183,7 +183,7 @@
 		{
           "Id": 1247,
           "Name": "Last year Revenue split on DinningPeriod",
-          "Description": "Shows Revenue split on different DinningPeriod for last year",
+          "Description": "2017年不同时段营业额的对比图",
           "Type": "Split",
           "Granulity": "Yearly",
           "Start": "2017/01/01",
@@ -195,7 +195,7 @@
         {
           "Id": 1248,
           "Name": "Last month Top SKU",
-          "Description": "Shows top SKU for last month",
+          "Description": "上个月最受欢迎菜品营业额对比图",
           "Type": "Top",
           "Granulity": "Monthly",
           "Start": "2017/12/01",
@@ -207,7 +207,7 @@
 		{
           "Id": 1249,
           "Name": "Last year Top SKU",
-          "Description": "Shows top SKU for last year",
+          "Description": "2017年最受欢迎菜品营业额对比图",
           "Type": "Top",
           "Granulity": "Yearly",
           "Start": "2017/01/01",
@@ -219,7 +219,7 @@
 		{
           "Id": 1250,
           "Name": "Top SKU Daily trend",
-          "Description": "Top SKU sell trend in daily basis",
+          "Description": "受欢迎菜品的日营业额趋势图",
           "Type": "Trend",
           "Granulity": "Daily",
           "Start": "2017/12/01",
@@ -231,7 +231,7 @@
 		{
           "Id": 1251,
           "Name": "Top SKU Weekly trend",
-          "Description": "Top SKU sell trend in weekly basis",
+          "Description": "受欢迎菜品的周营业额趋势图",
           "Type": "Trend",
           "Granulity": "Weekly",
           "Start": "2017/12/01",
@@ -243,7 +243,7 @@
 		{
           "Id": 1252,
           "Name": "Top SKU Monthly trend",
-          "Description": "Top SKU sell trend in monthly basis",
+          "Description": "受欢迎菜品的月营业额趋势图",
           "Type": "Trend",
           "Granulity": "Monthly",
           "Start": "2017/12/01",
@@ -255,7 +255,7 @@
 		{
           "Id": 1253,
           "Name": "Top SKU Daily trend on CardType",
-          "Description": "Top SKU sell trend in daily basis on different CardType",
+          "Description": "员工卡和访客卡的受欢迎菜品日营业额趋势图",
           "Type": "Trend",
           "Granulity": "Daily",
           "Start": "2017/12/01",
@@ -267,7 +267,7 @@
         {
           "Id": 1254,
           "Name": "Near National Holiday analyse",
-          "Description": "Revenue and UserCount analyse 1 week before/after National Holiday",
+          "Description": "国庆节前后一周日营业额和客户数量趋势图",
           "Type": "Holiday",
           "Granulity": "Daily",
           "Start": "2017/09/24",
@@ -279,7 +279,7 @@
         {
           "Id": 1255,
           "Name": "Near Chinese New Year analyse",
-          "Description": "Revenue and UserCount analyse 1 week before/after National Holiday",
+          "Description": "春节前后一周日营业额和客户数量趋势图",
           "Type": "Holiday",
           "Granulity": "Daily",
           "Start": "2017/01/20",

@@ -9356,6 +9356,77 @@
     ]
   },
   {
+    "Date": "5/13/2017 12:00:00 AM",
+    "Revenue": [
+      {
+        "Revenue": "0",
+        "Dimension": "{\"Branch\":\"中餐厅\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"午餐\"}"
+      },
+      {
+        "Revenue": "15.8",
+        "Dimension": "{\"Branch\":\"员工餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"晚餐\"}"
+      },
+      {
+        "Revenue": "17.04",
+        "Dimension": "{\"Branch\":\"员工餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"午餐\"}"
+      },
+      {
+        "Revenue": "0",
+        "Dimension": "{\"Branch\":\"员工餐厅\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"晚餐\"}"
+      },
+      {
+        "Revenue": "0",
+        "Dimension": "{\"Branch\":\"员工餐厅\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"午餐\"}"
+      },
+      {
+        "Revenue": "0",
+        "Dimension": "{\"Branch\":\"中餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"晚餐\"}"
+      },
+      {
+        "Revenue": "0.34",
+        "Dimension": "{\"Branch\":\"中餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"午餐\"}"
+      },
+      {
+        "Revenue": "0",
+        "Dimension": "{\"Branch\":\"中餐厅\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"晚餐\"}"
+      }
+    ],
+    "UserCount": [
+      {
+        "UserCount": "0",
+        "Dimension": "{\"Branch\":\"中餐厅\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"午餐\"}"
+      },
+      {
+        "UserCount": "3",
+        "Dimension": "{\"Branch\":\"员工餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"晚餐\"}"
+      },
+      {
+        "UserCount": "7",
+        "Dimension": "{\"Branch\":\"员工餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"午餐\"}"
+      },
+      {
+        "UserCount": "0",
+        "Dimension": "{\"Branch\":\"员工餐厅\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"晚餐\"}"
+      },
+      {
+        "UserCount": "0",
+        "Dimension": "{\"Branch\":\"员工餐厅\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"午餐\"}"
+      },
+      {
+        "UserCount": "0",
+        "Dimension": "{\"Branch\":\"中餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"晚餐\"}"
+      },
+      {
+        "UserCount": "1",
+        "Dimension": "{\"Branch\":\"中餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"午餐\"}"
+      },
+      {
+        "UserCount": "0",
+        "Dimension": "{\"Branch\":\"中餐厅\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"晚餐\"}"
+      }
+    ]
+  },
+  {
     "Date": "5/14/2017 12:00:00 AM",
     "Revenue": [
       {
@@ -25753,37 +25824,6 @@
       {
         "UserCount": "0",
         "Dimension": "{\"Branch\":\"中餐厅\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"晚餐\"}"
-      }
-    ]
-  },
-  {
-    "Date": "5/13/2017 12:00:00 AM",
-    "Revenue": [
-      {
-        "Revenue": "15.8",
-        "Dimension": "{\"Branch\":\"员工餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"晚餐\"}"
-      },
-      {
-        "Revenue": "17.04",
-        "Dimension": "{\"Branch\":\"员工餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"午餐\"}"
-      },
-      {
-        "Revenue": "0.34",
-        "Dimension": "{\"Branch\":\"中餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"午餐\"}"
-      }
-    ],
-    "UserCount": [
-      {
-        "UserCount": "3",
-        "Dimension": "{\"Branch\":\"员工餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"晚餐\"}"
-      },
-      {
-        "UserCount": "7",
-        "Dimension": "{\"Branch\":\"员工餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"午餐\"}"
-      },
-      {
-        "UserCount": "1",
-        "Dimension": "{\"Branch\":\"中餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"午餐\"}"
       }
     ]
   }

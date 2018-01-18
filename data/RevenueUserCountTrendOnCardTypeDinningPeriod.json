@@ -7260,6 +7260,61 @@
     ]
   },
   {
+    "Date": "5/13/2017 12:00:00 AM",
+    "Revenue": [
+      {
+        "Revenue": "0",
+        "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"午餐\"}"
+      },
+      {
+        "Revenue": "22.6",
+        "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"晚餐\"}"
+      },
+      {
+        "Revenue": "0",
+        "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"早餐\"}"
+      },
+      {
+        "Revenue": "22.78",
+        "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"午餐\"}"
+      },
+      {
+        "Revenue": "0",
+        "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"晚餐\"}"
+      },
+      {
+        "Revenue": "0",
+        "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"早餐\"}"
+      }
+    ],
+    "UserCount": [
+      {
+        "UserCount": "0",
+        "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"午餐\"}"
+      },
+      {
+        "UserCount": "1",
+        "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"晚餐\"}"
+      },
+      {
+        "UserCount": "0",
+        "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"早餐\"}"
+      },
+      {
+        "UserCount": "1",
+        "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"午餐\"}"
+      },
+      {
+        "UserCount": "0",
+        "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"晚餐\"}"
+      },
+      {
+        "UserCount": "0",
+        "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"早餐\"}"
+      }
+    ]
+  },
+  {
     "Date": "5/14/2017 12:00:00 AM",
     "Revenue": [
       {
@@ -19961,29 +20016,6 @@
       {
         "UserCount": "0",
         "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"早餐\"}"
-      }
-    ]
-  },
-  {
-    "Date": "5/13/2017 12:00:00 AM",
-    "Revenue": [
-      {
-        "Revenue": "22.6",
-        "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"晚餐\"}"
-      },
-      {
-        "Revenue": "22.78",
-        "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"午餐\"}"
-      }
-    ],
-    "UserCount": [
-      {
-        "UserCount": "1",
-        "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"晚餐\"}"
-      },
-      {
-        "UserCount": "1",
-        "Dimension": "{\"Branch\":\"AllUp\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"午餐\"}"
       }
     ]
   }

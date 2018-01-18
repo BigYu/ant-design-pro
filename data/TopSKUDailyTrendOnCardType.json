@@ -3828,6 +3828,35 @@
     ]
   },
   {
+    "Date": "5/13/2017 12:00:00 AM",
+    "Revenue": [
+      {
+        "Revenue": "0",
+        "Dimension": "{\"CardType\":\"员工卡\",\"SKU\":\"小荤3\"}"
+      },
+      {
+        "Revenue": "0",
+        "Dimension": "{\"CardType\":\"访客卡\",\"SKU\":\"银丝白饭\"}"
+      },
+      {
+        "Revenue": "1.8",
+        "Dimension": "{\"CardType\":\"访客卡\",\"SKU\":\"米饭\"}"
+      },
+      {
+        "Revenue": "0",
+        "Dimension": "{\"CardType\":\"访客卡\",\"SKU\":\"小荤3\"}"
+      },
+      {
+        "Revenue": "0",
+        "Dimension": "{\"CardType\":\"员工卡\",\"SKU\":\"银丝白饭\"}"
+      },
+      {
+        "Revenue": "0",
+        "Dimension": "{\"CardType\":\"员工卡\",\"SKU\":\"米饭\"}"
+      }
+    ]
+  },
+  {
     "Date": "5/14/2017 12:00:00 AM",
     "Revenue": [
       {
@@ -10523,15 +10552,6 @@
       {
         "Revenue": "0",
         "Dimension": "{\"CardType\":\"员工卡\",\"SKU\":\"米饭\"}"
-      }
-    ]
-  },
-  {
-    "Date": "5/13/2017 12:00:00 AM",
-    "Revenue": [
-      {
-        "Revenue": "1.8",
-        "Dimension": "{\"CardType\":\"访客卡\",\"SKU\":\"米饭\"}"
       }
     ]
   }
