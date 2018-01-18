@@ -70,12 +70,28 @@ export default class SodexoDashboard extends React.PureComponent {
         >
           <div style={{ padding: '0' }}>
             <TrendByDinningPeriod
-              data={sodexo.data.RevenueUserCountTrendOnDinningPeriod.slice()}
+              data={sodexo.data.RevenueUserCountTrendOnDinningPeriod.slice().map(({ Revenue, Date }) => {
+                return {
+                  Date,
+                  dinner: Number((Revenue.find(i => JSON.parse(i.Dimension).DinningPeriod === '晚餐')).Revenue),
+                  lunch: Number((Revenue.find(i => JSON.parse(i.Dimension).DinningPeriod === '午餐')).Revenue),
+                  breakfast: Number((Revenue.find(i => JSON.parse(i.Dimension).DinningPeriod === '早餐') || { Revenue: 0 }).Revenue),
+                };
+              })}
               valueField="Revenue"
+              fields={['dinner', 'lunch', 'breakfast']}
             />
             <TrendByDinningPeriod
-              data={sodexo.data.RevenueUserCountTrendOnDinningPeriod.slice()}
+              data={sodexo.data.RevenueUserCountTrendOnDinningPeriod.slice().map(({ UserCount, Date }) => {
+                return {
+                  Date,
+                  dinner: Number((UserCount.find(i => JSON.parse(i.Dimension).DinningPeriod === '晚餐')).UserCount),
+                  lunch: Number((UserCount.find(i => JSON.parse(i.Dimension).DinningPeriod === '午餐')).UserCount),
+                  breakfast: Number((UserCount.find(i => JSON.parse(i.Dimension).DinningPeriod === '早餐') || { UserCount: 0 }).UserCount),
+                };
+              })}
               valueField="UserCount"
+              fields={['dinner', 'lunch', 'breakfast']}
             />
           </div>
         </Card>

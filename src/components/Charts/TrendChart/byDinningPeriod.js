@@ -21,6 +21,7 @@ export default class TrendChartByWeather extends React.Component {
     const {
       data = [],
       valueField,
+      fields,
     } = this.props;
 
     if (data.length === 0) return null;
@@ -35,20 +36,9 @@ export default class TrendChartByWeather extends React.Component {
 
     originDv.source(data.slice())
       .transform({
-        type: 'map',
-        callback(record) {
-          return {
-            Date: record.Date,
-            dinner: Number((record[valueField].find(i => JSON.parse(i.Dimension).DinningPeriod === '晚餐'))[valueField]),
-            lunch: Number((record[valueField].find(i => JSON.parse(i.Dimension).DinningPeriod === '午餐'))[valueField]),
-            breakfast: Number((record[valueField].find(i => JSON.parse(i.Dimension).DinningPeriod === '早餐') || { [valueField]: 0 })[valueField]),
-          };
-        },
-      })
-      .transform({
         type: 'fold',
         fields: ['dinner', 'lunch', 'breakfast'],
-        key: 'period',
+        key: 'key',
         value: 'value',
       });
 
@@ -56,20 +46,9 @@ export default class TrendChartByWeather extends React.Component {
 
     chartDv.source(data)
       .transform({
-        type: 'map',
-        callback(record) {
-          return {
-            Date: record.Date,
-            dinner: Number((record[valueField].find(i => JSON.parse(i.Dimension).DinningPeriod === '晚餐'))[valueField]),
-            lunch: Number((record[valueField].find(i => JSON.parse(i.Dimension).DinningPeriod === '午餐'))[valueField]),
-            breakfast: Number((record[valueField].find(i => JSON.parse(i.Dimension).DinningPeriod === '早餐') || { [valueField]: 0 })[valueField]),
-          };
-        },
-      })
-      .transform({
         type: 'fold',
-        fields: ['dinner', 'lunch', 'breakfast'],
-        key: 'period',
+        fields,
+        key: 'key',
         value: 'value',
       })
       .transform({
@@ -96,7 +75,7 @@ export default class TrendChartByWeather extends React.Component {
           <Axis name="value" />
           <Tooltip />
           <Legend />
-          <Geom type="line" position="Date*value" size={2} color="period" />
+          <Geom type="line" position="Date*value" size={2} color="key" />
         </Chart>
         <div>
           <Slider
