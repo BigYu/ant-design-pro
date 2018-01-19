@@ -66,6 +66,9 @@ export default class SodexoDashboard extends React.PureComponent {
               bodyStyle={{ padding: '0', marginTop: 16 }}
               style={{ marginBottom: 24 }}
             >
+              <Row type='flex' justify='center'>
+                <h3 style={{ marginLeft: 24 }}>日营业额趋势图</h3>
+              </Row>
               <TrendByDimension
                 data={sodexo.data.RevenueUserCountTrendOnBranchCardTypeDinningPeriod.slice()}
                 valueField="Revenue"
@@ -81,6 +84,9 @@ export default class SodexoDashboard extends React.PureComponent {
               bodyStyle={{ padding: '0', marginTop: 16 }}
               style={{ marginBottom: 24 }}
             >
+              <Row type='flex' justify='center'>
+                <h3 style={{ marginLeft: 24 }}>客户数量趋势图</h3>
+              </Row>
               <TrendByDimension
                 data={sodexo.data.RevenueUserCountTrendOnBranchCardTypeDinningPeriod.slice()}
                 valueField="UserCount"
@@ -99,18 +105,27 @@ export default class SodexoDashboard extends React.PureComponent {
           <div style={{ padding: '0' }}>
             <Row gutter={24}>
               <Col {...topColResponsiveProps}>
+                <Row type='flex' justify='center'>
+                  <h3 style={{ marginLeft: 24 }}>上个月不同时段营业额的对比图</h3>
+                </Row>
                 <OnDimensionChart
                   data={sodexo.data.LastMonthRevenueOnDinningPeriod}
                   dimension="DinningPeriod"
                 />
               </Col>
               <Col {...topColResponsiveProps}>
+                <Row type='flex' justify='center'>
+                  <h3 style={{ marginLeft: 24 }}>上个月不同时段营业额的对比图</h3>
+                </Row>
                 <OnDimensionChart
                   data={sodexo.data.LastMonthRevenueOnCardType}
                   dimension="CardType"
                 />
               </Col>
               <Col {...topColResponsiveProps}>
+                <Row type='flex' justify='center'>
+                  <h3 style={{ marginLeft: 24 }}>上个月不同时段营业额的对比图</h3>
+                </Row>
                 <OnDimensionChart
                   data={sodexo.data.LastMonthRevenueOnBranch}
                   dimension="Branch"
@@ -130,18 +145,27 @@ export default class SodexoDashboard extends React.PureComponent {
           <div style={{ padding: '0' }}>
             <Row gutter={24}>
               <Col {...topColResponsiveProps}>
+                <Row type='flex' justify='center'>
+                  <h3 style={{ marginLeft: 24 }}>2017年不同时段营业额的对比图</h3>
+                </Row>
                 <OnDimensionChart
                   data={sodexo.data.LastYearRevenueOnDinningPeriod}
                   dimension="DinningPeriod"
                 />
               </Col>
               <Col {...topColResponsiveProps}>
+                <Row type='flex' justify='center'>
+                  <h3 style={{ marginLeft: 24 }}>2017年员工卡和访客卡营业额的对比图</h3>
+                </Row>
                 <OnDimensionChart
                   data={sodexo.data.LastYearRevenueOnCardType}
                   dimension="CardType"
                 />
               </Col>
               <Col {...topColResponsiveProps}>
+                <Row type='flex' justify='center'>
+                  <h3 style={{ marginLeft: 24 }}>2017年不同餐厅营业额的对比图</h3>
+                </Row>
                 <OnDimensionChart
                   data={sodexo.data.LastYearRevenueOnBranch}
                   dimension="Branch"
@@ -161,11 +185,17 @@ export default class SodexoDashboard extends React.PureComponent {
           <div style={{ padding: '0' }}>
             <Row>
               <Col {...topColResponsiveProps} xl={12}>
+                <Row type='flex' justify='center'>
+                  <h3 style={{ marginLeft: 24 }}>上个月最受欢迎菜品营业额对比图</h3>
+                </Row>
                 <TopSKUChart
                   data={sodexo.data.LastMonthTopSKU}
                 />
               </Col>
               <Col {...topColResponsiveProps} xl={12}>
+                <Row type='flex' justify='center'>
+                  <h3 style={{ marginLeft: 24 }}>2017年最受欢迎菜品营业额对比图</h3>
+                </Row>
                 <TopSKUChart
                   data={sodexo.data.LastYearTopSKU}
                 />
@@ -176,28 +206,34 @@ export default class SodexoDashboard extends React.PureComponent {
         <Card
           loading={loading}
           className={styles.offlineCard}
-          title="Chinese new year"
+          title="Near National Holiday analyse"
           bordered={false}
           bodyStyle={{ padding: '0', marginTop: 16 }}
           style={{ marginBottom: 24 }}
         >
           <div style={{ padding: '0' }}>
+            <Row type='flex' justify='center'>
+              <h3 style={{ marginLeft: 24 }}>国庆节前后两周日营业额和客户数量趋势图</h3>
+            </Row>
             <TrendHoliday
-              data={sodexo.data.NearChineseNewYearAnalyse.slice()}
+              data={sodexo.data.NearNationalHolidayAnalyse.slice()}
             />
           </div>
         </Card>
         <Card
           loading={loading}
           className={styles.offlineCard}
-          title="National day"
+          title="Near Chinese New Year analyse"
           bordered={false}
           bodyStyle={{ padding: '0', marginTop: 16 }}
           style={{ marginBottom: 24 }}
         >
           <div style={{ padding: '0' }}>
+            <Row type='flex' justify='center'>
+              <h3 style={{ marginLeft: 24 }}>春节前后两周日营业额和客户数量趋势图</h3>
+            </Row>
             <TrendHoliday
-              data={sodexo.data.NearNationalHolidayAnalyse.slice()}
+              data={sodexo.data.NearChineseNewYearAnalyse.slice()}
             />
           </div>
         </Card>
@@ -210,6 +246,9 @@ export default class SodexoDashboard extends React.PureComponent {
           style={{ marginBottom: 24 }}
         >
           <div style={{ padding: '0' }}>
+            <Row type='flex' justify='center'>
+              <h3 style={{ marginLeft: 24 }}>日营业额，客户数量和天气情况的趋势图</h3>
+            </Row>
             <TrendChartByWeather
               data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
             />
