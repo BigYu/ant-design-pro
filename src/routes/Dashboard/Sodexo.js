@@ -58,7 +58,8 @@ export default class SodexoDashboard extends React.PureComponent {
       <div>
         <Row>
           <RevenueByBranch
-            data={sodexo.data.LastMonthRevenueOnBranch}
+            dataLastMonth={sodexo.data.LastMonthRevenueSplitOnBranchCardTypeDinningPeriod}
+            dataLastYear={sodexo.data.LastYearRevenueSplitOnBranchCardTypeDinningPeriod}
             cardProps={{
               loading,
               className: styles.offlineCard,

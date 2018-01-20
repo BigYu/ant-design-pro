@@ -27,6 +27,8 @@ export default {
       TopSKUDailyTrendOnCardType: [],
       TopSKUMonthlyTrend: [],
       TopSKUWeeklyTrend: [],
+      LastMonthRevenueSplitOnBranchCardTypeDinningPeriod: {},
+      LastYearRevenueSplitOnBranchCardTypeDinningPeriod: {},
     },
   },
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import _ from 'lodash';
 import DataSet from '@antv/data-set';
 import { Card, Radio } from 'antd';
 import { Chart, Axis, Geom, Tooltip, Coord, Legend, Label } from 'bizcharts';
@@ -33,19 +34,33 @@ export default class RevenueByBranch extends React.Component {
   }
 
   render() {
-    const { data, cardProps } = this.props;
-    const { Revenue } = data;
+    const { dataLastMonth, dataLastYear, cardProps } = this.props;
     const ds = new DataSet();
+    const data = this.state.scope === '过去一年' ? dataLastYear : dataLastMonth;
+    const { Revenue: RevenueData } = data;
+
     const dimension = 'Branch';
-    const dv = ds.createView().source(Revenue || []).transform({
-      type: 'map',
-      callback({ Revenue, Dimension }) {
-        return {
-          Revenue: Number(Revenue),
-          [dimension]: JSON.parse(Dimension)[dimension],
-        };
-      },
-    });
+
+    const dataSource = _.chain(RevenueData || [])
+      .map(({ Revenue, Dimension }) => {
+        return _.defaults({}, JSON.parse(Dimension), { Revenue });
+      })
+      .filter((row) => {
+        return (
+          (row.CardType === this.state.cardType || this.state.cardType === '全部') &&
+          (row.DinninePeriod === this.state.dinninePeriod || this.state.dinninePeriod === '全部')
+        );
+      })
+      .groupBy(row => row.Branch)
+      .map((row, key) => ({
+        Branch: key,
+        Revenue: _.reduce(row, (memo, cur) => memo + Number(cur.Revenue), 0),
+      }))
+      .value();
+
+    window.console.log(dataSource);
+
+    const dv = ds.createView().source(_.isArray(dataSource) ? dataSource : []);
 
     const extra = (
       <div>

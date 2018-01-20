@@ -27,6 +27,8 @@ import d$RevenueUserCountTrendOnBranchDinningPeriod from './data/RevenueUserCoun
 import d$RevenueUserCountTrendOnCardType from './data/RevenueUserCountTrendOnCardType';
 import d$RevenueUserCountTrendOnCardTypeDinningPeriod from './data/RevenueUserCountTrendOnCardTypeDinningPeriod';
 import d$RevenueUserCountTrendOnDinningPeriod from './data/RevenueUserCountTrendOnDinningPeriod';
+import d$LastMonthRevenueSplitOnBranchCardTypeDinningPeriod from './data/LastMonthRevenueSplitOnBranchCardTypeDinningPeriod';
+import d$LastYearRevenueSplitOnBranchCardTypeDinningPeriod from './data/LastYearRevenueSplitOnBranchCardTypeDinningPeriod';
 import d$TopSKUDailyTrend from './data/TopSKUDailyTrend';
 import d$TopSKUDailyTrendOnCardType from './data/TopSKUDailyTrendOnCardType';
 import d$TopSKUMonthlyTrend from './data/TopSKUMonthlyTrend';
@@ -80,6 +82,8 @@ const proxy = {
       TopSKUDailyTrendOnCardType: d$TopSKUDailyTrendOnCardType,
       TopSKUMonthlyTrend: d$TopSKUMonthlyTrend,
       TopSKUWeeklyTrend: d$TopSKUWeeklyTrend,
+      LastMonthRevenueSplitOnBranchCardTypeDinningPeriod: d$LastMonthRevenueSplitOnBranchCardTypeDinningPeriod,
+      LastYearRevenueSplitOnBranchCardTypeDinningPeriod: d$LastYearRevenueSplitOnBranchCardTypeDinningPeriod,
     });
   },
   'GET /api/users': [{
