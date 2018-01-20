@@ -35,8 +35,8 @@ export default class SodexoDashboard extends React.PureComponent {
   }
 
   render() {
-    const colors = ['#4472c4ff', '#ed7d31ff', '#a5a5a5ff', '#ffc000ff', '#5b9bd5ff', '#70ad47ff', '#264478ff', '#636363ff'];
-    const colors16 = [...colors, '255e91ff', '#9e480eff', '#997300ff', '#43682bff'];
+    const colors = ['#4472c4', '#ed7d31', '#a5a5a5', '#ffc000', '#5b9bd5', '#70ad47', '#264478', '#636363'];
+    const colors16 = [...colors, '255e91', '#9e480e', '#997300', '#43682b'];
 
     setTheme({
       colors,
