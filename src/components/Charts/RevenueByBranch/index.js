@@ -65,7 +65,7 @@ export default class RevenueByBranch extends React.Component {
       type: 'percent',
       field: 'Revenue',
       dimension: 'Branch',
-      as: 'percent'
+      as: 'percent',
     });
 
     const extra = (
@@ -122,7 +122,7 @@ export default class RevenueByBranch extends React.Component {
             <Label
               content={dimension}
               formatter={(val, item) => {
-                return `${val}: ${('0' + item.point.Revenue).slice(-2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')} (${Math.round(item.point.percent * 100)}%)`;
+                return `${val}: ${(Math.round(item.point.Revenue * 100) / 100).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')} (${Math.round(item.point.percent * 100)}%)`;
               }}
             />
           </Geom>
