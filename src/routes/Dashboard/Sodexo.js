@@ -11,6 +11,7 @@ import {
   Menu,
   Dropdown,
 } from 'antd';
+import { setTheme } from 'bizcharts';
 import TrendChartByWeather from '../../components/Charts/TrendChart/byWeather';
 import TopSKUChart from '../../components/Charts/TopSKUChart';
 import OnDimensionChart from '../../components/Charts/RevenueOnDimension';
@@ -34,6 +35,15 @@ export default class SodexoDashboard extends React.PureComponent {
   }
 
   render() {
+    const colors = ['#4472c4ff', '#ed7d31ff', '#a5a5a5ff', '#ffc000ff', '#5b9bd5ff', '#70ad47ff', '#264478ff', '#636363ff'];
+    const colors16 = [...colors, '255e91ff', '#9e480eff', '#997300ff', '#43682bff'];
+
+    setTheme({
+      colors,
+      colors_pie: colors,
+      colors_pie_16: colors16,
+    });
+
     const { sodexo, loading } = this.props;
 
     const topColResponsiveProps = {
