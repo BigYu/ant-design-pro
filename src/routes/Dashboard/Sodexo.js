@@ -56,37 +56,31 @@ export default class SodexoDashboard extends React.PureComponent {
 
     return (
       <div>
-        <Row>
-          <Col {...largeChartColResponsiveProps}>
+        <Row gutter={12}>
+          <Col xs={12}>
             <Card
               loading={loading}
               className={styles.offlineCard}
-              title="Revenue Daily"
+              title="日营业额趋势图"
               bordered={false}
               bodyStyle={{ padding: '0', marginTop: 16 }}
               style={{ marginBottom: 24 }}
             >
-              <Row type='flex' justify='center'>
-                <h3 style={{ marginLeft: 24 }}>日营业额趋势图</h3>
-              </Row>
               <TrendByDimension
                 data={sodexo.data.RevenueUserCountTrendOnBranchCardTypeDinningPeriod.slice()}
                 valueField="Revenue"
               />
             </Card>
           </Col>
-          <Col {...largeChartColResponsiveProps}>
+          <Col xs={12}>
             <Card
               loading={loading}
               className={styles.offlineCard}
-              title="UserCount Daily"
+              title="客户数量趋势图"
               bordered={false}
               bodyStyle={{ padding: '0', marginTop: 16 }}
               style={{ marginBottom: 24 }}
             >
-              <Row type='flex' justify='center'>
-                <h3 style={{ marginLeft: 24 }}>客户数量趋势图</h3>
-              </Row>
               <TrendByDimension
                 data={sodexo.data.RevenueUserCountTrendOnBranchCardTypeDinningPeriod.slice()}
                 valueField="UserCount"
@@ -94,86 +88,100 @@ export default class SodexoDashboard extends React.PureComponent {
             </Card>
           </Col>
         </Row>
-        <Card
-          loading={loading}
-          className={styles.offlineCard}
-          title="Last Month Revenue, UserCount: Daily, by DinningPeriod, by CardType, by Branch"
-          bordered={false}
-          bodyStyle={{ padding: '0', marginTop: 16 }}
-          style={{ marginBottom: 24 }}
-        >
-          <div style={{ padding: '0' }}>
-            <Row gutter={24}>
-              <Col {...topColResponsiveProps}>
-                <Row type='flex' justify='center'>
-                  <h3 style={{ marginLeft: 24 }}>上个月不同时段营业额的对比图</h3>
-                </Row>
-                <OnDimensionChart
-                  data={sodexo.data.LastMonthRevenueOnDinningPeriod}
-                  dimension="DinningPeriod"
-                />
-              </Col>
-              <Col {...topColResponsiveProps}>
-                <Row type='flex' justify='center'>
-                  <h3 style={{ marginLeft: 24 }}>上个月不同时段营业额的对比图</h3>
-                </Row>
-                <OnDimensionChart
-                  data={sodexo.data.LastMonthRevenueOnCardType}
-                  dimension="CardType"
-                />
-              </Col>
-              <Col {...topColResponsiveProps}>
-                <Row type='flex' justify='center'>
-                  <h3 style={{ marginLeft: 24 }}>上个月不同时段营业额的对比图</h3>
-                </Row>
-                <OnDimensionChart
-                  data={sodexo.data.LastMonthRevenueOnBranch}
-                  dimension="Branch"
-                />
-              </Col>
-            </Row>
-          </div>
-        </Card>
-        <Card
-          loading={loading}
-          className={styles.offlineCard}
-          title="Last Year Revenue, UserCount: Daily, by DinningPeriod, by CardType, by Branch"
-          bordered={false}
-          bodyStyle={{ padding: '0', marginTop: 16 }}
-          style={{ marginBottom: 24 }}
-        >
-          <div style={{ padding: '0' }}>
-            <Row gutter={24}>
-              <Col {...topColResponsiveProps}>
-                <Row type='flex' justify='center'>
-                  <h3 style={{ marginLeft: 24 }}>2017年不同时段营业额的对比图</h3>
-                </Row>
-                <OnDimensionChart
-                  data={sodexo.data.LastYearRevenueOnDinningPeriod}
-                  dimension="DinningPeriod"
-                />
-              </Col>
-              <Col {...topColResponsiveProps}>
-                <Row type='flex' justify='center'>
-                  <h3 style={{ marginLeft: 24 }}>2017年员工卡和访客卡营业额的对比图</h3>
-                </Row>
-                <OnDimensionChart
-                  data={sodexo.data.LastYearRevenueOnCardType}
-                  dimension="CardType"
-                />
-              </Col>
-              <Col {...topColResponsiveProps}>
-                <Row type='flex' justify='center'>
-                  <h3 style={{ marginLeft: 24 }}>2017年不同餐厅营业额的对比图</h3>
-                </Row>
-                <OnDimensionChart
-                  data={sodexo.data.LastYearRevenueOnBranch}
-                  dimension="Branch"
-                />
-              </Col>
-            </Row>
-          </div>
-        </Card>
+        <Row gutter={12}>
+          <Col {...topColResponsiveProps} xl={8}>
+            <Card
+              loading={loading}
+              className={styles.offlineCard}
+              title="上个月不同时段营业额的对比图"
+              bordered={false}
+              bodyStyle={{ padding: '0', marginTop: 16 }}
+              style={{ marginBottom: 24 }}
+            >
+              <OnDimensionChart
+                data={sodexo.data.LastMonthRevenueOnDinningPeriod}
+                dimension="DinningPeriod"
+              />
+            </Card>
+          </Col>
+          <Col {...topColResponsiveProps} xl={8}>
+            <Card
+              loading={loading}
+              className={styles.offlineCard}
+              title="上个月员工卡和访客卡营业额的对比图"
+              bordered={false}
+              bodyStyle={{ padding: '0', marginTop: 16 }}
+              style={{ marginBottom: 24 }}
+            >
+              <OnDimensionChart
+                data={sodexo.data.LastMonthRevenueOnCardType}
+                dimension="CardType"
+              />
+            </Card>
+          </Col>
+          <Col {...topColResponsiveProps} xl={8}>
+            <Card
+              loading={loading}
+              className={styles.offlineCard}
+              title="上个月不同餐厅营业额的对比图"
+              bordered={false}
+              bodyStyle={{ padding: '0', marginTop: 16 }}
+              style={{ marginBottom: 24 }}
+            >
+              <OnDimensionChart
+                data={sodexo.data.LastMonthRevenueOnBranch}
+                dimension="Branch"
+              />
+            </Card>
+          </Col>
+        </Row>
+        <Row gutter={12}>
+          <Col {...topColResponsiveProps} xl={8}>
+            <Card
+              loading={loading}
+              className={styles.offlineCard}
+              title="2017年不同时段营业额的对比图"
+              bordered={false}
+              bodyStyle={{ padding: '0', marginTop: 16 }}
+              style={{ marginBottom: 24 }}
+            >
+              <OnDimensionChart
+                data={sodexo.data.LastYearRevenueOnDinningPeriod}
+                dimension="DinningPeriod"
+              />
+            </Card>
+          </Col>
+          <Col {...topColResponsiveProps} xl={8}>
+            <Card
+              loading={loading}
+              className={styles.offlineCard}
+              title="2017年员工卡和访客卡营业额的对比图"
+              bordered={false}
+              bodyStyle={{ padding: '0', marginTop: 16 }}
+              style={{ marginBottom: 24 }}
+            >
+              <OnDimensionChart
+                data={sodexo.data.LastYearRevenueOnCardType}
+                dimension="CardType"
+              />
+            </Card>
+          </Col>
+          <Col {...topColResponsiveProps} xl={8}>
+            <Card
+              loading={loading}
+              className={styles.offlineCard}
+              title="2017年不同餐厅营业额的对比图"
+              bordered={false}
+              bodyStyle={{ padding: '0', marginTop: 16 }}
+              style={{ marginBottom: 24 }}
+            >
+              <OnDimensionChart
+                data={sodexo.data.LastYearRevenueOnBranch}
+                dimension="Branch"
+              />
+            </Card>
+          </Col>
+        </Row>
         <Card
           loading={loading}
           className={styles.offlineCard}
