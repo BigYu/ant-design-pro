@@ -21,7 +21,7 @@ export default class OnDimensionChart extends React.Component {
 
     return (
       <Chart height={400} data={dv}>
-        <Coord type='theta' radius={0.75} />
+        <Coord type="theta" radius={0.75} />
         <Axis name={dimension} />
         <Legend />
         <Tooltip

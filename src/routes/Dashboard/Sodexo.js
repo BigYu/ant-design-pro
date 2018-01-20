@@ -16,11 +16,9 @@ import TrendChartByWeather from '../../components/Charts/TrendChart/byWeather';
 import TopSKUChart from '../../components/Charts/TopSKUChart';
 import OnDimensionChart from '../../components/Charts/RevenueOnDimension';
 import TrendByDimension from '../../components/Charts/TrendChart/byDimension';
-import TrendByOneDimension from '../../components/Charts/TrendChart/byOneDimension';
-import TrendByTwoDimension from '../../components/Charts/TrendChart/byTwoDimension';
-import TrendByThreeDimension from '../../components/Charts/TrendChart/byThreeDimension';
 import TrendHoliday from '../../components/Charts/TrendChart/holiday';
 import TopSKUTrend from '../../components/Charts/TrendChart/TopSKU';
+import RevenueByBranch from '../../components/Charts/RevenueByBranch';
 
 import styles from './Analysis.less';
 
@@ -56,17 +54,21 @@ export default class SodexoDashboard extends React.PureComponent {
       style: { marginBottom: 24 },
     };
 
-    const largeChartColResponsiveProps = {
-      xs: 24,
-      sm: 24,
-      md: 24,
-      lg: 12,
-      xl: 12,
-      style: { marginBottom: 24 },
-    };
-
     return (
       <div>
+        <Row>
+          <RevenueByBranch
+            data={sodexo.data.LastMonthRevenueOnBranch}
+            cardProps={{
+              loading,
+              className: styles.offlineCard,
+              title: '各餐厅营业额',
+              bordered: false,
+              bodyStyle: { padding: '0', marginTop: 16 },
+              style: { marginBottom: 24 },
+            }}
+          />
+        </Row>
         <Row gutter={12}>
           <Col xs={12}>
             <Card

@@ -1,0 +1,173 @@
+{
+  "Date": "12/1/2017 12:00:00 AM",
+  "Revenue": [
+    {
+      "Revenue": "34267.40",
+      "Dimension": "{\"Branch\":\"员餐\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"早餐\"}"
+    },
+    {
+      "Revenue": "",
+      "Dimension": "{\"Branch\":\"北京小院\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"早餐\"}"
+    },
+    {
+      "Revenue": "",
+      "Dimension": "{\"Branch\":\"粤菜餐厅\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"早餐\"}"
+    },
+    {
+      "Revenue": "",
+      "Dimension": "{\"Branch\":\"咖喱屋\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"早餐\"}"
+    },
+    {
+      "Revenue": "",
+      "Dimension": "{\"Branch\":\"自助餐\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"早餐\"}"
+    },
+    {
+      "Revenue": "",
+      "Dimension": "{\"Branch\":\"意大利餐厅\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"早餐\"}"
+    },
+    {
+      "Revenue": "4642.70",
+      "Dimension": "{\"Branch\":\"咖啡厅\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"早餐\"}"
+    },
+    {
+      "Revenue": "293941.58",
+      "Dimension": "{\"Branch\":\"员餐\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"午餐\"}"
+    },
+    {
+      "Revenue": "60292.55",
+      "Dimension": "{\"Branch\":\"北京小院\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"午餐\"}"
+    },
+    {
+      "Revenue": "66423.34",
+      "Dimension": "{\"Branch\":\"粤菜餐厅\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"午餐\"}"
+    },
+    {
+      "Revenue": "42083.00",
+      "Dimension": "{\"Branch\":\"咖喱屋\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"午餐\"}"
+    },
+    {
+      "Revenue": "52313.00",
+      "Dimension": "{\"Branch\":\"自助餐\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"午餐\"}"
+    },
+    {
+      "Revenue": "33784.83",
+      "Dimension": "{\"Branch\":\"意大利餐厅\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"午餐\"}"
+    },
+    {
+      "Revenue": "92840.60",
+      "Dimension": "{\"Branch\":\"咖啡厅\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"午餐\"}"
+    },
+	{
+      "Revenue": "107996.20",
+      "Dimension": "{\"Branch\":\"员餐\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"晚餐\"}"
+    },
+    {
+      "Revenue": "58462.13",
+      "Dimension": "{\"Branch\":\"北京小院\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"晚餐\"}"
+    },
+    {
+      "Revenue": "43742.02",
+      "Dimension": "{\"Branch\":\"粤菜餐厅\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"晚餐\"}"
+    },
+    {
+      "Revenue": "1461.50",
+      "Dimension": "{\"Branch\":\"咖喱屋\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"晚餐\"}"
+    },
+    {
+      "Revenue": "",
+      "Dimension": "{\"Branch\":\"自助餐\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"晚餐\"}"
+    },
+    {
+      "Revenue": "",
+      "Dimension": "{\"Branch\":\"意大利餐厅\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"晚餐\"}"
+    },
+    {
+      "Revenue": "22859.70",
+      "Dimension": "{\"Branch\":\"咖啡厅\",\"CardType\":\"员工卡\",\"DinningPeriod\":\"晚餐\"}"
+    },
+	{
+      "Revenue": "33092.80",
+      "Dimension": "{\"Branch\":\"员餐\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"早餐\"}"
+    },
+    {
+      "Revenue": "",
+      "Dimension": "{\"Branch\":\"北京小院\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"早餐\"}"
+    },
+    {
+      "Revenue": "",
+      "Dimension": "{\"Branch\":\"粤菜餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"早餐\"}"
+    },
+    {
+      "Revenue": "",
+      "Dimension": "{\"Branch\":\"咖喱屋\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"早餐\"}"
+    },
+    {
+      "Revenue": "",
+      "Dimension": "{\"Branch\":\"自助餐\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"早餐\"}"
+    },
+    {
+      "Revenue": "",
+      "Dimension": "{\"Branch\":\"意大利餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"早餐\"}"
+    },
+    {
+      "Revenue": "845.50",
+      "Dimension": "{\"Branch\":\"咖啡厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"早餐\"}"
+    },
+    {
+      "Revenue": "269493.95",
+      "Dimension": "{\"Branch\":\"员餐\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"午餐\"}"
+    },
+    {
+      "Revenue": "30718.45",
+      "Dimension": "{\"Branch\":\"北京小院\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"午餐\"}"
+    },
+    {
+      "Revenue": "32244.66",
+      "Dimension": "{\"Branch\":\"粤菜餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"午餐\"}"
+    },
+    {
+      "Revenue": "11890.50",
+      "Dimension": "{\"Branch\":\"咖喱屋\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"午餐\"}"
+    },
+    {
+      "Revenue": "32060.00",
+      "Dimension": "{\"Branch\":\"自助餐\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"午餐\"}"
+    },
+    {
+      "Revenue": "7365.17",
+      "Dimension": "{\"Branch\":\"意大利餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"午餐\"}"
+    },
+    {
+      "Revenue": "15343.90",
+      "Dimension": "{\"Branch\":\"咖啡厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"午餐\"}"
+    },
+	{
+      "Revenue": "75980.09",
+      "Dimension": "{\"Branch\":\"员餐\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"晚餐\"}"
+    },
+    {
+      "Revenue": "21212.37",
+      "Dimension": "{\"Branch\":\"北京小院\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"晚餐\"}"
+    },
+    {
+      "Revenue": "11403.88",
+      "Dimension": "{\"Branch\":\"粤菜餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"晚餐\"}"
+    },
+    {
+      "Revenue": "663.00",
+      "Dimension": "{\"Branch\":\"咖喱屋\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"晚餐\"}"
+    },
+    {
+      "Revenue": "",
+      "Dimension": "{\"Branch\":\"自助餐\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"晚餐\"}"
+    },
+    {
+      "Revenue": "",
+      "Dimension": "{\"Branch\":\"意大利餐厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"晚餐\"}"
+    },
+    {
+      "Revenue": "10120.60",
+      "Dimension": "{\"Branch\":\"咖啡厅\",\"CardType\":\"访客卡\",\"DinningPeriod\":\"晚餐\"}"
+    }
+  ]
+}
