@@ -1,0 +1,45 @@
+{
+  "Date": "1/1/2017 12:00:00 AM",
+  "Revenue": [
+	{
+      "Revenue": "946.00",
+      "Dimension": "{\"SKU\":\"煎海鲈鱼配香辣汁\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "941.00",
+      "Dimension": "{\"SKU\":\"酸辣汤/西湖牛肉羹（1例）\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+	{
+      "Revenue": "903.00",
+      "Dimension": "{\"SKU\":\"煎香肠配薯泥酸椰菜\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+	{
+      "Revenue": "901.00",
+      "Dimension": "{\"SKU\":\"烤牛肉蔬菜配薄饼\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "883.50",
+      "Dimension": "{\"SKU\":\"圣诞猪大排\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+	{
+      "Revenue": "850.00",
+      "Dimension": "{\"SKU\":\"培根金针菇饭\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "843.50",
+      "Dimension": "{\"SKU\":\"红咖喱鸡肉饭\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+	{
+      "Revenue": "824.00",
+      "Dimension": "{\"SKU\":\"奶油蘑菇汤\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+	{
+      "Revenue": "811.00",
+      "Dimension": "{\"SKU\":\"意式海鲜饭\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "788.00",
+      "Dimension": "{\"SKU\":\"蒲田肥牛饭\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+  ]
+}

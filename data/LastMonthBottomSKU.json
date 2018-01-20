@@ -1,0 +1,45 @@
+{
+  "Date": "12/1/2017 12:00:00 AM",
+  "Revenue": [
+	{
+      "Revenue": "98.00",
+      "Dimension": "{\"SKU\":\"蔬菜香肠饭\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "85.00",
+      "Dimension": "{\"SKU\":\"牛肉芝士汉堡配薯条\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+	{
+      "Revenue": "69.00",
+      "Dimension": "{\"SKU\":\"每周例汤\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "62.00",
+      "Dimension": "{\"SKU\":\"番茄肉丸饭\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+	{
+      "Revenue": "58.00",
+      "Dimension": "{\"SKU\":\"扒西冷\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "50.00",
+      "Dimension": "{\"SKU\":\"菌菇肉片\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+	{
+      "Revenue": "48.00",
+      "Dimension": "{\"SKU\":\"煎三文鱼配芒果莎莎\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "38.00",
+      "Dimension": "{\"SKU\":\"素披萨（12寸）\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+	{
+      "Revenue": "36.00",
+      "Dimension": "{\"SKU\":\"香草蒸鱼套餐\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+    {
+      "Revenue": "33.00",
+      "Dimension": "{\"SKU\":\"蘑菇培根披萨（9寸）\",\"Branch\":\"AllUp\",\"CardType\":\"AllUp\",\"DinningPeriod\":\"AllUp\"}"
+    },
+  ]
+}
