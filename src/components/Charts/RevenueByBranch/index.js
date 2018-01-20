@@ -61,12 +61,7 @@ export default class RevenueByBranch extends React.Component {
 
     const total = _.reduce(dataSource, (memo, cur) => memo + cur.Revenue, 0);
 
-    const dv = ds.createView().source(_.isArray(dataSource) ? dataSource : [])
-      .transform({
-        type: 'percent',
-        field: 'Revenue',
-        dimension,
-      });
+    const dv = ds.createView().source(_.isArray(dataSource) ? dataSource : []);
 
     const extra = (
       <div>
