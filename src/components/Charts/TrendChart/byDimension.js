@@ -96,21 +96,19 @@ export default class TrendChartByDimension extends React.Component {
         getDimensions: () => {
           return ds.state.dimensions;
         }
+      })
+      .transform({
+        type: 'filter',
+        callback: (item) => {
+          const date = new Date(item.Date);
+          const day = date.getDay();
+          return day !== 0 && day !== 6;
+        }
       });
 
     const chartDv = ds.createView();
 
-    chartDv.source(data)
-      .transform({
-        type: 'flatten',
-        valueField,
-      })
-      .transform({
-        type: 'byDimension',
-        getDimensions: () => {
-          return ds.state.dimensions;
-        }
-      })
+    chartDv.source(originDv)
       .transform({
         type: 'filter',
         callback(obj) {
