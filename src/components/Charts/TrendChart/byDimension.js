@@ -6,6 +6,8 @@ import numeral from 'numeral';
 import autoHeight from '../autoHeight';
 import { Checkbox, Row, Col, Switch } from 'antd';
 const CheckboxGroup = Checkbox.Group;
+import { isWorkday } from '../../../utils/utils';
+import WorkdaySwitch from '../WorkdaySwitch';
 
 const dimensions = ['Branch', 'CardType', 'DinningPeriod'];
 const dimensionFields = {
@@ -119,13 +121,11 @@ export default class TrendChartByDimension extends React.Component {
         }
       });
     if (this.state.ignoreWeekend) {
-
       originDv.transform({
         type: 'filter',
         callback: (item) => {
           const date = new Date(item.Date);
-          const day = date.getDay();
-          return day !== 0 && day !== 6;
+          return isWorkday(date);
         }
       })
     }
@@ -147,11 +147,9 @@ export default class TrendChartByDimension extends React.Component {
       <div>
         <Row type='flex' justify='space-between' style={{ margin: '10px 60px' }}>
           <CheckboxGroup options={dimensionOptions} defaultValue={dimensions} onChange={this.onChangeDimensions} />
-          <Switch
+          <WorkdaySwitch
             checked={this.state.ignoreWeekend}
             onChange={this.onChangeIgnoreWeekend}
-            checkedChildren={'忽略周末'}
-            unCheckedChildren={'显示周末'}
           />
         </Row>
         <Chart

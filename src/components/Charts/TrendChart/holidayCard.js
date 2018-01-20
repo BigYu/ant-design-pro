@@ -4,11 +4,12 @@ import { Chart, Tooltip, Geom, Legend, Axis } from 'bizcharts';
 import DataSet from '@antv/data-set';
 import numeral from 'numeral';
 import autoHeight from '../autoHeight';
+import { isWorkday } from '../../../utils/utils';
+import WorkdaySwitch from '../WorkdaySwitch';
 
 function isWorkdayData(item) {
   const date = new Date(item.Date);
-  const day = date.getDay();
-  return day !== 0 && day !== 6;
+  return isWorkday(date);
 }
 
 @autoHeight()
@@ -67,11 +68,9 @@ export default class HolidayCard extends React.Component {
         style={{ marginBottom: 24 }}
       >
         <Row type='flex' justify='space-between' style={{ margin: '10px 60px' }}>
-          <Switch
+          <WorkdaySwitch
             checked={this.state.ignoreWeekend}
             onChange={this.onChangeIgnoreWeekend}
-            checkedChildren={'忽略周末'}
-            unCheckedChildren={'显示周末'}
           />
         </Row>
         <Chart

@@ -179,10 +179,11 @@ const china2017abnormalWorkdays = {
 
 export function isWorkday(date) {
   const month = date.getMonth() + 1;
-  const day = date.getDate();
-  if (china2017abnormalWorkdays.hasOwnProperty(month) && china2017abnormalWorkdays[month].hasOwnProperty(day)) {
-    return china2017abnormalWorkdays[month][day];
+  const monthDay = date.getDate();
+  if (china2017abnormalWorkdays.hasOwnProperty(month) && china2017abnormalWorkdays[month].hasOwnProperty(monthDay)) {
+    return china2017abnormalWorkdays[month][monthDay];
   }
 
-
+  const weekDay = date.getDay();
+  return weekDay !== 0 && weekDay !== 6;
 }
