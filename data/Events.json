@@ -1,0 +1,536 @@
+[
+  {
+    "StartDate": "1/5/2017 12:00:00 AM",
+    "EndDate": "1/5/2017 12:00:00 AM",
+    "EventDetail": "腊八粥",
+    "Branch": "员餐"
+  },
+  {
+    "StartDate": "1/26/2017 12:00:00 AM",
+    "EndDate": "1/26/2017 12:00:00 AM",
+    "EventDetail": "春节套餐;五彩饺子",
+    "Branch": "员餐"
+  },
+  {
+    "StartDate": "1/9/2017 12:00:00 AM",
+    "EndDate": "1/13/2017 12:00:00 AM",
+    "EventDetail": "新年主题菜单",
+    "Branch": "粤菜餐厅"
+  },
+  {
+    "StartDate": "1/9/2017 12:00:00 AM",
+    "EndDate": "1/13/2017 12:00:00 AM",
+    "EventDetail": "新年主题菜单",
+    "Branch": "北京小院"
+  },
+  {
+    "StartDate": "1/9/2017 12:00:00 AM",
+    "EndDate": "1/20/2017 12:00:00 AM",
+    "EventDetail": "东南亚五国春节套餐",
+    "Branch": "咖喱屋"
+  },
+  {
+    "StartDate": "1/1/2017 12:00:00 AM",
+    "EndDate": "1/31/2017 12:00:00 AM",
+    "EventDetail": "春节特价菜",
+    "Branch": "咖喱屋"
+  },
+  {
+    "StartDate": "1/23/2017 12:00:00 AM",
+    "EndDate": "1/26/2017 12:00:00 AM",
+    "EventDetail": "春节饺子现场烹制",
+    "Branch": "自助餐"
+  },
+  {
+    "StartDate": "1/1/2017 12:00:00 AM",
+    "EndDate": "1/31/2017 12:00:00 AM",
+    "EventDetail": "两款特价饮料10元;新款热饮",
+    "Branch": "咖啡厅"
+  },
+  {
+    "StartDate": "1/9/2017 12:00:00 AM",
+    "EndDate": "",
+    "EventDetail": "红红火火披萨",
+    "Branch": "意大利餐厅"
+  },
+  {
+    "StartDate": "2/11/2017 12:00:00 AM",
+    "EndDate": "2/11/2017 12:00:00 AM",
+    "EventDetail": "春回大地套餐",
+    "Branch": "员餐"
+  },
+  {
+    "StartDate": "2/6/2017 12:00:00 AM",
+    "EndDate": "2/28/2017 12:00:00 AM",
+    "EventDetail": "云南美食节:两款冷菜;两款热菜",
+    "Branch": "北京小院"
+  },
+  {
+    "StartDate": "2/6/2017 12:00:00 AM",
+    "EndDate": "2/28/2017 12:00:00 AM",
+    "EventDetail": "更换菜单/干果吧+水果吧",
+    "Branch": "粤菜餐厅"
+  },
+  {
+    "StartDate": "2/14/2017 12:00:00 AM",
+    "EndDate": "2/14/2017 12:00:00 AM",
+    "EventDetail": "情人节套餐两款",
+    "Branch": "咖喱屋"
+  },
+  {
+    "StartDate": "2/14/2017 12:00:00 AM",
+    "EndDate": "2/14/2017 12:00:00 AM",
+    "EventDetail": "情人节甜甜蜜蜜",
+    "Branch": "自助餐"
+  },
+  {
+    "StartDate": "2/6/2017 12:00:00 AM",
+    "EndDate": "2/28/2017 12:00:00 AM",
+    "EventDetail": "两款特价饮料10元",
+    "Branch": "咖啡厅"
+  },
+  {
+    "StartDate": "2/14/2017 12:00:00 AM",
+    "EndDate": "2/14/2017 12:00:00 AM",
+    "EventDetail": "推出情人节披萨",
+    "Branch": "意大利餐厅"
+  },
+  {
+    "StartDate": "2/6/2017 12:00:00 AM",
+    "EndDate": "2/28/2017 12:00:00 AM",
+    "EventDetail": "云南美食节:两款冷菜;两款热菜",
+    "Branch": "北京小院"
+  },
+  {
+    "StartDate": "3/1/2017 12:00:00 AM",
+    "EndDate": "3/10/2017 12:00:00 AM",
+    "EventDetail": "消费满128赠送1款指定新菜品的餐券",
+    "Branch": "粤菜餐厅"
+  },
+  {
+    "StartDate": "3/1/2017 12:00:00 AM",
+    "EndDate": "",
+    "EventDetail": "新增多种菜品;加量不加价",
+    "Branch": "自助餐"
+  },
+  {
+    "StartDate": "3/1/2017 12:00:00 AM",
+    "EndDate": "",
+    "EventDetail": "晚餐增开铁板",
+    "Branch": "员餐"
+  },
+  {
+    "StartDate": "3/6/2017 12:00:00 AM",
+    "EndDate": "3/31/2017 12:00:00 AM",
+    "EventDetail": "更换菜单",
+    "Branch": "意大利餐厅"
+  },
+  {
+    "StartDate": "3/1/2017 12:00:00 AM",
+    "EndDate": "3/31/2017 12:00:00 AM",
+    "EventDetail": "新增铁板系列",
+    "Branch": "咖喱屋"
+  },
+  {
+    "StartDate": "4/1/2017 12:00:00 AM",
+    "EndDate": "4/30/2017 12:00:00 AM",
+    "EventDetail": "干锅档口推出10款内蒙菜;10款湖南菜",
+    "Branch": "员餐"
+  },
+  {
+    "StartDate": "4/24/2017 12:00:00 AM",
+    "EndDate": "",
+    "EventDetail": "更换菜单",
+    "Branch": "北京小院"
+  },
+  {
+    "StartDate": "4/1/2017 12:00:00 AM",
+    "EndDate": "4/30/2017 12:00:00 AM",
+    "EventDetail": "推出四款新菜;推出2款月度推荐饮品;水果吧每天一款特价果蔬汁;水果吧增加新品果肉果干",
+    "Branch": "粤菜餐厅"
+  },
+  {
+    "StartDate": "4/17/2017 12:00:00 AM",
+    "EndDate": "",
+    "EventDetail": "更新菜单",
+    "Branch": "咖喱屋"
+  },
+  {
+    "StartDate": "4/21/2017 12:00:00 AM",
+    "EndDate": "4/21/2017 12:00:00 AM",
+    "EventDetail": "地球日蛋糕",
+    "Branch": "自助餐"
+  },
+  {
+    "StartDate": "4/17/2017 12:00:00 AM",
+    "EndDate": "4/21/2017 12:00:00 AM",
+    "EventDetail": "地球日披萨",
+    "Branch": "意大利餐厅"
+  },
+  {
+    "StartDate": "4/14/2017 12:00:00 AM",
+    "EndDate": "4/14/2017 12:00:00 AM",
+    "EventDetail": "彩蛋披萨",
+    "Branch": "意大利餐厅"
+  },
+  {
+    "StartDate": "4/14/2017 12:00:00 AM",
+    "EndDate": "4/14/2017 12:00:00 AM",
+    "EventDetail": "复活节套餐",
+    "Branch": "咖喱屋"
+  },
+  {
+    "StartDate": "4/1/2017 12:00:00 AM",
+    "EndDate": "4/30/2017 12:00:00 AM",
+    "EventDetail": "2款特价饮料",
+    "Branch": "咖啡厅"
+  },
+  {
+    "StartDate": "5/2/2017 12:00:00 AM",
+    "EndDate": "5/31/2017 12:00:00 AM",
+    "EventDetail": "美食地图新疆站;推出四款新疆美食",
+    "Branch": "北京小院"
+  },
+  {
+    "StartDate": "5/1/2017 12:00:00 AM",
+    "EndDate": "5/31/2017 12:00:00 AM",
+    "EventDetail": "每天三款精美凉菜;推出麻辣鲜香系列菜品",
+    "Branch": "粤菜餐厅"
+  },
+  {
+    "StartDate": "5/8/2017 12:00:00 AM",
+    "EndDate": "",
+    "EventDetail": "推出新菜",
+    "Branch": "咖喱屋"
+  },
+  {
+    "StartDate": "5/15/2017 12:00:00 AM",
+    "EndDate": "5/15/2017 12:00:00 AM",
+    "EventDetail": "鲜果时光",
+    "Branch": "自助餐"
+  },
+  {
+    "StartDate": "5/1/2017 12:00:00 AM",
+    "EndDate": "5/31/2017 12:00:00 AM",
+    "EventDetail": "2款特价饮料",
+    "Branch": "咖啡厅"
+  },
+  {
+    "StartDate": "5/22/2017 12:00:00 AM",
+    "EndDate": "",
+    "EventDetail": "推出新菜",
+    "Branch": "意大利餐厅"
+  },
+  {
+    "StartDate": "6/5/2017 12:00:00 AM",
+    "EndDate": "6/30/2017 12:00:00 AM",
+    "EventDetail": "推出四款时令养生菜",
+    "Branch": "北京小院"
+  },
+  {
+    "StartDate": "6/5/2017 12:00:00 AM",
+    "EndDate": "6/30/2017 12:00:00 AM",
+    "EventDetail": "美食地图广东站；每天四款广东菜",
+    "Branch": "粤菜餐厅"
+  },
+  {
+    "StartDate": "6/12/2017 12:00:00 AM",
+    "EndDate": "6/16/2017 12:00:00 AM",
+    "EventDetail": "抽奖送小吃",
+    "Branch": "咖喱屋"
+  },
+  {
+    "StartDate": "6/1/2017 12:00:00 AM",
+    "EndDate": "6/9/2017 12:00:00 AM",
+    "EventDetail": "清凉6月",
+    "Branch": "自助餐"
+  },
+  {
+    "StartDate": "6/1/2017 12:00:00 AM",
+    "EndDate": "6/30/2017 12:00:00 AM",
+    "EventDetail": "2款特价饮料",
+    "Branch": "咖啡厅"
+  },
+  {
+    "StartDate": "6/5/2017 12:00:00 AM",
+    "EndDate": "6/30/2017 12:00:00 AM",
+    "EventDetail": "健康餐活动",
+    "Branch": "意大利餐厅"
+  },
+  {
+    "StartDate": "7/1/2017 12:00:00 AM",
+    "EndDate": "",
+    "EventDetail": "自带餐盒打包消费;可享受九折优惠",
+    "Branch": "所有餐厅"
+  },
+  {
+    "StartDate": "7/17/2017 12:00:00 AM",
+    "EndDate": "7/28/2017 12:00:00 AM",
+    "EventDetail": "美食地图-陕西美食",
+    "Branch": "员餐"
+  },
+  {
+    "StartDate": "7/5/2017 12:00:00 AM",
+    "EndDate": "7/16/2017 12:00:00 AM",
+    "EventDetail": "朝鲜冷面",
+    "Branch": "员餐"
+  },
+  {
+    "StartDate": "7/1/2017 12:00:00 AM",
+    "EndDate": "7/31/2017 12:00:00 AM",
+    "EventDetail": "推出四款健康餐",
+    "Branch": "北京小院"
+  },
+  {
+    "StartDate": "7/1/2017 12:00:00 AM",
+    "EndDate": "7/31/2017 12:00:00 AM",
+    "EventDetail": "推出四款健康餐",
+    "Branch": "粤菜餐厅"
+  },
+  {
+    "StartDate": "7/1/2017 12:00:00 AM",
+    "EndDate": "7/31/2017 12:00:00 AM",
+    "EventDetail": "美国独立日套餐;法国国庆日套餐",
+    "Branch": "咖喱屋"
+  },
+  {
+    "StartDate": "7/1/2017 12:00:00 AM",
+    "EndDate": "7/31/2017 12:00:00 AM",
+    "EventDetail": "7月冰淇淋狂欢",
+    "Branch": "自助餐"
+  },
+  {
+    "StartDate": "7/1/2017 12:00:00 AM",
+    "EndDate": "7/31/2017 12:00:00 AM",
+    "EventDetail": "2款特价饮料",
+    "Branch": "咖啡厅"
+  },
+  {
+    "StartDate": "7/1/2017 12:00:00 AM",
+    "EndDate": "7/31/2017 12:00:00 AM",
+    "EventDetail": "鸡丝凉面加北冰洋时光怀念版套餐",
+    "Branch": "意大利餐厅"
+  },
+  {
+    "StartDate": "8/7/2017 12:00:00 AM",
+    "EndDate": "8/11/2017 12:00:00 AM",
+    "EventDetail": "烤羊肉套餐",
+    "Branch": "员餐"
+  },
+  {
+    "StartDate": "8/1/2017 12:00:00 AM",
+    "EndDate": "8/31/2017 12:00:00 AM",
+    "EventDetail": "美食地图安徽站",
+    "Branch": "北京小院"
+  },
+  {
+    "StartDate": "8/7/2017 12:00:00 AM",
+    "EndDate": "9/30/2017 12:00:00 AM",
+    "EventDetail": "晚餐推出大排档",
+    "Branch": "粤菜餐厅"
+  },
+  {
+    "StartDate": "8/14/2017 12:00:00 AM",
+    "EndDate": "8/18/2017 12:00:00 AM",
+    "EventDetail": "韩式美食节",
+    "Branch": "咖喱屋"
+  },
+  {
+    "StartDate": "8/3/2017 12:00:00 AM",
+    "EndDate": "8/3/2017 12:00:00 AM",
+    "EventDetail": "8月西瓜节",
+    "Branch": "自助餐"
+  },
+  {
+    "StartDate": "8/1/2017 12:00:00 AM",
+    "EndDate": "8/31/2017 12:00:00 AM",
+    "EventDetail": "2款特价饮料;每天一款奶昔",
+    "Branch": "咖啡厅"
+  },
+  {
+    "StartDate": "8/28/2017 12:00:00 AM",
+    "EndDate": "8/31/2017 12:00:00 AM",
+    "EventDetail": "酷夏饮料秀",
+    "Branch": "意大利餐厅"
+  },
+  {
+    "StartDate": "9/1/2017 12:00:00 AM",
+    "EndDate": "9/30/2017 12:00:00 AM",
+    "EventDetail": "大零点菜品升级",
+    "Branch": "员餐"
+  },
+  {
+    "StartDate": "9/1/2017 12:00:00 AM",
+    "EndDate": "9/30/2017 12:00:00 AM",
+    "EventDetail": "鱼系列菜品",
+    "Branch": "北京小院"
+  },
+  {
+    "StartDate": "9/1/2017 12:00:00 AM",
+    "EndDate": "9/30/2017 12:00:00 AM",
+    "EventDetail": "美食地图山东站",
+    "Branch": "粤菜餐厅"
+  },
+  {
+    "StartDate": "9/18/2017 12:00:00 AM",
+    "EndDate": "9/22/2017 12:00:00 AM",
+    "EventDetail": "魔方大战",
+    "Branch": "咖喱屋"
+  },
+  {
+    "StartDate": "9/6/2017 12:00:00 AM",
+    "EndDate": "9/6/2017 12:00:00 AM",
+    "EventDetail": "“虾吃夏喝”日",
+    "Branch": "自助餐"
+  },
+  {
+    "StartDate": "9/1/2017 12:00:00 AM",
+    "EndDate": "9/30/2017 12:00:00 AM",
+    "EventDetail": "菜品更新",
+    "Branch": "自助餐"
+  },
+  {
+    "StartDate": "9/1/2017 12:00:00 AM",
+    "EndDate": "9/30/2017 12:00:00 AM",
+    "EventDetail": "每天一款奶昔",
+    "Branch": "咖啡厅"
+  },
+  {
+    "StartDate": "9/1/2017 12:00:00 AM",
+    "EndDate": "9/30/2017 12:00:00 AM",
+    "EventDetail": "热菜更新",
+    "Branch": "意大利餐厅"
+  },
+  {
+    "StartDate": "10/9/2017 12:00:00 AM",
+    "EndDate": "10/20/2017 12:00:00 AM",
+    "EventDetail": "10种锅仔系列产品—异域风情档口",
+    "Branch": "员餐"
+  },
+  {
+    "StartDate": "10/16/2017 12:00:00 AM",
+    "EndDate": "10/31/2017 12:00:00 AM",
+    "EventDetail": "土锅系列",
+    "Branch": "北京小院"
+  },
+  {
+    "StartDate": "10/16/2017 12:00:00 AM",
+    "EndDate": "10/31/2017 12:00:00 AM",
+    "EventDetail": "晚餐推出小火锅",
+    "Branch": "粤菜餐厅"
+  },
+  {
+    "StartDate": "10/31/2017 12:00:00 AM",
+    "EndDate": "10/31/2017 12:00:00 AM",
+    "EventDetail": "万圣节套餐",
+    "Branch": "咖喱屋"
+  },
+  {
+    "StartDate": "10/23/2017 12:00:00 AM",
+    "EndDate": "10/31/2017 12:00:00 AM",
+    "EventDetail": "万圣节甜品周",
+    "Branch": "自助餐"
+  },
+  {
+    "StartDate": "10/8/2017 12:00:00 AM",
+    "EndDate": "10/31/2017 12:00:00 AM",
+    "EventDetail": "特价果汁",
+    "Branch": "咖啡厅"
+  },
+  {
+    "StartDate": "10/31/2017 12:00:00 AM",
+    "EndDate": "10/31/2017 12:00:00 AM",
+    "EventDetail": "万圣节披萨",
+    "Branch": "意大利餐厅"
+  },
+  {
+    "StartDate": "11/1/2017 12:00:00 AM",
+    "EndDate": "11/30/2017 12:00:00 AM",
+    "EventDetail": "现场制作酱肉",
+    "Branch": "员餐"
+  },
+  {
+    "StartDate": "11/1/2017 12:00:00 AM",
+    "EndDate": "11/30/2017 12:00:00 AM",
+    "EventDetail": "土锅系列",
+    "Branch": "北京小院"
+  },
+  {
+    "StartDate": "11/1/2017 12:00:00 AM",
+    "EndDate": "11/30/2017 12:00:00 AM",
+    "EventDetail": "晚餐推出小火锅",
+    "Branch": "粤菜餐厅"
+  },
+  {
+    "StartDate": "11/20/2017 12:00:00 AM",
+    "EndDate": "11/23/2017 12:00:00 AM",
+    "EventDetail": "更换菜单/感恩节火鸡套餐",
+    "Branch": "咖喱屋"
+  },
+  {
+    "StartDate": "11/23/2017 12:00:00 AM",
+    "EndDate": "11/23/2017 12:00:00 AM",
+    "EventDetail": "感恩节现场切配火鸡",
+    "Branch": "自助餐"
+  },
+  {
+    "StartDate": "11/1/2017 12:00:00 AM",
+    "EndDate": "",
+    "EventDetail": "更换菜单",
+    "Branch": "咖啡厅"
+  },
+  {
+    "StartDate": "11/23/2017 12:00:00 AM",
+    "EndDate": "11/23/2017 12:00:00 AM",
+    "EventDetail": "感恩节火鸡披萨",
+    "Branch": "意大利餐厅"
+  },
+  {
+    "StartDate": "12/18/2017 12:00:00 AM",
+    "EndDate": "12/22/2017 12:00:00 AM",
+    "EventDetail": "竹筒菜系列",
+    "Branch": "员餐"
+  },
+  {
+    "StartDate": "12/1/2017 12:00:00 AM",
+    "EndDate": "12/29/2017 12:00:00 AM",
+    "EventDetail": "饮品:南瓜汁",
+    "Branch": "北京小院"
+  },
+  {
+    "StartDate": "12/1/2017 12:00:00 AM",
+    "EndDate": "12/29/2017 12:00:00 AM",
+    "EventDetail": "饮品:百香果汁",
+    "Branch": "粤菜餐厅"
+  },
+  {
+    "StartDate": "12/18/2017 12:00:00 AM",
+    "EndDate": "11/25/2017 12:00:00 AM",
+    "EventDetail": "圣诞节推荐菜",
+    "Branch": "咖喱屋"
+  },
+  {
+    "StartDate": "12/25/2017 12:00:00 AM",
+    "EndDate": "12/25/2017 12:00:00 AM",
+    "EventDetail": "圣诞节节日自助",
+    "Branch": "自助餐"
+  },
+  {
+    "StartDate": "12/4/2017 12:00:00 AM",
+    "EndDate": "12/29/2017 12:00:00 AM",
+    "EventDetail": "特价促销",
+    "Branch": "咖啡厅"
+  },
+  {
+    "StartDate": "12/18/2017 12:00:00 AM",
+    "EndDate": "12/20/2017 12:00:00 AM",
+    "EventDetail": "圣诞集市",
+    "Branch": "咖啡厅"
+  },
+  {
+    "StartDate": "12/18/2017 12:00:00 AM",
+    "EndDate": "12/25/2017 12:00:00 AM",
+    "EventDetail": "圣诞披萨周",
+    "Branch": "意大利餐厅"
+  }
+]
