@@ -92,6 +92,7 @@ export default class HolidayCard extends React.Component {
           <Tooltip />
           <Legend position="right" />
           <Geom type="line" position={`Date*${field}`} size={2} color="#4472c4" />
+          <Geom type="point" position={`Date*${field}`} size={4} color="#4472c4" />
           <Geom type="area" position={`Date*Avg${field}`} size={2} color="#ed7d31" />
         </Chart>
       </Card>
