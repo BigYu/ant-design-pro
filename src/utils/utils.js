@@ -140,3 +140,50 @@ const reg = /(((^https?:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-
 export function isUrl(path) {
   return reg.test(path);
 }
+
+const china2017abnormalWorkdays = {
+  1: {
+    2: false,
+    22: true,
+    27: false,
+    30: false,
+    31: false,
+  },
+  2: {
+    1: false,
+    2: false,
+    4: true,
+  },
+  4: {
+    1: true,
+    3: false,
+    4: false,
+  },
+  5: {
+    1: false,
+    27: true,
+    29: false,
+    30: false
+  },
+  9: {
+    30: true,
+  },
+  10: {
+    2: false,
+    3: false,
+    4: false,
+    5: false,
+    6: false,
+  },
+};
+
+export function isWorkday(date) {
+  const month = date.getMonth() + 1;
+  const monthDay = date.getDate();
+  if (china2017abnormalWorkdays.hasOwnProperty(month) && china2017abnormalWorkdays[month].hasOwnProperty(monthDay)) {
+    return china2017abnormalWorkdays[month][monthDay];
+  }
+
+  const weekDay = date.getDay();
+  return weekDay !== 0 && weekDay !== 6;
+}

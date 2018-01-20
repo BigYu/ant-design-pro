@@ -6,6 +6,8 @@ import numeral from 'numeral';
 import autoHeight from '../autoHeight';
 import { Checkbox, Row, Col, Switch } from 'antd';
 const CheckboxGroup = Checkbox.Group;
+import { isWorkday } from '../../../utils/utils';
+import WorkdaySwitch from '../WorkdaySwitch';
 
 DataSet.registerTransform('flattenSKU', (dv) => {
   dv.rows = [].concat(...dv.rows.map((row) => {
@@ -75,8 +77,7 @@ export default class TopSKUTrendChart extends React.Component {
         type: 'filter',
         callback: (item) => {
           const date = new Date(item.Date);
-          const day = date.getDay();
-          return day !== 0 && day !== 6;
+          return isWorkday(date);
         }
       })
     }
@@ -97,11 +98,9 @@ export default class TopSKUTrendChart extends React.Component {
     return (
       <div>
         <Row type='flex' justify='space-between' style={{ margin: '10px 60px' }}>
-          <Switch
+          <WorkdaySwitch
             checked={this.state.ignoreWeekend}
             onChange={this.onChangeIgnoreWeekend}
-            checkedChildren={'忽略周末'}
-            unCheckedChildren={'显示周末'}
           />
         </Row>
         <Chart

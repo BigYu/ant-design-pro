@@ -197,7 +197,7 @@ export default class SodexoDashboard extends React.PureComponent {
           </Col>
         </Row>
         <Row gutter={12}>
-          <Col xs={12}>
+          <Col xs={6}>
             <Card
               loading={loading}
               className={styles.offlineCard}
@@ -211,7 +211,7 @@ export default class SodexoDashboard extends React.PureComponent {
               />
             </Card>
           </Col>
-          <Col xs={12}>
+          <Col xs={6}>
             <Card
               loading={loading}
               className={styles.offlineCard}
@@ -225,9 +225,7 @@ export default class SodexoDashboard extends React.PureComponent {
               />
             </Card>
           </Col>
-        </Row>
-        <Row gutter={12}>
-          <Col xs={12}>
+          <Col xs={6}>
             <Card
               loading={loading}
               className={styles.offlineCard}
@@ -241,7 +239,7 @@ export default class SodexoDashboard extends React.PureComponent {
               />
             </Card>
           </Col>
-          <Col xs={12}>
+          <Col xs={6}>
             <Card
               loading={loading}
               className={styles.offlineCard}
