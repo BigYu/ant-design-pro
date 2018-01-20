@@ -26,12 +26,12 @@ export default class TopSKUChart extends React.Component {
           }
         }
       })
-      .transform({
-        type: 'percent',
-        field: 'Revenue',
-        dimension: 'SKU',
-        as: 'percent'
-      });
+      // .transform({
+      //   type: 'percent',
+      //   field: 'Revenue',
+      //   dimension: 'SKU',
+      //   as: 'percent'
+      // });
     const cols = {
       percent: {
         formatter: val => {
@@ -48,7 +48,7 @@ export default class TopSKUChart extends React.Component {
         padding={[ 80, 100, 80, 80 ]}
         forceFit>
         <Coord type='theta' radius={0.75} />
-        <Axis name="percent" />
+        <Axis name="Revenue" />
         <Legend position='bottom' offsetY={-20} />
         <Tooltip
           showTitle={false}
@@ -56,18 +56,18 @@ export default class TopSKUChart extends React.Component {
           />
         <Geom
           type="intervalStack"
-          position="percent"
+          position="Revenue"
           color='SKU'
-          tooltip={['SKU*percent',(SKU, percent) => {
-            percent = percent * 100 + '%';
-            return {
-              name: SKU,
-              value: percent
-            };
-          }]}
+          // tooltip={['SKU*percent',(SKU, percent) => {
+          //   percent = percent * 100 + '%';
+          //   return {
+          //     name: SKU,
+          //     value: percent
+          //   };
+          // }]}
           style={{lineWidth: 1,stroke: '#fff'}}
           >
-          <Label content='percent' formatter={(val, item) => {
+          <Label content='Revenue' formatter={(val, item) => {
               return item.point.SKU + ': ' + val;}} />
         </Geom>
       </Chart>
