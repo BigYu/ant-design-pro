@@ -2,6 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 import DataSet from '@antv/data-set';
 import { Card, Radio } from 'antd';
+import { formatMoney } from 'accounting';
 import { Chart, Axis, Geom, Tooltip, Coord, Legend, Label, Guide } from 'bizcharts';
 import autoHeight from '../autoHeight';
 
@@ -108,7 +109,7 @@ export default class RevenueByBranch extends React.Component {
           <Guide >
             <Guide.Html
               position={['50%', '50%']}
-              html={`<div style="color:#8c8c8c;font-size:1.16em;text-align: center;width: 10em;">营业额<br><span style="color:#262626;font-size:1.5em">${total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</span></div>`}
+              html={`<div style="color:#8c8c8c;font-size:1.16em;text-align: center;width: 10em;">营业额<br><span style="color:#262626;font-size:1.5em">${formatMoney(total, { symbol: '￥' })}</span></div>`}
               alignX="middle"
               alignY="middle"
             />
@@ -122,7 +123,7 @@ export default class RevenueByBranch extends React.Component {
             <Label
               content={dimension}
               formatter={(val, item) => {
-                return `${val}: ${(Math.round(item.point.Revenue * 100) / 100).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')} (${Math.round(item.point.percent * 100)}%)`;
+                return `${val}: ${(formatMoney(item.point.Revenue, { symbol: '￥' }))} (${Math.round(item.point.percent * 100)}%)`;
               }}
             />
           </Geom>
