@@ -182,69 +182,48 @@ export default class SodexoDashboard extends React.PureComponent {
             </Card>
           </Col>
         </Row>
-        <Card
-          loading={loading}
-          className={styles.offlineCard}
-          title="SKU: Top popular SKU last month and last year"
-          bordered={false}
-          bodyStyle={{ padding: '0', marginTop: 16 }}
-          style={{ marginBottom: 24 }}
-        >
-          <div style={{ padding: '0' }}>
-            <Row>
-              <Col {...topColResponsiveProps} xl={12}>
-                <Row type='flex' justify='center'>
-                  <h3 style={{ marginLeft: 24 }}>上个月最受欢迎菜品营业额对比图</h3>
-                </Row>
-                <TopSKUChart
-                  data={sodexo.data.LastMonthTopSKU}
-                />
-              </Col>
-              <Col {...topColResponsiveProps} xl={12}>
-                <Row type='flex' justify='center'>
-                  <h3 style={{ marginLeft: 24 }}>2017年最受欢迎菜品营业额对比图</h3>
-                </Row>
-                <TopSKUChart
-                  data={sodexo.data.LastYearTopSKU}
-                />
-              </Col>
-            </Row>
-          </div>
-        </Card>
-        <Card
-          loading={loading}
-          className={styles.offlineCard}
-          title="Near National Holiday analyse"
-          bordered={false}
-          bodyStyle={{ padding: '0', marginTop: 16 }}
-          style={{ marginBottom: 24 }}
-        >
-          <div style={{ padding: '0' }}>
-            <Row type='flex' justify='center'>
-              <h3 style={{ marginLeft: 24 }}>国庆节前后两周日营业额和客户数量趋势图</h3>
-            </Row>
-            <TrendHoliday
-              data={sodexo.data.NearNationalHolidayAnalyse.slice()}
-            />
-          </div>
-        </Card>
-        <Card
-          loading={loading}
-          className={styles.offlineCard}
-          title="Near Chinese New Year analyse"
-          bordered={false}
-          bodyStyle={{ padding: '0', marginTop: 16 }}
-          style={{ marginBottom: 24 }}
-        >
-          <div style={{ padding: '0' }}>
-            <Row type='flex' justify='center'>
-              <h3 style={{ marginLeft: 24 }}>春节前后两周日营业额和客户数量趋势图</h3>
-            </Row>
-            <TrendHoliday
-              data={sodexo.data.NearChineseNewYearAnalyse.slice()}
-            />
-          </div>
-        </Card>
+        <Row gutter={12}>
+          <Col xs={12}>
+            <Card
+              loading={loading}
+              className={styles.offlineCard}
+              title="上个月最受欢迎菜品营业额对比图"
+              bordered={false}
+              bodyStyle={{ padding: '0', marginTop: 16 }}
+              style={{ marginBottom: 24 }}
+            >
+              <TopSKUChart
+                data={sodexo.data.LastMonthTopSKU}
+              />
+            </Card>
+          </Col>
+          <Col xs={12}>
+            <Card
+              loading={loading}
+              className={styles.offlineCard}
+              title="2017年最受欢迎菜品营业额对比图"
+              bordered={false}
+              bodyStyle={{ padding: '0', marginTop: 16 }}
+              style={{ marginBottom: 24 }}
+            >
+              <TopSKUChart
+                data={sodexo.data.LastYearTopSKU}
+              />
+            </Card>
+          </Col>
+        </Row>
+        <TrendHoliday
+          styles={styles}
+          titleRevenue="国庆节前后两周日营业额趋势图"
+          titleUserCount="国庆节前后两周日客户数量趋势图"
+          data={sodexo.data.NearNationalHolidayAnalyse.slice()}
+        />
+        <TrendHoliday
+          styles={styles}
+          titleRevenue="春节前后两周日营业额趋势图"
+          titleUserCount="春节前后两周日客户数量趋势图"
+          data={sodexo.data.NearChineseNewYearAnalyse.slice()}
+        />
         <Card
           loading={loading}
           className={styles.offlineCard}

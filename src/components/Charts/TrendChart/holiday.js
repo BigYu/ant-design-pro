@@ -1,31 +1,28 @@
 import React from 'react';
-import { Row, Col } from 'antd';
+import { Row, Col, Card } from 'antd';
 import { Chart, Tooltip, Geom, Legend, Axis } from 'bizcharts';
 import DataSet from '@antv/data-set';
 import Slider from 'bizcharts-plugin-slider';
 import numeral from 'numeral';
 import autoHeight from '../autoHeight';
 
-const topColResponsiveProps = {
-  xs: 24,
-  sm: 12,
-  md: 12,
-  lg: 12,
-  xl: 12,
-  style: { marginBottom: 24 },
-};
-
 @autoHeight()
 export default class TrendChartByWeather extends React.Component {
   constructor(props) {
     super(props);
 
-    this.onChange = this.onChange.bind(this);
+    this.onRevenueSliderChange = this.onRevenueSliderChange.bind(this);
+    this.onUserCountSliderChange = this.onUserCountSliderChange.bind(this);
   }
 
-  onChange({ startValue, endValue }) {
-    this.ds.setState('start', new Date(startValue).getTime());
-    this.ds.setState('end', new Date(endValue).getTime());
+  onRevenueSliderChange({ startValue, endValue }) {
+    this.dsRevenue.setState('start', new Date(startValue).getTime());
+    this.dsRevenue.setState('end', new Date(endValue).getTime());
+  }
+
+  onUserCountSliderChange({ startValue, endValue }) {
+    this.dsUserCount.setState('start', new Date(startValue).getTime());
+    this.dsUserCount.setState('end', new Date(endValue).getTime());
   }
 
   render() {
@@ -37,16 +34,25 @@ export default class TrendChartByWeather extends React.Component {
 
     const endDate = new Date(data[data.length - 1].Date);
     const defaultStartDate = new Date(data[0].Date);
-    const ds = this.ds = new DataSet({
+    this.dsRevenue = new DataSet({
       state: {
         start: defaultStartDate.getTime(),
-        end: endDate.getTime()
-      }
+        end: endDate.getTime(),
+      },
     });
-    const originDv = ds.createView('origin');
-    originDv.source(data);
+    this.dsUserCount = new DataSet({
+      state: {
+        start: defaultStartDate.getTime(),
+        end: endDate.getTime(),
+      },
+    });
 
-    const revenueDv = ds.createView()
+    const { dsRevenue, dsUserCount } = this;
+
+    const originDvRevenue = this.dsRevenue.createView('origin').source(data);
+    const originDvUserCount = this.dsUserCount.createView('origin').source(data);
+
+    const revenueDv = this.dsRevenue.createView()
       .source(data)
       .transform({
         type: 'fold',
@@ -58,11 +64,11 @@ export default class TrendChartByWeather extends React.Component {
         type: 'filter',
         callback(obj) {
           const time = new Date(obj.Date).getTime(); // !注意：时间格式，建议转换为时间戳进行比较
-          return time >= ds.state.start && time <= ds.state.end;
+          return time >= dsRevenue.state.start && time <= dsRevenue.state.end;
         },
       });
 
-    const userCountDv = ds.createView()
+    const userCountDv = this.dsUserCount.createView()
       .source(data)
       .transform({
         type: 'fold',
@@ -74,16 +80,22 @@ export default class TrendChartByWeather extends React.Component {
         type: 'filter',
         callback(obj) {
           const time = new Date(obj.Date).getTime(); // !注意：时间格式，建议转换为时间戳进行比较
-          return time >= ds.state.start && time <= ds.state.end;
+          return time >= dsUserCount.state.start && time <= dsUserCount.state.end;
         },
       });
 
     // https://alibaba.github.io/BizCharts/demo-detail.html?code=demo/other/rain-and-flow
     // comparing with Wheather? PM25 & Temprature
     return (
-      <div>
-        <Row>
-          <Col {...topColResponsiveProps}>
+      <Row gutter={12}>
+        <Col xs={12}>
+          <Card
+            className={this.props.styles.offlineCard}
+            title={this.props.titleRevenue}
+            bordered={false}
+            bodyStyle={{ padding: '0', marginTop: 16 }}
+            style={{ marginBottom: 24 }}
+          >
             <Chart
               height={400}
               data={revenueDv}
@@ -92,15 +104,39 @@ export default class TrendChartByWeather extends React.Component {
                 revenue: { type: 'linear' },
               }}
               padding={[60, 140]}
-              forceFit>
+              forceFit
+            >
               <Axis name="Date" />
               <Axis name="revenue" title={{}} label={{formatter: val => numeral(val).format('0,0')}} />
               <Tooltip />
               <Legend position="right" />
               <Geom type="line" position="Date*revenue" size={2} color="key" />
             </Chart>
-          </Col>
-          <Col {...topColResponsiveProps}>
+            <div>
+              <Slider
+                width='auto'
+                height={26}
+                start={this.dsRevenue.state.start}
+                end={this.dsRevenue.state.end}
+                xAxis="Date"
+                yAxis="value"
+                scales={{Date:{type: 'time',tickCount: 10, mask:'M/DD' }}}
+                data={originDvRevenue}
+                backgroundChart={{type: 'line'}}
+                onChange={this.onRevenueSliderChange}
+                padding={[60, 140]}
+              />
+            </div>
+          </Card>
+        </Col>
+        <Col xs={12}>
+          <Card
+            className={this.props.styles.offlineCard}
+            title={this.props.titleUserCount}
+            bordered={false}
+            bodyStyle={{ padding: '0', marginTop: 16 }}
+            style={{ marginBottom: 24 }}
+          >
             <Chart
               height={400}
               data={userCountDv}
@@ -109,31 +145,32 @@ export default class TrendChartByWeather extends React.Component {
                 userCount: { type: 'linear' },
               }}
               padding={[60, 140]}
-              forceFit>
+              forceFit
+            >
               <Axis name="Date" />
               <Axis name="userCount" title={{}} />
               <Tooltip />
               <Legend position="right" />
               <Geom type="line" position="Date*userCount" size={2} color="key" />
             </Chart>
-          </Col>
-        </Row>
-        <div>
-          <Slider
-            width='auto'
-            height={26}
-            start={ds.state.start}
-            end={ds.state.end}
-            xAxis="Date"
-            yAxis="value"
-            scales={{Date:{type: 'time',tickCount: 10, mask:'M/DD' }}}
-            data={originDv}
-            backgroundChart={{type: 'line'}}
-            onChange={this.onChange}
-            padding={[60, 140]}
-          />
-        </div>
-      </div>
+            <div>
+              <Slider
+                width='auto'
+                height={26}
+                start={this.dsUserCount.state.start}
+                end={this.dsUserCount.state.end}
+                xAxis="Date"
+                yAxis="value"
+                scales={{Date:{type: 'time',tickCount: 10, mask:'M/DD' }}}
+                data={originDvUserCount}
+                backgroundChart={{type: 'line'}}
+                onChange={this.onUserCountSliderChange}
+                padding={[60, 140]}
+              />
+            </div>
+          </Card>
+        </Col>
+      </Row>
     );
   }
 }
