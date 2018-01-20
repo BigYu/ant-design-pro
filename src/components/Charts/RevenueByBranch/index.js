@@ -61,7 +61,12 @@ export default class RevenueByBranch extends React.Component {
 
     const total = _.reduce(dataSource, (memo, cur) => memo + cur.Revenue, 0);
 
-    const dv = ds.createView().source(_.isArray(dataSource) ? dataSource : []);
+    const dv = ds.createView().source(_.isArray(dataSource) ? dataSource : []).transform({
+      type: 'percent',
+      field: 'Revenue',
+      dimension: 'Branch',
+      as: 'percent'
+    });
 
     const extra = (
       <div>
@@ -88,7 +93,11 @@ export default class RevenueByBranch extends React.Component {
         {...cardProps}
         extra={extra}
       >
-        <Chart height={400} data={dv} forceFit>
+        <Chart
+          height={400}
+          data={dv}
+          forceFit
+        >
           <Coord type="theta" radius={0.75} innerRadius={0.6} />
           <Axis name={dimension} />
           <Legend position="right" offsetY={-50} offsetX={-400} />
@@ -113,7 +122,7 @@ export default class RevenueByBranch extends React.Component {
             <Label
               content={dimension}
               formatter={(val, item) => {
-                return `${val}: ${('0' + item.point.Revenue).slice(-2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')} (${Math.round(item.point.Revenue * 100/ total) + '%'})`;
+                return `${val}: ${('0' + item.point.Revenue).slice(-2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')} (${Math.round(item.point.percent * 100)}%)`;
               }}
             />
           </Geom>
