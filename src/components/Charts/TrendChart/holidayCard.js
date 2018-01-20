@@ -36,26 +36,25 @@ export default class HolidayCard extends React.Component {
     } = this.props;
 
     if (data.length === 0) return null;
+    data.sort((item1, item2) => new Date(item1.Date) - new Date(item2.Date));
 
     const ds = this.ds = new DataSet();
 
-    const originDv = this.ds.createView('origin').source(data);
-
     const chartDv = this.ds.createView()
       .source(data)
-      .transform({
-        type: 'fold',
-        key: 'key',
-        value: 'value',
-        fields: [field, `Avg${field}`]
-      });
+      // .transform({
+      //   type: 'fold',
+      //   key: 'key',
+      //   value: 'value',
+      //   fields: [field, `Avg${field}`]
+      // });
 
-      if (this.state.ignoreWeekend) {
-        chartDv.transform({
-          type: 'filter',
-          callback: isWorkdayData
-        })
-      }
+    if (this.state.ignoreWeekend) {
+      chartDv.transform({
+        type: 'filter',
+        callback: isWorkdayData
+      })
+    }
 
     // https://alibaba.github.io/BizCharts/demo-detail.html?code=demo/other/rain-and-flow
     // comparing with Wheather? PM25 & Temprature
@@ -79,17 +78,22 @@ export default class HolidayCard extends React.Component {
           height={400}
           data={chartDv}
           scale={{
-            Date: { type: 'time' },
-            value: { type: 'linear' },
+            Date: { type: 'time', min: data[0].Date, max: data[data.length-1].Date },
+            // value: { type: 'linear', min: 0, max: this.props.max },
+            [field]: { type: 'linear', min: 0, max: this.props.max, alias: this.props.alias },
+            [`Avg${field}`]: { type: 'linear', min: 0, max: this.props.max, alias: `平均${this.props.alias}` },
           }}
           padding={[60, 140]}
           forceFit
         >
           <Axis name="Date" />
-          <Axis name="value" title={{}} label={{formatter: val => numeral(val).format('0,0')}} />
+          {/* <Axis name="value" title={{}} label={{formatter: val => numeral(val).format('0,0')}} /> */}
+          <Axis name={field} title={{}} label={{formatter: val => numeral(val).format('0,0')}} />
+          <Axis name={`Avg${field}`} visible={false} />
           <Tooltip />
           <Legend position="right" />
-          <Geom type="line" position="Date*value" size={2} color="key" />
+          <Geom type="line" position={`Date*${field}`} size={2} color="#4472c4" />
+          <Geom type="area" position={`Date*Avg${field}`} size={2} color="#ed7d31" />
         </Chart>
       </Card>
     );

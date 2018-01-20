@@ -35,6 +35,8 @@ export default class TrendChartByWeather extends React.Component {
             styles={this.props.styles}
             data={data}
             field="Revenue"
+            max={120000}
+            alias="营业额"
           />
         </Col>
         <Col xs={12}>
@@ -47,6 +49,8 @@ export default class TrendChartByWeather extends React.Component {
             styles={this.props.styles}
             data={data}
             field="UserCount"
+            max={3000}
+            alias="顾客人数"
           />
         </Col>
       </Row>
