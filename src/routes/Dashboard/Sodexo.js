@@ -20,6 +20,7 @@ import TrendByOneDimension from '../../components/Charts/TrendChart/byOneDimensi
 import TrendByTwoDimension from '../../components/Charts/TrendChart/byTwoDimension';
 import TrendByThreeDimension from '../../components/Charts/TrendChart/byThreeDimension';
 import TrendHoliday from '../../components/Charts/TrendChart/holiday';
+import TopSKUTrend from '../../components/Charts/TrendChart/TopSKU';
 
 import styles from './Analysis.less';
 
@@ -252,6 +253,20 @@ export default class SodexoDashboard extends React.PureComponent {
             </Card>
           </Col>
         </Row>
+        <Card
+          loading={loading}
+          className={styles.offlineCard}
+          title="受欢迎菜品的日营业额趋势图"
+          bordered={false}
+          bodyStyle={{ padding: '0', marginTop: 16 }}
+          style={{ marginBottom: 24 }}
+        >
+          <div style={{ padding: '0' }}>
+            <TopSKUTrend
+              data={sodexo.data.TopSKUDailyTrend.slice()}
+            />
+          </div>
+        </Card>
         <TrendHoliday
           styles={styles}
           titleRevenue="国庆节前后两周日营业额趋势图"
