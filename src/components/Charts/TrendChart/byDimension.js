@@ -4,7 +4,7 @@ import DataSet from '@antv/data-set';
 import Slider from 'bizcharts-plugin-slider';
 import numeral from 'numeral';
 import autoHeight from '../autoHeight';
-import { Checkbox, Row, Col } from 'antd';
+import { Checkbox, Row, Col, Switch } from 'antd';
 const CheckboxGroup = Checkbox.Group;
 
 const dimensions = ['Branch', 'CardType', 'DinningPeriod'];
@@ -13,6 +13,16 @@ const dimensionFields = {
   CardType: ['员工卡', '访客卡'],
   DinningPeriod: ['早餐', '晚餐', '午餐'],
 }
+const dimensionOptions = [{
+  label: '餐厅',
+  value: 'Branch'
+}, {
+  label: '卡片类型',
+  value: 'CardType'
+}, {
+  label: '就餐时间',
+  value: 'DinningPeriod'
+}];
 
 const aggregateTransform = DataSet.getTransform('aggregate');
 DataSet.registerTransform('byDimension', (dv, {
@@ -50,8 +60,13 @@ export default class TrendChartByDimension extends React.Component {
   constructor(props) {
     super(props);
 
+    this.state = {
+      ignoreWeekend: true,
+    };
+
     this.onChangeRange = this.onChangeRange.bind(this);
     this.onChangeDimensions = this.onChangeDimensions.bind(this);
+    this.onChangeIgnoreWeekend = this.onChangeIgnoreWeekend.bind(this);
   }
 
   onChangeRange({ startValue, endValue }) {
@@ -61,6 +76,13 @@ export default class TrendChartByDimension extends React.Component {
 
   onChangeDimensions(dimensions) {
     this.ds.setState('dimensions', dimensions);
+  }
+
+  onChangeIgnoreWeekend(e) {
+    const ignoreWeekend = typeof e === 'boolean' ? e : e.target.checked
+    this.setState({
+      ignoreWeekend,
+    });
   }
 
   render() {
@@ -96,15 +118,18 @@ export default class TrendChartByDimension extends React.Component {
         getDimensions: () => {
           return ds.state.dimensions;
         }
-      })
-      .transform({
+      });
+    if (this.state.ignoreWeekend) {
+
+      originDv.transform({
         type: 'filter',
         callback: (item) => {
           const date = new Date(item.Date);
           const day = date.getDay();
           return day !== 0 && day !== 6;
         }
-      });
+      })
+    }
 
     const chartDv = ds.createView();
 
@@ -121,8 +146,14 @@ export default class TrendChartByDimension extends React.Component {
     // comparing with Wheather? PM25 & Temprature
     return (
       <div>
-        <Row type='flex' justify='center'>
-          <CheckboxGroup options={dimensions} defaultValue={dimensions} onChange={this.onChangeDimensions} />
+        <Row type='flex' justify='space-between' style={{ margin: '10px 60px' }}>
+          <CheckboxGroup options={dimensionOptions} defaultValue={dimensions} onChange={this.onChangeDimensions} />
+          <Switch
+            checked={this.state.ignoreWeekend}
+            onChange={this.onChangeIgnoreWeekend}
+            checkedChildren={'忽略周末'}
+            unCheckedChildren={'显示周末'}
+          />
         </Row>
         <Chart
           height={400}
