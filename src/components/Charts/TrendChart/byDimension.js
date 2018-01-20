@@ -78,8 +78,7 @@ export default class TrendChartByDimension extends React.Component {
     this.ds.setState('dimensions', dimensions);
   }
 
-  onChangeIgnoreWeekend(e) {
-    const ignoreWeekend = typeof e === 'boolean' ? e : e.target.checked
+  onChangeIgnoreWeekend(ignoreWeekend) {
     this.setState({
       ignoreWeekend,
     });
