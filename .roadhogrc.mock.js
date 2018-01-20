@@ -8,6 +8,7 @@ import { getProfileAdvancedData } from './mock/profile';
 import { getNotices } from './mock/notices';
 import { format, delay } from 'roadhog-api-doc';
 import d$DailyRevenueUserCountWeatherTrend from './data/DailyRevenueUserCountWeatherTrend';
+import d$Events from './data/Events';
 import d$LastMonthBottomSKU from './data/LastMonthBottomSKU';
 import d$LastMonthRevenueOnBranch from './data/LastMonthRevenueOnBranch';
 import d$LastMonthRevenueOnCardType from './data/LastMonthRevenueOnCardType';
@@ -59,6 +60,7 @@ const proxy = {
   'GET /api/sodexo/all': (req, res) => {
     res.send({
       DailyRevenueUserCountWeatherTrend: d$DailyRevenueUserCountWeatherTrend,
+      Events: d$Events,
       LastMonthBottomSKU: d$LastMonthBottomSKU,
       LastMonthRevenueOnBranch: d$LastMonthRevenueOnBranch,
       LastMonthRevenueOnCardType: d$LastMonthRevenueOnCardType,
