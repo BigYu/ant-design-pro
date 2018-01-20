@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 import DataSet from '@antv/data-set';
 import { Card, Radio } from 'antd';
-import { Chart, Axis, Geom, Tooltip, Coord, Legend, Label } from 'bizcharts';
+import { Chart, Axis, Geom, Tooltip, Coord, Legend, Label, Guide } from 'bizcharts';
 import autoHeight from '../autoHeight';
 
 @autoHeight()
@@ -48,7 +48,7 @@ export default class RevenueByBranch extends React.Component {
       .filter((row) => {
         return (
           (row.CardType === this.state.cardType || this.state.cardType === '全部') &&
-          (row.DinninePeriod === this.state.dinninePeriod || this.state.dinninePeriod === '全部')
+          (row.DinningPeriod === this.state.dinninePeriod || this.state.dinninePeriod === '全部')
         );
       })
       .groupBy(row => row.Branch)
@@ -56,11 +56,17 @@ export default class RevenueByBranch extends React.Component {
         Branch: key,
         Revenue: _.reduce(row, (memo, cur) => memo + Number(cur.Revenue), 0),
       }))
+      .filter(row => row.Revenue > 0)
       .value();
 
-    window.console.log(dataSource);
+    const total = _.reduce(dataSource, (memo, cur) => memo + cur.Revenue, 0);
 
-    const dv = ds.createView().source(_.isArray(dataSource) ? dataSource : []);
+    const dv = ds.createView().source(_.isArray(dataSource) ? dataSource : [])
+      .transform({
+        type: 'percent',
+        field: 'Revenue',
+        dimension,
+      });
 
     const extra = (
       <div>
@@ -87,14 +93,22 @@ export default class RevenueByBranch extends React.Component {
         {...cardProps}
         extra={extra}
       >
-        <Chart height={400} data={dv}>
+        <Chart height={400} data={dv} forceFit>
           <Coord type="theta" radius={0.75} innerRadius={0.6} />
           <Axis name={dimension} />
-          <Legend />
+          <Legend position="right" offsetY={-50} offsetX={-400} />
           <Tooltip
             showTitle={false}
             itemTpl='<li><span style="background-color:{color};" class="g2-tooltip-marker"></span>{name}: {value}</li>'
           />
+          <Guide >
+            <Guide.Html
+              position={['50%', '50%']}
+              html={`<div style="color:#8c8c8c;font-size:1.16em;text-align: center;width: 10em;">营业额<br><span style="color:#262626;font-size:1.5em">${total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</span></div>`}
+              alignX="middle"
+              alignY="middle"
+            />
+          </Guide>
           <Geom
             type="intervalStack"
             position="Revenue"
@@ -104,7 +118,7 @@ export default class RevenueByBranch extends React.Component {
             <Label
               content={dimension}
               formatter={(val, item) => {
-                return `${val}: ${item.point.Revenue}`;
+                return `${val}: ${('0' + item.point.Revenue).slice(-2).replace(/\B(?=(\d{3})+(?!\d))/g, ',')} (${Math.round(item.point.Revenue * 100/ total) + '%'})`;
               }}
             />
           </Geom>
