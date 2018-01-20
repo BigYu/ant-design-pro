@@ -222,6 +222,36 @@ export default class SodexoDashboard extends React.PureComponent {
             </Card>
           </Col>
         </Row>
+        <Row gutter={12}>
+          <Col xs={12}>
+            <Card
+              loading={loading}
+              className={styles.offlineCard}
+              title="上个月最不受欢迎菜品营业额对比图"
+              bordered={false}
+              bodyStyle={{ padding: '0', marginTop: 16 }}
+              style={{ marginBottom: 24 }}
+            >
+              <TopSKUChart
+                data={sodexo.data.LastMonthBottomSKU}
+              />
+            </Card>
+          </Col>
+          <Col xs={12}>
+            <Card
+              loading={loading}
+              className={styles.offlineCard}
+              title="2017年最不受欢迎菜品营业额对比图"
+              bordered={false}
+              bodyStyle={{ padding: '0', marginTop: 16 }}
+              style={{ marginBottom: 24 }}
+            >
+              <TopSKUChart
+                data={sodexo.data.LastYearBottomSKU}
+              />
+            </Card>
+          </Col>
+        </Row>
         <TrendHoliday
           styles={styles}
           titleRevenue="国庆节前后两周日营业额趋势图"
