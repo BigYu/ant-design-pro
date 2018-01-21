@@ -43,12 +43,21 @@ export default class HolidayCard extends React.Component {
 
     const chartDv = this.ds.createView()
       .source(data)
-      // .transform({
-      //   type: 'fold',
-      //   key: 'key',
-      //   value: 'value',
-      //   fields: [field, `Avg${field}`]
-      // });
+      .transform({
+        type: 'map',
+        callback(item) {
+          const value = Number(item[field]);
+          const avgValue = Number(item[`Avg${field}`]);
+          return {
+            Date: item.Date,
+            value,
+            avgValue,
+            aboveAvgValue: value >= avgValue ? value : null,
+            belowAvgValue: (value < avgValue && value !== 0) ? value : null,
+            diff: Math.log((Math.abs(value - avgValue) / avgValue) * 100 + 10) * 5 + 2
+          };
+        }
+      });
 
     if (this.state.ignoreWeekend) {
       chartDv.transform({
@@ -79,21 +88,26 @@ export default class HolidayCard extends React.Component {
           scale={{
             Date: { type: 'time', min: data[0].Date, max: data[data.length-1].Date },
             // value: { type: 'linear', min: 0, max: this.props.max },
-            [field]: { type: 'linear', min: 0, max: this.props.max, alias: this.props.alias },
-            [`Avg${field}`]: { type: 'linear', min: 0, max: this.props.max, alias: `平均${this.props.alias}` },
+            value: { type: 'linear', min: 0, max: this.props.max, alias: this.props.alias },
+            avgValue: { type: 'linear', min: 0, max: this.props.max, alias: `平均${this.props.alias}` },
+            aboveAvgValue: { type: 'linear', min: 0, max: this.props.max, alias: this.props.alias },
+            belowAvgValue: { type: 'linear', min: 0, max: this.props.max, alias: this.props.alias },
+            diff: { alias: this.props.alias },
           }}
           padding={[60, 140]}
           forceFit
         >
           <Axis name="Date" />
-          {/* <Axis name="value" title={{}} label={{formatter: val => numeral(val).format('0,0')}} /> */}
-          <Axis name={field} title={{}} label={{formatter: val => numeral(val).format('0,0')}} />
-          <Axis name={`Avg${field}`} visible={false} />
+          <Axis name="value" title={{}} label={{formatter: val => numeral(val).format('0,0')}} />
+          <Axis name="avgValue" visible={false} />
+          <Axis name="aboveAvgValue" visible={false} />
+          <Axis name="belowAvgValue" visible={false} />
           <Tooltip />
-          <Legend position="right" />
-          <Geom type="line" position={`Date*${field}`} size={2} color="#4472c4" />
-          <Geom type="point" position={`Date*${field}`} size={4} color="#4472c4" />
-          <Geom type="area" position={`Date*Avg${field}`} size={2} color="#ed7d31" />
+          <Geom type="line" position="Date*value" size={2} color="#4472c4" />
+          {/* <Geom type="point" position="Date*value" size={4} color="#4472c4" /> */}
+          <Geom type="point" position="Date*aboveAvgValue" shape="circle" size={['diff', [2, 12]]} color='#70AD47' />
+          <Geom type="point" position="Date*belowAvgValue" shape="diamond" size={['diff', [2, 12]]} color='#ED7D31' />
+          <Geom type="line" position="Date*avgValue" size={2} color="#ed7d31" />
         </Chart>
       </Card>
     );
