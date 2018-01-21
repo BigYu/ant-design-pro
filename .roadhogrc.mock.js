@@ -30,6 +30,10 @@ import d$RevenueUserCountTrendOnCardTypeDinningPeriod from './data/RevenueUserCo
 import d$RevenueUserCountTrendOnDinningPeriod from './data/RevenueUserCountTrendOnDinningPeriod';
 import d$LastMonthRevenueSplitOnBranchCardTypeDinningPeriod from './data/LastMonthRevenueSplitOnBranchCardTypeDinningPeriod';
 import d$LastYearRevenueSplitOnBranchCardTypeDinningPeriod from './data/LastYearRevenueSplitOnBranchCardTypeDinningPeriod';
+import d$LastMonthChargeOnCardType from './data/LastMonthChargeOnCardType';
+import d$LastMonthEmployeeCardCharge from './data/LastMonthEmployeeCardCharge';
+import d$LastYearChargeOnCardType from './data/LastYearChargeOnCardType';
+import d$LastYearEmployeeCardCharge from './data/LastYearEmployeeCardCharge';
 import d$TopSKUDailyTrend from './data/TopSKUDailyTrend';
 import d$TopSKUDailyTrendOnCardType from './data/TopSKUDailyTrendOnCardType';
 import d$TopSKUMonthlyTrend from './data/TopSKUMonthlyTrend';
@@ -86,6 +90,10 @@ const proxy = {
       TopSKUWeeklyTrend: d$TopSKUWeeklyTrend,
       LastMonthRevenueSplitOnBranchCardTypeDinningPeriod: d$LastMonthRevenueSplitOnBranchCardTypeDinningPeriod,
       LastYearRevenueSplitOnBranchCardTypeDinningPeriod: d$LastYearRevenueSplitOnBranchCardTypeDinningPeriod,
+      LastMonthChargeOnCardType: d$LastMonthChargeOnCardType,
+      LastMonthEmployeeCardCharge: d$LastMonthEmployeeCardCharge,
+      LastYearChargeOnCardType: d$LastYearChargeOnCardType,
+      LastYearEmployeeCardCharge: d$LastYearEmployeeCardCharge,
     });
   },
   'GET /api/users': [{

@@ -20,6 +20,7 @@ import TrendByDimension from '../../components/Charts/TrendChart/byDimension';
 import TrendHoliday from '../../components/Charts/TrendChart/holiday';
 import TopSKUTrend from '../../components/Charts/TrendChart/TopSKU';
 import RevenueByBranch from '../../components/Charts/RevenueByBranch';
+import ChargeChart from '../../components/Charts/Charge';
 
 import styles from './Analysis.less';
 
@@ -72,6 +73,20 @@ export default class SodexoDashboard extends React.PureComponent {
             />
           </div>
         </Card>
+        <Row>
+          <ChargeChart
+            dataLastMonth={sodexo.data.LastMonthChargeOnCardType}
+            dataLastYear={sodexo.data.LastYearChargeOnCardType}
+            cardProps={{
+              loading,
+              className: styles.offlineCard,
+              title: '冲卡金额',
+              bordered: false,
+              bodyStyle: { padding: '0', marginTop: 16 },
+              style: { marginBottom: 24 },
+            }}
+          />
+        </Row>
         <Row>
           <RevenueByBranch
             dataLastMonth={sodexo.data.LastMonthRevenueSplitOnBranchCardTypeDinningPeriod}
@@ -296,23 +311,6 @@ export default class SodexoDashboard extends React.PureComponent {
           titleUserCount="春节前后两周日客户数量趋势图"
           data={sodexo.data.NearChineseNewYearAnalyse.slice()}
         />
-        <Card
-          loading={loading}
-          className={styles.offlineCard}
-          title="Weather, Revenue, UserCount: day by day"
-          bordered={false}
-          bodyStyle={{ padding: '0', marginTop: 16 }}
-          style={{ marginBottom: 24 }}
-        >
-          <div style={{ padding: '0' }}>
-            <Row type='flex' justify='center'>
-              <h3 style={{ marginLeft: 24 }}>日营业额，客户数量和天气情况的趋势图</h3>
-            </Row>
-            <TrendChartByWeather
-              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
-            />
-          </div>
-        </Card>
       </div>
     );
   }
