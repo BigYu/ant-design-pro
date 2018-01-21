@@ -246,61 +246,37 @@ export default class SodexoDashboard extends React.PureComponent {
           </Col>
         </Row>
         <Row gutter={12}>
-          <Col xs={6}>
-            <Card
-              loading={loading}
-              className={styles.offlineCard}
-              title="上个月最受欢迎菜品营业额对比图"
-              bordered={false}
-              bodyStyle={{ padding: '0', marginTop: 16 }}
-              style={{ marginBottom: 24 }}
-            >
-              <TopSKUChart
-                data={sodexo.data.LastMonthTopSKU}
-              />
-            </Card>
+          <Col xs={12}>
+            <TopSKUChart
+              data={{
+                lastMonth: sodexo.data.LastMonthTopSKU,
+                lastYear: sodexo.data.LastYearTopSKU
+              }}
+              cardProps={{
+                loading,
+                className: styles.offlineCard,
+                title: '最受欢迎菜品',
+                bordered: false,
+                bodyStyle: { padding: '0', marginTop: 16 },
+                style: { marginBottom: 24 },
+              }}
+            />
           </Col>
-          <Col xs={6}>
-            <Card
-              loading={loading}
-              className={styles.offlineCard}
-              title="2017年最受欢迎菜品营业额对比图"
-              bordered={false}
-              bodyStyle={{ padding: '0', marginTop: 16 }}
-              style={{ marginBottom: 24 }}
-            >
-              <TopSKUChart
-                data={sodexo.data.LastYearTopSKU}
-              />
-            </Card>
-          </Col>
-          <Col xs={6}>
-            <Card
-              loading={loading}
-              className={styles.offlineCard}
-              title="上个月最不受欢迎菜品营业额对比图"
-              bordered={false}
-              bodyStyle={{ padding: '0', marginTop: 16 }}
-              style={{ marginBottom: 24 }}
-            >
-              <TopSKUChart
-                data={sodexo.data.LastMonthBottomSKU}
-              />
-            </Card>
-          </Col>
-          <Col xs={6}>
-            <Card
-              loading={loading}
-              className={styles.offlineCard}
-              title="2017年最不受欢迎菜品营业额对比图"
-              bordered={false}
-              bodyStyle={{ padding: '0', marginTop: 16 }}
-              style={{ marginBottom: 24 }}
-            >
-              <TopSKUChart
-                data={sodexo.data.LastYearBottomSKU}
-              />
-            </Card>
+          <Col xs={12}>
+            <TopSKUChart
+              data={{
+                lastMonth: sodexo.data.LastMonthBottomSKU,
+                lastYear: sodexo.data.LastYearBottomSKU,
+              }}
+              cardProps={{
+                loading,
+                className: styles.offlineCard,
+                title: '最不受欢迎菜品',
+                bordered: false,
+                bodyStyle: { padding: '0', marginTop: 16 },
+                style: { marginBottom: 24 },
+              }}
+            />
           </Col>
         </Row>
         {/* <Row gutter={12}>

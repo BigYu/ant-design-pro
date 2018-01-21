@@ -1,6 +1,5 @@
 import _ from 'lodash';
 import React from 'react';
-import { formatMoney } from 'accounting';
 import { Card, Radio } from 'antd';
 import { Chart, Axis, Geom, Tooltip, Coord, Legend, Label } from 'bizcharts';
 import DataSet from '@antv/data-set';
