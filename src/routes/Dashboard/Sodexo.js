@@ -13,6 +13,7 @@ import {
 } from 'antd';
 import { setTheme } from 'bizcharts';
 import TrendChartByWeather from '../../components/Charts/TrendChart/byWeather';
+import TrendChartWithWeather from '../../components/Charts/TrendChart/withWeather';
 import TopSKUChart from '../../components/Charts/TopSKUChart';
 import OnDimensionChart from '../../components/Charts/RevenueOnDimension';
 import TrendByDimension from '../../components/Charts/TrendChart/byDimension';
@@ -56,6 +57,21 @@ export default class SodexoDashboard extends React.PureComponent {
 
     return (
       <div>
+        <Card
+          loading={loading}
+          className={styles.offlineCard}
+          title="日营业额，客户数量和天气情况的趋势图"
+          bordered={false}
+          bodyStyle={{ padding: '0', marginTop: 16 }}
+          style={{ marginBottom: 24 }}
+        >
+          <div style={{ padding: '0' }}>
+            <TrendChartWithWeather
+              data={sodexo.data.DailyRevenueUserCountWeatherTrend.slice()}
+              events={sodexo.data.Events.slice()}
+            />
+          </div>
+        </Card>
         <Row>
           <RevenueByBranch
             dataLastMonth={sodexo.data.LastMonthRevenueSplitOnBranchCardTypeDinningPeriod}

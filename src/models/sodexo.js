@@ -6,6 +6,7 @@ export default {
   state: {
     data: {
       DailyRevenueUserCountWeatherTrend: [],
+      Events: [],
       LastMonthRevenueOnBranch: [],
       LastMonthRevenueOnCardType: [],
       LastMonthRevenueOnDinningPeriod: [],
