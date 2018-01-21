@@ -121,7 +121,7 @@ export default class TrendChartByWeather extends React.Component {
         Date: {
           type: 'time',
           tickCount: 10,
-          mask: 'M/DD H:mm'
+          mask: 'YYYY-MM-DD'
         }
       });
       chart.facet('mirror', {
@@ -159,7 +159,7 @@ export default class TrendChartByWeather extends React.Component {
           if (event) {
             obj.hasEvent = 1;
             obj.Event = event;
-            obj.EventName = `${event.Branch}: ${event.EventDetail}`;
+            obj.EventName = `${event.Branch} - ${event.EventDetail}`;
           } else {
             obj.hasEvent = 0;
             obj.Event = null;
