@@ -1,0 +1,15 @@
+{
+  "Date": "1/1/2017 12:00:00 AM",
+  "Amount": [
+    {
+      "TotalAmount": "1030344.00",
+      "AverageAmount": "800.58",
+      "Dimension": "{\"CardType\":\"员工卡\"}"
+    },
+    {
+      "TotalAmount": "6979459.92",
+      "AverageAmount": "1296.33",
+      "Dimension": "{\"CardType\":\"访客卡\"}"
+    }
+  ]
+}

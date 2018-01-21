@@ -1,0 +1,86 @@
+[
+  {
+    "Time": "11:30:00 AM",
+    "UserCount": {
+      "UserCount": "3.91",
+      "Dimension": "{\"Branch\":\"自助餐\"}"
+    }
+  },
+  {
+    "Time": "11:40:00 AM",
+    "UserCount": {
+      "UserCount": "5.82",
+      "Dimension": "{\"Branch\":\"自助餐\"}"
+    }
+  },
+  {
+    "Time": "11:50:00 AM",
+    "UserCount": {
+      "UserCount": "8.78",
+      "Dimension": "{\"Branch\":\"自助餐\"}"
+    }
+  },
+  {
+    "Time": "12:00:00 PM",
+    "UserCount": {
+      "UserCount": "10.68",
+      "Dimension": "{\"Branch\":\"自助餐\"}"
+    }
+  },
+  {
+    "Time": "12:10:00 PM",
+    "UserCount": {
+      "UserCount": "10.01",
+      "Dimension": "{\"Branch\":\"自助餐\"}"
+    }
+  },
+  {
+    "Time": "12:20:00 PM",
+    "UserCount": {
+      "UserCount": "7.42",
+      "Dimension": "{\"Branch\":\"自助餐\"}"
+    }
+  },
+  {
+    "Time": "12:30:00 PM",
+    "UserCount": {
+      "UserCount": "5.89",
+      "Dimension": "{\"Branch\":\"自助餐\"}"
+    }
+  },
+  {
+    "Time": "12:40:00 PM",
+    "UserCount": {
+      "UserCount": "4.07",
+      "Dimension": "{\"Branch\":\"自助餐\"}"
+    }
+  },
+  {
+    "Time": "12:50:00 PM",
+    "UserCount": {
+      "UserCount": "2.20",
+      "Dimension": "{\"Branch\":\"自助餐\"}"
+    }
+  },
+  {
+    "Time": "13:00:00 PM",
+    "UserCount": {
+      "UserCount": "1.30",
+      "Dimension": "{\"Branch\":\"自助餐\"}"
+    }
+  },
+  {
+    "Time": "13:10:00 PM",
+    "UserCount": {
+      "UserCount": "0.81",
+      "Dimension": "{\"Branch\":\"自助餐\"}"
+    }
+  },
+  {
+    "Time": "13:20:00 PM",
+    "UserCount": {
+      "UserCount": "0.48",
+      "Dimension": "{\"Branch\":\"自助餐\"}"
+    }
+  }
+]
