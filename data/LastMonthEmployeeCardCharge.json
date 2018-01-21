@@ -1,0 +1,13 @@
+{
+  "Date": "12/1/2017 12:00:00 AM",
+  "CardCharge": [
+    {
+      "UserCount": "332",
+      "Dimension": "{\"ChargeCard\":\"是\"}"
+    },
+    {
+      "UserCount": "1731",
+      "Dimension": "{\"ChargeCard\":\"否\"}"
+    }
+  ]
+}
