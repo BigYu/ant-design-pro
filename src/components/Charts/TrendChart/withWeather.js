@@ -112,7 +112,21 @@ const eachView = (view, facet) => {
         }
       }
     });
-    view.area().position('Date*WeatherPM25').color('#a5a5a5');
+    view.interval().position('Date*WeatherPM25').color('WeatherPM25', (WeatherPM25) => {
+      if (WeatherPM25 <= 35) {
+        return 'green';
+      } else if (WeatherPM25 <= 75) {
+        return 'lightgreen';
+      } else if (WeatherPM25 <= 115) {
+        return 'yellow';
+      } else if (WeatherPM25 <= 150) {
+        return 'orange';
+      } else if (WeatherPM25 <= 250) {
+        return 'red';
+      } else {
+        return 'black';
+      }
+    });
     view.line().position('Date*WeatherAvgTemperature').color('#ffc000');
   }
 };
