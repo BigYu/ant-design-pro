@@ -18,7 +18,7 @@ export default class HolidayCard extends React.Component {
     super(props);
 
     this.state = {
-      ignoreWeekend: true,
+      ignoreWeekend: false,
     };
 
     this.onChangeIgnoreWeekend = this.onChangeIgnoreWeekend.bind(this);
