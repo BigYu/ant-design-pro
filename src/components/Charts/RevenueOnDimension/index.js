@@ -20,7 +20,7 @@ export default class OnDimensionChart extends React.Component {
     });
 
     return (
-      <Chart height={400} data={dv}>
+      <Chart height={400} data={dv} forceFit>
         <Coord type="theta" radius={0.75} />
         <Axis name={dimension} />
         <Legend />
