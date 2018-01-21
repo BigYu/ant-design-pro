@@ -250,7 +250,7 @@ export default class SodexoDashboard extends React.PureComponent {
             <TopSKUChart
               data={{
                 lastMonth: sodexo.data.LastMonthTopSKU,
-                lastYear: sodexo.data.LastYearTopSKU
+                lastYear: sodexo.data.LastYearTopSKU,
               }}
               cardProps={{
                 loading,

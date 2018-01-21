@@ -29,7 +29,7 @@ export default class TopSKUChart extends React.Component {
     } = this.props;
     const dataScoped = this.state.scope === '过去一年' ? data.lastYear : data.lastMonth;
 
-    if (!dataScoped.Revenue) return null;
+    if (!dataScoped || !dataScoped.Revenue) return null;
 
     const dv = new DataSet.DataView();
     dv.source(dataScoped.Revenue)
