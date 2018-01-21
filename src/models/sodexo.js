@@ -12,6 +12,8 @@ export default {
       LastMonthRevenueOnDinningPeriod: [],
       LastMonthTopSKU: [],
       LastYearAverageSellCountForDifferentPriceRage: [],
+      LastYearBuffetPeakHourAnalyze: [],
+      LastYearEmployeeRestaurantPeakHourAnalyze: [],
       LastYearRevenueOnBranch: [],
       LastYearRevenueOnCardType: [],
       LastYearRevenueOnDinningPeriod: [],

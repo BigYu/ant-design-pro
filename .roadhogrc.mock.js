@@ -16,6 +16,8 @@ import d$LastMonthRevenueOnDinningPeriod from './data/LastMonthRevenueOnDinningP
 import d$LastMonthTopSKU from './data/LastMonthTopSKU';
 import d$LastYearAverageSellCountForDifferentPriceRage from './data/LastYearAverageSellCountForDifferentPriceRage';
 import d$LastYearBottomSKU from './data/LastYearBottomSKU';
+import d$LastYearBuffetPeakHourAnalyze from './data/LastYearBuffetPeakHourAnalyze';
+import d$LastYearEmployeeRestaurantPeakHourAnalyze from './data/LastYearEmployeeRestaurantPeakHourAnalyze';
 import d$LastYearRevenueOnBranch from './data/LastYearRevenueOnBranch';
 import d$LastYearRevenueOnCardType from './data/LastYearRevenueOnCardType';
 import d$LastYearRevenueOnDinningPeriod from './data/LastYearRevenueOnDinningPeriod';
@@ -73,6 +75,8 @@ const proxy = {
       LastMonthTopSKU: d$LastMonthTopSKU,
       LastYearAverageSellCountForDifferentPriceRage: d$LastYearAverageSellCountForDifferentPriceRage,
       LastYearBottomSKU: d$LastYearBottomSKU,
+      LastYearBuffetPeakHourAnalyze: d$LastYearBuffetPeakHourAnalyze,
+      LastYearEmployeeRestaurantPeakHourAnalyze: d$LastYearEmployeeRestaurantPeakHourAnalyze,
       LastYearRevenueOnBranch: d$LastYearRevenueOnBranch,
       LastYearRevenueOnCardType: d$LastYearRevenueOnCardType,
       LastYearRevenueOnDinningPeriod: d$LastYearRevenueOnDinningPeriod,
