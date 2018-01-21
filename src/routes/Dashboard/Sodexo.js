@@ -286,34 +286,72 @@ export default class SodexoDashboard extends React.PureComponent {
             </Card>
           </Col>
         </Row>
-        <Card
-          loading={loading}
-          className={styles.offlineCard}
-          title="不同价位菜品受欢迎程度 "
-          bordered={false}
-          bodyStyle={{ padding: '0', marginTop: 16 }}
-          style={{ marginBottom: 24 }}
-        >
-          <div style={{ padding: '0' }}>
-            <PriceRangeSellCount
-              data={sodexo.data.LastYearAverageSellCountForDifferentPriceRage.slice()}
-            />
-          </div>
-        </Card>
-        <Card
-          loading={loading}
-          className={styles.offlineCard}
-          title="受欢迎菜品的日营业额趋势图"
-          bordered={false}
-          bodyStyle={{ padding: '0', marginTop: 16 }}
-          style={{ marginBottom: 24 }}
-        >
-          <div style={{ padding: '0' }}>
-            <TopSKUTrend
-              data={sodexo.data.TopSKUDailyTrend.slice()}
-            />
-          </div>
-        </Card>
+        {/* <Row gutter={12}>
+          <Col xs={12}>
+            <Card
+              loading={loading}
+              className={styles.offlineCard}
+              title="员工餐厅午餐用餐高峰"
+              bordered={false}
+              bodyStyle={{ padding: '0', marginTop: 16 }}
+              style={{ marginBottom: 24 }}
+            >
+              <TrendByDimension
+                data={sodexo.data.RevenueUserCountTrendOnBranchCardTypeDinningPeriod.slice()}
+                valueField="Revenue"
+              />
+            </Card>
+          </Col>
+          <Col xs={12}>
+            <Card
+              loading={loading}
+              className={styles.offlineCard}
+              title="自助餐午餐用餐高峰"
+              bordered={false}
+              bodyStyle={{ padding: '0', marginTop: 16 }}
+              style={{ marginBottom: 24 }}
+            >
+              <TrendByDimension
+                data={sodexo.data.RevenueUserCountTrendOnBranchCardTypeDinningPeriod.slice()}
+                valueField="UserCount"
+              />
+            </Card>
+          </Col>
+        </Row> */}
+        <Row gutter={12}>
+          <Col xl={6}>
+            <Card
+              loading={loading}
+              className={styles.offlineCard}
+              title="不同价位菜品受欢迎程度"
+              bordered={false}
+              bodyStyle={{ padding: '0', marginTop: 16 }}
+              style={{ marginBottom: 24 }}
+            >
+              <div style={{ padding: '0' }}>
+                <PriceRangeSellCount
+                  data={sodexo.data.LastYearAverageSellCountForDifferentPriceRage.slice()}
+                />
+              </div>
+            </Card>
+          </Col>
+          <Col xl={18}>
+            <Card
+              loading={loading}
+              className={styles.offlineCard}
+              title="受欢迎菜品的日营业额趋势图"
+              bordered={false}
+              bodyStyle={{ padding: '0', marginTop: 16 }}
+              style={{ marginBottom: 24 }}
+            >
+              <div style={{ padding: '0' }}>
+                <TopSKUTrend
+                  data={sodexo.data.TopSKUDailyTrend.slice()}
+                />
+              </div>
+            </Card>
+          </Col>
+        </Row>
         <TrendHoliday
           styles={styles}
           titleRevenue="国庆节前后两周日营业额趋势图"
