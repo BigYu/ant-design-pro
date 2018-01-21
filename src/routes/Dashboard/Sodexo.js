@@ -20,6 +20,7 @@ import TrendByDimension from '../../components/Charts/TrendChart/byDimension';
 import TrendHoliday from '../../components/Charts/TrendChart/holiday';
 import TopSKUTrend from '../../components/Charts/TrendChart/TopSKU';
 import RevenueByBranch from '../../components/Charts/RevenueByBranch';
+import PriceRangeSellCount from '../../components/Charts/PriceRangeSellCount';
 
 import styles from './Analysis.less';
 
@@ -270,6 +271,20 @@ export default class SodexoDashboard extends React.PureComponent {
             </Card>
           </Col>
         </Row>
+        <Card
+          loading={loading}
+          className={styles.offlineCard}
+          title="不同价位菜品受欢迎程度 "
+          bordered={false}
+          bodyStyle={{ padding: '0', marginTop: 16 }}
+          style={{ marginBottom: 24 }}
+        >
+          <div style={{ padding: '0' }}>
+            <PriceRangeSellCount
+              data={sodexo.data.LastYearAverageSellCountForDifferentPriceRage.slice()}
+            />
+          </div>
+        </Card>
         <Card
           loading={loading}
           className={styles.offlineCard}
