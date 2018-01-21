@@ -105,8 +105,22 @@ export default class HolidayCard extends React.Component {
           <Tooltip />
           <Geom type="line" position="Date*value" size={2} color="#4472c4" />
           {/* <Geom type="point" position="Date*value" size={4} color="#4472c4" /> */}
-          <Geom type="point" position="Date*aboveAvgValue" shape="circle" size={['diff', [2, 12]]} color='#70AD47' />
-          <Geom type="point" position="Date*belowAvgValue" shape="diamond" size={['diff', [2, 12]]} color='#ED7D31' />
+          <Geom
+            type="point"
+            position="Date*aboveAvgValue"
+            shape="circle"
+            size={['diff', [2, 12]]}
+            color='#70AD47'
+            tooltip='aboveAvgValue'
+          />
+          <Geom
+            type="point"
+            position="Date*belowAvgValue"
+            shape="diamond"
+            size={['diff', [2, 12]]}
+            color='#ED7D31'
+            tooltip='belowAvgValue'
+          />
           <Geom type="line" position="Date*avgValue" size={2} color="#ed7d31" />
         </Chart>
       </Card>
