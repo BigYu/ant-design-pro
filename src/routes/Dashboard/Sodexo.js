@@ -12,7 +12,7 @@ import {
   Dropdown,
 } from 'antd';
 import { setTheme } from 'bizcharts';
-import TrendChartByWeather from '../../components/Charts/TrendChart/byWeather';
+import PeakHour from '../../components/Charts/PeakHour';
 import TrendChartWithWeather from '../../components/Charts/TrendChart/withWeather';
 import TopSKUChart from '../../components/Charts/TopSKUChart';
 import OnDimensionChart from '../../components/Charts/RevenueOnDimension';
@@ -303,7 +303,7 @@ export default class SodexoDashboard extends React.PureComponent {
             </Card>
           </Col>
         </Row>
-        {/* <Row gutter={12}>
+        <Row gutter={12}>
           <Col xs={12}>
             <Card
               loading={loading}
@@ -313,9 +313,8 @@ export default class SodexoDashboard extends React.PureComponent {
               bodyStyle={{ padding: '0', marginTop: 16 }}
               style={{ marginBottom: 24 }}
             >
-              <TrendByDimension
-                data={sodexo.data.RevenueUserCountTrendOnBranchCardTypeDinningPeriod.slice()}
-                valueField="Revenue"
+              <PeakHour
+                data={sodexo.data.LastYearEmployeeRestaurantPeakHourAnalyze.slice()}
               />
             </Card>
           </Col>
@@ -328,13 +327,12 @@ export default class SodexoDashboard extends React.PureComponent {
               bodyStyle={{ padding: '0', marginTop: 16 }}
               style={{ marginBottom: 24 }}
             >
-              <TrendByDimension
-                data={sodexo.data.RevenueUserCountTrendOnBranchCardTypeDinningPeriod.slice()}
-                valueField="UserCount"
+              <PeakHour
+                data={sodexo.data.LastYearBuffetPeakHourAnalyze.slice()}
               />
             </Card>
           </Col>
-        </Row> */}
+        </Row>
         <Row gutter={12}>
           <Col xl={6}>
             <Card
