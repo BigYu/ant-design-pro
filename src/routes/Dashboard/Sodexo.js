@@ -97,7 +97,7 @@ export default class SodexoDashboard extends React.PureComponent {
               cardProps={{
                 loading,
                 className: styles.offlineCard,
-                title: '冲卡人数',
+                title: '员工冲卡人数',
                 bordered: false,
                 bodyStyle: { padding: '0', marginTop: 16 },
                 style: { marginBottom: 24 },
