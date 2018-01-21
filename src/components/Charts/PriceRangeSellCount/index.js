@@ -26,13 +26,13 @@ export default class PriceRangeSellCount extends React.Component {
       })
     return (
       <Chart
-        height={400}
+        height={470}
         data={dv}
-        padding={[ 80, 100, 80, 80 ]}
+        padding={[ 100, 100 ]}
         forceFit>
         <Coord type='theta' radius={0.75} />
         <Axis name="SellCount" />
-        <Legend position='bottom' offsetY={-20} />
+        <Legend position='bottom' offsetY={-40} />
         <Tooltip
           showTitle={false}
           itemTpl='<li><span style="background-color:{color};" class="g2-tooltip-marker"></span>{name}: {value}</li>'
