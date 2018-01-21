@@ -14,10 +14,24 @@ const eachView = (view, facet) => {
   if (colValue === 'Revenue') {
     view.source(data, {
       Revenue: {
-        alias: '营业额'
+        alias: '营业额',
+        min: 0,
+        max: 120000
       },
       UserCount: {
-        alias: '客户数量'
+        alias: '客户数量',
+        min: 0,
+        max: 3000
+      },
+      abnormalRevenue: {
+        alias: '异常营业额',
+        min: 0,
+        max: 120000
+      },
+      abnormalUserCount: {
+        alias: '异常客户数量',
+        min: 0,
+        max: 3000
       },
       hasEvent: {
         alias: '活动',
@@ -56,6 +70,8 @@ const eachView = (view, facet) => {
     });
     view.axis('hasEvent', false);
     view.axis('EventName', false);
+    view.axis('abnormalRevenue', false);
+    view.axis('abnormalUserCount', false);
     view.tooltip({
       crosshairs: {
         type: 'cross'
@@ -63,7 +79,9 @@ const eachView = (view, facet) => {
     });
     view.line().position('Date*Revenue').color('#4472c4');
     view.line().position('Date*UserCount').color('#ed7d31');
-    view.interval().position('Date*hasEvent').color('#255e91');
+    view.point().position('Date*abnormalRevenue').color('#4472c4').size(4);
+    view.point().position('Date*abnormalUserCount').color('#ed7d31').size(4);
+    view.interval().position('Date*hasEvent').color('#255e91').tooltip(false);
     view.interval().position('Date*EventName').color('#255e91');
   } else if (colValue === 'WeatherPM25') {
     view.source(data, {
@@ -94,7 +112,21 @@ const eachView = (view, facet) => {
         }
       }
     });
-    view.area().position('Date*WeatherPM25').color('#a5a5a5');
+    view.interval().position('Date*WeatherPM25').color('WeatherPM25', (WeatherPM25) => {
+      if (WeatherPM25 <= 35) {
+        return 'green';
+      } else if (WeatherPM25 <= 75) {
+        return 'lightgreen';
+      } else if (WeatherPM25 <= 115) {
+        return 'yellow';
+      } else if (WeatherPM25 <= 150) {
+        return 'orange';
+      } else if (WeatherPM25 <= 250) {
+        return 'red';
+      } else {
+        return 'black';
+      }
+    });
     view.line().position('Date*WeatherAvgTemperature').color('#ffc000');
   }
 };
@@ -185,6 +217,14 @@ export default class TrendChartByWeather extends React.Component {
             obj.Event = null;
             obj.EventName = null;
           }
+          if (obj.RevenueHasAnomaly) {
+            obj.abnormalRevenue = obj.Revenue;
+          }
+
+          if (obj.UserCountHasAnomaly) {
+            obj.abnormalUserCount = obj.UserCount;
+          }
+
           return obj;
         }
       })
@@ -200,7 +240,13 @@ export default class TrendChartByWeather extends React.Component {
         fields: [ 'Revenue', 'WeatherPM25' ],
         key: 'type',
         value: 'value',
-        retains: [ 'Revenue', 'UserCount', 'WeatherPM25', 'WeatherAvgTemperature', 'hasEvent', 'Event', 'EventName', 'Date' ]
+        retains: [
+          'Revenue', 'UserCount',
+          'WeatherPM25', 'WeatherAvgTemperature',
+          'hasEvent', 'Event', 'EventName',
+          'abnormalRevenue', 'abnormalUserCount',
+          'Date'
+        ]
       });
 
     if (this.state.ignoreWeekend) {
