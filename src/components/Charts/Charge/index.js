@@ -65,10 +65,11 @@ export default class ChargeChart extends React.Component {
       >
         <Chart
           height={400}
+          padding={[50, 50, 50, 80]}
           data={dv}
           forceFit
         >
-          <Coord type="theta" radius={0.75} />
+          {/* <Coord type="theta" radius={0.75} /> */}
           <Axis name="CardType" />
           <Legend />
           <Tooltip
@@ -76,8 +77,8 @@ export default class ChargeChart extends React.Component {
             itemTpl='<li><span style="background-color:{color};" class="g2-tooltip-marker"></span>{name}: {value}</li>'
           />
           <Geom
-            type="intervalStack"
-            position="amount"
+            type="interval"
+            position="CardType*amount"
             color="CardType"
             style={{ lineWidth: 1, stroke: '#fff' }}
           >
