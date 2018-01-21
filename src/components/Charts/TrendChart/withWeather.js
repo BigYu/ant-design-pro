@@ -63,7 +63,7 @@ const eachView = (view, facet) => {
     });
     view.line().position('Date*Revenue').color('#4472c4');
     view.line().position('Date*UserCount').color('#ed7d31');
-    view.interval().position('Date*hasEvent').color('#255e91');
+    view.interval().position('Date*hasEvent').color('#255e91').tooltip(false);
     view.interval().position('Date*EventName').color('#255e91');
   } else if (colValue === 'WeatherPM25') {
     view.source(data, {
