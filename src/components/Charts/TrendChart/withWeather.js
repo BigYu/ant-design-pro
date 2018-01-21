@@ -18,6 +18,20 @@ const eachView = (view, facet) => {
       },
       UserCount: {
         alias: '客户数量'
+      },
+      hasEvent: {
+        alias: '活动',
+        formatter(value, secondParam) {
+          if (value === 0) {
+            return '无活动';
+          }
+
+          return '有活动';
+        }
+      },
+      EventName: {
+        type: 'cat',
+        alias: '活动名称',
       }
     });
     view.axis('Revenue', {
@@ -30,15 +44,17 @@ const eachView = (view, facet) => {
         }
       }
     });
-    view.axis('Event', false);
+    view.axis('hasEvent', false);
+    view.axis('EventName', false);
     view.tooltip({
       crosshairs: {
-        type: 'line'
+        type: 'cross'
       }
     });
     view.line().position('Date*Revenue').color('#4472c4');
     view.line().position('Date*UserCount').color('#ed7d31');
-    view.interval().position('Date*Event').color('#255e91');
+    view.interval().position('Date*hasEvent').color('#255e91');
+    view.interval().position('Date*EventName').color('#255e91');
   } else if (colValue === 'WeatherPM25') {
     view.source(data, {
       WeatherPM25: {
@@ -46,7 +62,7 @@ const eachView = (view, facet) => {
       },
       WeatherAvgTemperature: {
         alias: '平均温度'
-      }
+      },
     });
     view.axis('WeatherPM25', {
       title: {
@@ -124,6 +140,7 @@ export default class TrendChartByWeather extends React.Component {
       events,
     } = this.props;
 
+    const oneDayEvents = events.filter((event) => event.StartDate === event.EndDate);
     // const endDate = new Date(data[data.length - 1].Date);
     // const defaultStartDate = new Date(endDate.getFullYear(), endDate.getMonth(), 1);
     const ds = this.ds = new DataSet();
@@ -137,7 +154,17 @@ export default class TrendChartByWeather extends React.Component {
           obj.UserCount = Number(obj.UserCount);
           obj.WeatherPM25 = Number(obj.WeatherPM25);
           obj.WeatherAvgTemperature = Number(obj.WeatherAvgTemperature);
-          obj.Event = ((new Date(obj.Date) - 1) % 23 === 3) ? 1 : 0;
+          // obj.Event = ((new Date(obj.Date) - 1) % 23 === 3) ? 1 : 0;
+          const event = oneDayEvents.find((e) => obj.Date === e.StartDate);
+          if (event) {
+            obj.hasEvent = 1;
+            obj.Event = event;
+            obj.EventName = `${event.Branch}: ${event.EventDetail}`;
+          } else {
+            obj.hasEvent = 0;
+            obj.Event = null;
+            obj.EventName = null;
+          }
           return obj;
         }
       })
@@ -153,7 +180,7 @@ export default class TrendChartByWeather extends React.Component {
         fields: [ 'Revenue', 'WeatherPM25' ],
         key: 'type',
         value: 'value',
-        retains: [ 'Revenue', 'UserCount', 'WeatherPM25', 'WeatherAvgTemperature', 'Event', 'Date' ]
+        retains: [ 'Revenue', 'UserCount', 'WeatherPM25', 'WeatherAvgTemperature', 'hasEvent', 'Event', 'EventName', 'Date' ]
       });
 
     if (this.state.ignoreWeekend) {
