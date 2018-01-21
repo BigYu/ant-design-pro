@@ -44,6 +44,16 @@ const eachView = (view, facet) => {
         }
       }
     });
+    view.axis('UserCount', {
+      title: {
+        autoRotate: false,
+        offset: -40,
+        position: 'end',
+        textStyle: {
+          textAlign: 'start'
+        }
+      }
+    });
     view.axis('hasEvent', false);
     view.axis('EventName', false);
     view.tooltip({
@@ -68,6 +78,16 @@ const eachView = (view, facet) => {
       title: {
         autoRotate: false,
         offset: -10,
+        position: 'end',
+        textStyle: {
+          textAlign: 'start'
+        }
+      }
+    });
+    view.axis('WeatherAvgTemperature', {
+      title: {
+        autoRotate: false,
+        offset: -40,
         position: 'end',
         textStyle: {
           textAlign: 'start'
