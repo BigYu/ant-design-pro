@@ -7,50 +7,39 @@ import DataSet from '@antv/data-set';
 import autoHeight from '../autoHeight';
 
 @autoHeight()
-export default class ChargeChart extends React.Component {
+export default class EmployeeChargeChart extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
       scope: '过去一年',
-      type: '全部',
     };
 
     this.handleScopeChange = this.handleScopeChange.bind(this);
-    this.handleTypeChange = this.handleTypeChange.bind(this);
   }
 
   handleScopeChange(e) {
     this.setState({ scope: e.target.value });
   }
 
-  handleTypeChange(e) {
-    this.setState({ type: e.target.value });
-  }
-
   render() {
     const { dataLastMonth, dataLastYear, cardProps } = this.props;
     const data = this.state.scope === '过去一年' ? dataLastYear : dataLastMonth;
-    const amountData = data.Amount;
+    const userCountData = data.CardCharge;
     const ds = new DataSet();
-    const { type } = this.state;
-    const dv = ds.createView().source(_.isArray(amountData) ? amountData : [])
+    const dv = ds.createView().source(_.isArray(userCountData) ? userCountData : [])
       .transform({
         type: 'map',
-        callback(row) {
+        callback({ UserCount, Dimension }) {
           return {
-            amount: Number(type === '全部' ? row.TotalAmount : row.AverageAmount),
-            CardType: JSON.parse(row.Dimension).CardType,
+            UserCount: Number(UserCount),
+            Type: JSON.parse(Dimension).ChargeCard === '是' ? '冲过卡' : '未冲过卡',
           };
         },
       });
 
     const extra = (
       <div>
-        <Radio.Group value={this.state.type} onChange={this.handleTypeChange} >
-          <Radio.Button value="全部">全部</Radio.Button>
-          <Radio.Button value="平均">平均</Radio.Button>
-        </Radio.Group>
         <Radio.Group value={this.state.scope} onChange={this.handleScopeChange} style={{ marginLeft: 30 }}>
           <Radio.Button value="过去一年">过去一年</Radio.Button>
           <Radio.Button value="过去一个月">过去一个月</Radio.Button>
@@ -69,7 +58,7 @@ export default class ChargeChart extends React.Component {
           forceFit
         >
           <Coord type="theta" radius={0.75} />
-          <Axis name="CardType" />
+          <Axis name="Type" />
           <Legend />
           <Tooltip
             showTitle={false}
@@ -77,14 +66,14 @@ export default class ChargeChart extends React.Component {
           />
           <Geom
             type="intervalStack"
-            position="amount"
-            color="CardType"
+            position="UserCount"
+            color="Type"
             style={{ lineWidth: 1, stroke: '#fff' }}
           >
             <Label
-              content="CardType"
+              content="Type"
               formatter={(val, item) => {
-                return `${val}: ${(formatMoney(item.point.amount, { symbol: '￥' }))}`;
+                return `${val}: ${item.point.UserCount}`;
               }}
             />
           </Geom>

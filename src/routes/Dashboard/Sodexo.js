@@ -22,6 +22,7 @@ import TopSKUTrend from '../../components/Charts/TrendChart/TopSKU';
 import RevenueByBranch from '../../components/Charts/RevenueByBranch';
 import ChargeChart from '../../components/Charts/Charge';
 import PriceRangeSellCount from '../../components/Charts/PriceRangeSellCount';
+import EmployeeChargeChart from '../../components/Charts/EmployeeChart';
 
 import styles from './Analysis.less';
 
@@ -74,19 +75,35 @@ export default class SodexoDashboard extends React.PureComponent {
             />
           </div>
         </Card>
-        <Row>
-          <ChargeChart
-            dataLastMonth={sodexo.data.LastMonthChargeOnCardType}
-            dataLastYear={sodexo.data.LastYearChargeOnCardType}
-            cardProps={{
-              loading,
-              className: styles.offlineCard,
-              title: '冲卡金额',
-              bordered: false,
-              bodyStyle: { padding: '0', marginTop: 16 },
-              style: { marginBottom: 24 },
-            }}
-          />
+        <Row gutter={12} >
+          <Col xs={12}>
+            <ChargeChart
+              dataLastMonth={sodexo.data.LastMonthChargeOnCardType}
+              dataLastYear={sodexo.data.LastYearChargeOnCardType}
+              cardProps={{
+                loading,
+                className: styles.offlineCard,
+                title: '冲卡金额',
+                bordered: false,
+                bodyStyle: { padding: '0', marginTop: 16 },
+                style: { marginBottom: 24 },
+              }}
+            />
+          </Col>
+          <Col xs={12}>
+            <EmployeeChargeChart
+              dataLastMonth={sodexo.data.LastMonthEmployeeCardCharge}
+              dataLastYear={sodexo.data.LastYearEmployeeCardCharge}
+              cardProps={{
+                loading,
+                className: styles.offlineCard,
+                title: '冲卡人数',
+                bordered: false,
+                bodyStyle: { padding: '0', marginTop: 16 },
+                style: { marginBottom: 24 },
+              }}
+            />
+          </Col>
         </Row>
         <Row>
           <RevenueByBranch
