@@ -14,6 +14,7 @@ import d$LastMonthRevenueOnBranch from './data/LastMonthRevenueOnBranch';
 import d$LastMonthRevenueOnCardType from './data/LastMonthRevenueOnCardType';
 import d$LastMonthRevenueOnDinningPeriod from './data/LastMonthRevenueOnDinningPeriod';
 import d$LastMonthTopSKU from './data/LastMonthTopSKU';
+import d$LastYearAverageSellCountForDifferentPriceRage from './data/LastYearAverageSellCountForDifferentPriceRage';
 import d$LastYearBottomSKU from './data/LastYearBottomSKU';
 import d$LastYearRevenueOnBranch from './data/LastYearRevenueOnBranch';
 import d$LastYearRevenueOnCardType from './data/LastYearRevenueOnCardType';
@@ -66,6 +67,7 @@ const proxy = {
       LastMonthRevenueOnCardType: d$LastMonthRevenueOnCardType,
       LastMonthRevenueOnDinningPeriod: d$LastMonthRevenueOnDinningPeriod,
       LastMonthTopSKU: d$LastMonthTopSKU,
+      LastYearAverageSellCountForDifferentPriceRage: d$LastYearAverageSellCountForDifferentPriceRage,
       LastYearBottomSKU: d$LastYearBottomSKU,
       LastYearRevenueOnBranch: d$LastYearRevenueOnBranch,
       LastYearRevenueOnCardType: d$LastYearRevenueOnCardType,

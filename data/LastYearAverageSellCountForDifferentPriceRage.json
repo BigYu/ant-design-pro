@@ -1,141 +1,141 @@
 [
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "9244.84",
+    "SellCount": {
+      "SellCount": "9244.84",
       "Dimension": "{\"PriceRange\":\"0~5\"}"
     }
   },
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "5286.59",
+    "SellCount": {
+      "SellCount": "5286.59",
       "Dimension": "{\"PriceRange\":\"5~10\"}"
     }
   },
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "1554.48",
+    "SellCount": {
+      "SellCount": "1554.48",
       "Dimension": "{\"PriceRange\":\"10~15\"}"
     }
   },
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "657.54",
+    "SellCount": {
+      "SellCount": "657.54",
       "Dimension": "{\"PriceRange\":\"15~20\"}"
     }
   },
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "876.83",
+    "SellCount": {
+      "SellCount": "876.83",
       "Dimension": "{\"PriceRange\":\"20~25\"}"
     }
   },
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "225.29",
+    "SellCount": {
+      "SellCount": "225.29",
       "Dimension": "{\"PriceRange\":\"25~30\"}"
     }
   },
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "195.78",
+    "SellCount": {
+      "SellCount": "195.78",
       "Dimension": "{\"PriceRange\":\"30~35\"}"
     }
   },
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "220.50",
+    "SellCount": {
+      "SellCount": "220.50",
       "Dimension": "{\"PriceRange\":\"35~40\"}"
     }
   },
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "41.01",
+    "SellCount": {
+      "SellCount": "41.01",
       "Dimension": "{\"PriceRange\":\"40~45\"}"
     }
   },
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "165.25",
+    "SellCount": {
+      "SellCount": "165.25",
       "Dimension": "{\"PriceRange\":\"45~50\"}"
     }
   },
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "2.61",
+    "SellCount": {
+      "SellCount": "2.61",
       "Dimension": "{\"PriceRange\":\"50~55\"}"
     }
   },
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "10.92",
+    "SellCount": {
+      "SellCount": "10.92",
       "Dimension": "{\"PriceRange\":\"55~60\"}"
     }
   },
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "13.37",
+    "SellCount": {
+      "SellCount": "13.37",
       "Dimension": "{\"PriceRange\":\"60~65\"}"
     }
   },
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "0.52",
+    "SellCount": {
+      "SellCount": "0.52",
       "Dimension": "{\"PriceRange\":\"65~70\"}"
     }
   },
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "1.08",
+    "SellCount": {
+      "SellCount": "1.08",
       "Dimension": "{\"PriceRange\":\"70~75\"}"
     }
   },
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "0.56",
+    "SellCount": {
+      "SellCount": "0.56",
       "Dimension": "{\"PriceRange\":\"75~80\"}"
     }
   },
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "0.73",
+    "SellCount": {
+      "SellCount": "0.73",
       "Dimension": "{\"PriceRange\":\"80~85\"}"
     }
   },
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "0.51",
+    "SellCount": {
+      "SellCount": "0.51",
       "Dimension": "{\"PriceRange\":\"85~90\"}"
     }
   },
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "0.63",
+    "SellCount": {
+      "SellCount": "0.63",
       "Dimension": "{\"PriceRange\":\"90~95\"}"
     }
   },
   {
     "Date": "2017/01/01",
-    "CellCount": {
-      "CellCount": "0.56",
+    "SellCount": {
+      "SellCount": "0.56",
       "Dimension": "{\"PriceRange\":\"95~100\"}"
     }
   }
